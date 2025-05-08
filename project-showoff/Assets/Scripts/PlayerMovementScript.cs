@@ -47,9 +47,10 @@ public class PlayerMovementScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        print(collision.GetContact(0).normal);
         if (collision.transform.tag == "Ground")
         {
-            if(!isGrounded)
+            if(collision.GetContact(0).normal == Vector2.up && !isGrounded)
             {
                 isGrounded = true;
             }

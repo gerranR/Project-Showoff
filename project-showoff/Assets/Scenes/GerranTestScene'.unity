@@ -176,7 +176,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 47355349ab8e2d54bbcdd43c459fd4d8, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -285,8 +285,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76e767bdb9f11454a9c6186b496c5996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
-  jumpForce: 9
+  speed: 400
+  jumpForce: 8
   rb: {fileID: 1537950}
 --- !u!1 &199904746
 GameObject:
