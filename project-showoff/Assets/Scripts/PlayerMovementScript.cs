@@ -24,12 +24,14 @@ public class PlayerMovementScript : MonoBehaviour
         Vector2 force = new Vector2(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0);
 
         rb.linearVelocityX = force.x;
+        print(force);
     }
 
     private void Update()
     {
         if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && isGrounded)
         {
+            print("jump");
             rb.linearVelocityY = jumpForce;
             jumped = true;
         }
