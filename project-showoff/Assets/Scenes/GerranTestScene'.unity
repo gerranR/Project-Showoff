@@ -723,7 +723,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 500
+  dashForce: 7500
+  LinearDampeningDuringDash: 10
   rb: {fileID: 1789227061}
+  player1: {fileID: 1537954}
+  attachDistance: 2
 --- !u!50 &1789227061
 Rigidbody2D:
   serializedVersion: 5
