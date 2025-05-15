@@ -49,6 +49,7 @@ public class PlayerMovementScript : MonoBehaviour
     {
         rb.linearVelocityY = jumpForce;
         jumped = true;
+        isGrounded = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -67,7 +68,7 @@ public class PlayerMovementScript : MonoBehaviour
     {
         if (collision.transform.tag == "Ground")
         {
-            if (isGrounded)
+            if (isGrounded && collision.GetContact(0).collider == null)
             {
                 isGrounded = false;
             }

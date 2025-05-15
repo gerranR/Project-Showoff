@@ -105,7 +105,7 @@ public class Player2MovementScript : MonoBehaviour
                         if (Input.GetButtonDown("Attach"))
                         {
                             box.transform.parent = transform;
-                            box.transform.position = transform.position + new Vector3(1f, 1f, 0);
+                            box.transform.position = transform.position + new Vector3(.25f, .25f, 0);
                             attachedBox = box.gameObject;
                             break;
                         }
