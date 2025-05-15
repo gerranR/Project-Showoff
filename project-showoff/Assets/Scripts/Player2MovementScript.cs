@@ -1,7 +1,10 @@
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Player2MovementScript : MonoBehaviour
 {
@@ -26,53 +29,89 @@ public class Player2MovementScript : MonoBehaviour
     private bool isDashing;
     private bool doubleJumped;
 
+    private List<Box> boxes = new List<Box>();
+    private GameObject attachedBox;
+
+    [SerializeField] private bool Wow;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        boxes = FindObjectsByType<Box>(FindObjectsSortMode.None).ToList();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(transform.position, player1.transform.position) <= attachDistance)
+        if (!Wow)
         {
-            if(Input.GetButtonDown("Attach"))
+            if (Vector3.Distance(transform.position, player1.transform.position) <= attachDistance)
             {
-                if(isAttached)
+                if (Input.GetButtonDown("Attach"))
                 {
-                    transform.parent = null;
-                    isAttached = false;
-                }
-                else
-                {
-                    transform.parent = player1.transform;
-                    transform.position = player1.transform.position + new Vector3(1f, 1f,0);
-                    isAttached = true;
+                    if (isAttached)
+                    {
+                        transform.parent = null;
+                        isAttached = false;
+                    }
+                    else
+                    {
+                        transform.parent = player1.transform;
+                        transform.position = player1.transform.position + new Vector3(1f, 1f, 0);
+                        isAttached = true;
+                    }
                 }
             }
-        }
 
-        if(Input.GetButtonDown("Dash") && !isDashing)
-        {
-            rb.linearVelocity = rb.linearVelocity.normalized * dashForce * Time.deltaTime;
-            rb.linearDamping = LinearDampeningDuringDash;
-            isDashing = true;
-            
-        }
-
-        if(isAttached && player1.hasJumped())
-        {
-            if(Input.GetButtonDown("DubbleJump") && !doubleJumped)
+            if (Input.GetButtonDown("Dash") && !isDashing)
             {
-                player1.Jump();
-                doubleJumped = true;
+                rb.linearVelocity = rb.linearVelocity.normalized * dashForce * Time.deltaTime;
+                rb.linearDamping = LinearDampeningDuringDash;
+                isDashing = true;
+
+            }
+
+            if (isAttached && player1.hasJumped())
+            {
+                if (Input.GetButtonDown("DubbleJump") && !doubleJumped)
+                {
+                    player1.Jump();
+                    doubleJumped = true;
+                }
+            }
+
+            if (doubleJumped && !player1.hasJumped())
+            {
+                doubleJumped = false;
             }
         }
-
-        if(doubleJumped && !player1.hasJumped())
+        else
         {
-            doubleJumped = false;
+            if (attachedBox != null)
+            {
+                if (Input.GetButtonDown("Attach"))
+                {
+                    attachedBox.transform.parent = null;
+                    attachedBox = null;
+                }
+            }
+            else
+            {
+                foreach (Box box in boxes)
+                {
+                    if (Vector3.Distance(transform.position, box.transform.position) <= attachDistance)
+                    {
+                        if (Input.GetButtonDown("Attach"))
+                        {
+                            box.transform.parent = transform;
+                            box.transform.position = transform.position + new Vector3(1f, 1f, 0);
+                            attachedBox = box.gameObject;
+                            break;
+                        }
+                    }
+                }
+            }
         }
     }
 
