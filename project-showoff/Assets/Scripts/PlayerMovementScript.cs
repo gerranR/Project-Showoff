@@ -30,8 +30,7 @@ public class PlayerMovementScript : MonoBehaviour
     {
         if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && isGrounded)
         {
-            rb.linearVelocityY = jumpForce;
-            jumped = true;
+            Jump();
         }
 
         if(jumped)
@@ -43,6 +42,12 @@ public class PlayerMovementScript : MonoBehaviour
                 jumped = false;
             }
         }
+    }
+
+    public void Jump()
+    {
+        rb.linearVelocityY = jumpForce;
+        jumped = true;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -66,5 +71,10 @@ public class PlayerMovementScript : MonoBehaviour
                 isGrounded = false;
             }
         }
+    }
+
+    public bool hasJumped()
+    {
+        return !isGrounded;
     }
 }
