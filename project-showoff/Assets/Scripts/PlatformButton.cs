@@ -21,7 +21,7 @@ public class PlatformButton : MonoBehaviour
     {
         foreach (GameObject platform in platforms)
         {
-            platform.SetActive(!platform.activeSelf);
+          if(platform!=null)  platform.SetActive(!platform.activeSelf);
         }
     }
 }

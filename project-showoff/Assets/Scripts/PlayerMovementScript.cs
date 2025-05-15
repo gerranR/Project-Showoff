@@ -35,7 +35,6 @@ public class PlayerMovementScript : MonoBehaviour
 
         if(jumped)
         {
-            print(rb.linearVelocityY);
             if(rb.linearVelocityY <= 1f)
             {
                 rb.linearVelocityY = 0;

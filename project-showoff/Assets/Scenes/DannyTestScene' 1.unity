@@ -2429,7 +2429,7 @@ Transform:
   m_GameObject: {fileID: 1378481304}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.42566, y: -0.65173, z: -2}
+  m_LocalPosition: {x: -1.42566, y: -0.65173, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3022,7 +3022,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 500
+  dashForce: 0
+  LinearDampeningDuringDash: 0
   rb: {fileID: 1789227061}
+  player1: {fileID: 0}
+  attachDistance: 0
+  Wow: 0
 --- !u!50 &1789227061
 Rigidbody2D:
   serializedVersion: 5
