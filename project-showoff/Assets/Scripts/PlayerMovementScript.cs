@@ -24,14 +24,12 @@ public class PlayerMovementScript : MonoBehaviour
         Vector2 force = new Vector2(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0);
 
         rb.linearVelocityX = force.x;
-        print(force);
     }
 
     private void Update()
     {
         if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && isGrounded)
-        {
-            print("jump");
+        {  
             rb.linearVelocityY = jumpForce;
             jumped = true;
         }
@@ -49,7 +47,6 @@ public class PlayerMovementScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        print(collision.GetContact(0).normal);
         if (collision.transform.tag == "Ground")
         {
             if(collision.GetContact(0).normal == Vector2.up && !isGrounded)
