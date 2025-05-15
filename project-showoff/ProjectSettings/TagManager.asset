@@ -43,5 +43,41 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background 1
+    uniqueID: 3127334121
+    locked: 0
+  - name: Background 2
+    uniqueID: 2569061499
+    locked: 0
+  - name: Background 3
+    uniqueID: 4182350715
+    locked: 0
+  - name: Fog BG
+    uniqueID: 1794694085
+    locked: 0
+  - name: Midground 1
+    uniqueID: 2095244209
+    locked: 0
+  - name: Midground 2
+    uniqueID: 3653590665
+    locked: 0
+  - name: Midground 3
+    uniqueID: 769856829
+    locked: 0
+  - name: Fog MG
+    uniqueID: 675927877
+    locked: 0
+  - name: Foreground 1
+    uniqueID: 1380967953
+    locked: 0
+  - name: Foreground 2
+    uniqueID: 3630354863
+    locked: 0
+  - name: Foreground 3
+    uniqueID: 3033005167
+    locked: 0
+  - name: Fog FG
+    uniqueID: 2979829293
+    locked: 0
   m_RenderingLayers:
   - Default

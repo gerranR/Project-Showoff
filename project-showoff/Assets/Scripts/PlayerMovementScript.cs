@@ -24,6 +24,7 @@ public class PlayerMovementScript : MonoBehaviour
         Vector2 force = new Vector2(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0);
 
         rb.linearVelocityX = force.x;
+        print(force);
     }
 
     private void Update()
