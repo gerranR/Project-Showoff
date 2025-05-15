@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlatformButton : MonoBehaviour
 {
     [SerializeField] List<GameObject> platforms = new List<GameObject>();
-    [SerializeField] bool standingOnButton;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

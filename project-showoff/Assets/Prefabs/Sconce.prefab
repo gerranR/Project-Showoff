@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 6351880046513083072}
   - component: {fileID: 3240103502013219902}
   - component: {fileID: -4668079765779537871}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sconce
-  m_TagString: Untagged
+  m_TagString: Sconce
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

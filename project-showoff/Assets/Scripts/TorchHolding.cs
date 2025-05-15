@@ -12,6 +12,8 @@ public class TorchHolding : MonoBehaviour
     [SerializeField] string heldTorchLayerName = "HeldTorch";
     [SerializeField] string droppedTorchLayerName = "Torch";
 
+    bool isTouchingSconce = false;
+
     private GameObject heldTorch = null;
     private Rigidbody2D rb;
     private int lastDirection = 1;
@@ -44,29 +46,39 @@ public class TorchHolding : MonoBehaviour
 
     void TryPickupTorch()
     {
-        Collider2D torchColl = Physics2D.OverlapCircle(transform.position, pickupRange, torchLayerMask);
+        if (isTouchingSconce)
+        {
+            GameObject foundTorch = GameObject.FindGameObjectWithTag("Torch");
+            if (foundTorch != null && foundTorch.layer == droppedTorchLayer)
+            {
+                heldTorch = foundTorch;
+                AttachTorch(heldTorch);
+                return;
+            }
+        }
 
+        Collider2D torchColl = Physics2D.OverlapCircle(transform.position, pickupRange, torchLayerMask);
         if (torchColl != null)
         {
             heldTorch = torchColl.gameObject;
-            Rigidbody2D torchRb = heldTorch.GetComponent<Rigidbody2D>();
-
-            // Reset physics
-            torchRb.linearVelocity = Vector2.zero;
-            torchRb.angularVelocity = 0f;
-            torchRb.rotation = 0f;
-            torchRb.freezeRotation = true;
-
-            // Attach torch
-            heldTorch.transform.SetParent(torchHoldPoint);
-            heldTorch.transform.localPosition = Vector3.zero;
-            heldTorch.transform.localRotation = Quaternion.identity;
-
-            // Change to held layer
-            heldTorch.layer = heldTorchLayer;
-
-            UpdateHeldTorch();
+            AttachTorch(heldTorch);
         }
+    }
+    void AttachTorch(GameObject torch)
+    {
+        Rigidbody2D torchRb = torch.GetComponent<Rigidbody2D>();
+
+        torchRb.linearVelocity = Vector2.zero;
+        torchRb.angularVelocity = 0f;
+        torchRb.rotation = 0f;
+        torchRb.freezeRotation = true;
+
+        torch.transform.SetParent(torchHoldPoint);
+        torch.transform.localPosition = Vector3.zero;
+        torch.transform.localRotation = Quaternion.identity;
+        torch.layer = heldTorchLayer;
+
+        UpdateHeldTorch();
     }
 
     void ThrowTorch()
@@ -105,5 +117,21 @@ public class TorchHolding : MonoBehaviour
         Vector3 holdPos = torchHoldPoint.localPosition;
         holdPos.x = Mathf.Abs(holdPos.x) * lastDirection;
         torchHoldPoint.localPosition = holdPos;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Sconce"))
+        {
+            isTouchingSconce = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Sconce"))
+        {
+            isTouchingSconce = false;
+        }
     }
 }

@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerLightChecker : MonoBehaviour
 {
+    [SerializeField] float maxSecondsOutsideLight = 4;
     private float timeOutsideLight = 0f;
     private int lightCount = 0;
 
@@ -12,7 +13,7 @@ public class PlayerLightChecker : MonoBehaviour
         {
             timeOutsideLight += Time.deltaTime;
             print(timeOutsideLight + "out lite");
-            if (timeOutsideLight >= 3f)
+            if (timeOutsideLight >= maxSecondsOutsideLight)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
