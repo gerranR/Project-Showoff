@@ -12,7 +12,7 @@ public class TorchHolding : MonoBehaviour
     [SerializeField] string heldTorchLayerName = "HeldTorch";
     [SerializeField] string droppedTorchLayerName = "Torch";
 
-    bool isTouchingSconce = false;
+    bool isTouchingBrazier = false;
 
     private GameObject heldTorch = null;
     private Rigidbody2D rb;
@@ -46,7 +46,7 @@ public class TorchHolding : MonoBehaviour
 
     void TryPickupTorch()
     {
-        if (isTouchingSconce)
+        if (isTouchingBrazier)
         {
             GameObject foundTorch = GameObject.FindGameObjectWithTag("Torch");
             if (foundTorch != null && foundTorch.layer == droppedTorchLayer)
@@ -121,17 +121,17 @@ public class TorchHolding : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Sconce"))
+        if (other.CompareTag("Brazier"))
         {
-            isTouchingSconce = true;
+            isTouchingBrazier = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Sconce"))
+        if (other.CompareTag("Brazier"))
         {
-            isTouchingSconce = false;
+            isTouchingBrazier = false;
         }
     }
 }

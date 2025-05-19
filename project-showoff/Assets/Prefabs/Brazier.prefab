@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 3240103502013219902}
   - component: {fileID: -4668079765779537871}
   m_Layer: 10
-  m_Name: Sconce
-  m_TagString: Sconce
+  m_Name: Brazier
+  m_TagString: Brazier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.18, y: -9.45, z: 0}
-  m_LocalScale: {x: 1.410157, y: 1.6973, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3499069948609544311}
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: -641376631
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0c2dd722d67d3c140b137802b3b63564, type: 3}
   m_Color: {r: 0.5330188, g: 0.6910214, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,6 +103,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightArea: {fileID: 900446274477331711}
+  spriteRenderer: {fileID: 6351880046513083072}
+  unlitSprite: {fileID: 21300000, guid: 0c2dd722d67d3c140b137802b3b63564, type: 3}
+  litSprite: {fileID: 21300000, guid: d6041a4face7751419eb83e23c2e934c, type: 3}
 --- !u!60 &-4668079765779537871
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -141,7 +144,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 5, y: 5}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -149,10 +152,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.5, y: 0.5}
-      - {x: -0.5, y: -0.5}
-      - {x: 0.5, y: -0.5}
-      - {x: 0.5, y: 0.5}
+    - - {x: -0.06861067, y: 2.3612223}
+      - {x: -1.1414208, y: 1.8598113}
+      - {x: -0.70525503, y: -1.9111242}
+      - {x: 0.6026273, y: -1.9367819}
+      - {x: 0.961823, y: 1.7828407}
   m_UseDelaunayMesh: 0
 --- !u!1 &900446274477331711
 GameObject:
@@ -233,7 +237,7 @@ SpriteShapeRenderer:
   m_SortingLayerID: -112616581
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Color: {r: 1, g: 0.9922672, b: 0.9103774, a: 0.28235295}
+  m_Color: {r: 0.9098039, g: 0.99607843, b: 1, a: 0.28235295}
   m_MaskInteraction: 0
   m_ShapeTexture: {fileID: 2800000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
   m_Sprites:

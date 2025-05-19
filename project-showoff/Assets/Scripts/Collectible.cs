@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DestroyOnHumanTrigger : MonoBehaviour
+public class Collectible : MonoBehaviour
 {
     [SerializeField] private LayerMask humanLayer;
 

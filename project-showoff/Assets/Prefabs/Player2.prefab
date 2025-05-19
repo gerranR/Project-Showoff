@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 3438014443890501869}
   - component: {fileID: 5854467486843050425}
   - component: {fileID: 3120442065027045890}
-  m_Layer: 0
+  - component: {fileID: 5521085593857908734}
+  m_Layer: 22
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: Spirit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,3 +173,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &5521085593857908734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064233735296471657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142522dee580a0742a325b1b0c476c24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSecondsOutsideLight: 4
