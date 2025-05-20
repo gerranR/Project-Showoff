@@ -1,3 +1,5 @@
+using NUnit.Framework;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,12 +9,29 @@ public class LightDependent : MonoBehaviour
     private float timeOutsideLight = 0f;
     private int lightCount = 0;
 
+    private List<GameObject> lights = new List<GameObject>();
+    [SerializeField] LayerMask rayMask;
+
     private void Update()
     {
-        if (lightCount <= 0)
+        bool canSeeLight = false;
+        foreach (GameObject obj in lights)
+        {
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, (obj.transform.position - transform.position).normalized, Mathf.Infinity, rayMask);
+
+            if (hit.transform != null)
+            {
+                print(hit.transform.gameObject.name);
+                if (hit.transform.gameObject.tag == "Torch" || hit.transform.gameObject.tag == "Sconce" || hit.transform.gameObject.tag == "Human")
+                {
+                    canSeeLight = true;
+                    break;
+                }
+            }
+        }
+        if (lights.Count <= 0 || !canSeeLight)
         {
             timeOutsideLight += Time.deltaTime;
-            print(timeOutsideLight + "out lite");
             if (timeOutsideLight >= maxSecondsOutsideLight)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -20,6 +39,7 @@ public class LightDependent : MonoBehaviour
         }
         else
         {
+
             timeOutsideLight = 0f;
         }
     }
@@ -28,7 +48,7 @@ public class LightDependent : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Light"))
         {
-            lightCount++;
+            lights.Add(other.transform.parent.gameObject);
         }
     }
 
@@ -36,7 +56,10 @@ public class LightDependent : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Light"))
         {
-            lightCount--;
+            if (lights.Contains(other.transform.parent.gameObject))
+            {
+                lights.Remove(other.transform.parent.gameObject);
+            }
         }
     }
 }
