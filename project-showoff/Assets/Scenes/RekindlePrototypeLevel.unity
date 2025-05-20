@@ -4193,6 +4193,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSecondsOutsideLight: 4
+  rayMask:
+    serializedVersion: 2
+    m_Bits: 9962496
 --- !u!1 &1790493270
 GameObject:
   m_ObjectHideFlags: 0
