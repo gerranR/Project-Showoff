@@ -8,7 +8,8 @@ TagManager:
   - SplitscreenBarrier
   - Human
   - Torch
-  - Sconce
+  - Brazier
+  - Spirit
   layers:
   - Default
   - TransparentFX

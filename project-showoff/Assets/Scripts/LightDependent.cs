@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerLightChecker : MonoBehaviour
+public class LightDependent : MonoBehaviour
 {
     [SerializeField] float maxSecondsOutsideLight = 4;
     private float timeOutsideLight = 0f;

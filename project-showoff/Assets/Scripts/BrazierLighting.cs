@@ -1,13 +1,18 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class SconceLighting : MonoBehaviour
+public class BrazierLighting : MonoBehaviour
 {
     public GameObject lightArea;
     private bool isLit = false;
 
     private Collider2D torchInRange = null;
     private readonly List<Collider2D> withinRange = new();
+
+    [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] Sprite unlitSprite;
+    [SerializeField] Sprite litSprite;
+
 
     private void Update()
     {
@@ -68,5 +73,25 @@ public class SconceLighting : MonoBehaviour
 
         isLit = true;
         lightArea.SetActive(true);
+
+
+        if (spriteRenderer && litSprite)
+            spriteRenderer.sprite = litSprite;
+
+        BrazierManager.CheckBraziers();
     }
+
+    public void DeactivateLight()
+    {
+        if (!isLit) return;
+
+        isLit = false;
+        lightArea.SetActive(false);
+
+        if (spriteRenderer && unlitSprite)
+            spriteRenderer.sprite = unlitSprite;
+
+        BrazierManager.CheckBraziers(); 
+    }
+    public bool IsLit() => isLit;
 }
