@@ -22,7 +22,7 @@ public class LightDependent : MonoBehaviour
             if (hit.transform != null)
             {
                 print(hit.transform.gameObject.name);
-                if (hit.transform.gameObject.tag == "Torch" || hit.transform.gameObject.tag == "Sconce" || hit.transform.gameObject.tag == "Human")
+                if (hit.transform.gameObject.tag == "Torch" || hit.transform.gameObject.tag == "Brazier" || hit.transform.gameObject.tag == "Human")
                 {
                     canSeeLight = true;
                     break;
