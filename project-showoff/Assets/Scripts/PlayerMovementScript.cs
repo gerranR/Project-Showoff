@@ -65,9 +65,12 @@ public class PlayerMovementScript : MonoBehaviour
     {
         if (collision.transform.tag == "Ground")
         {
-            if (isGrounded && collision.GetContact(0).collider == null)
+            if (collision.contactCount > 0)
             {
-                isGrounded = false;
+                if (isGrounded && collision.GetContact(0).collider == null)
+                {
+                    isGrounded = false;
+                }
             }
         }
     }
