@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Ground
   - SplitscreenBarrier
+  - Human
+  - Torch
+  - Brazier
+  - Spirit
   layers:
   - Default
   - TransparentFX
@@ -17,20 +21,20 @@ TagManager:
   - 
   - 
   - 
+  - Sconce
   - 
   - 
   - 
   - 
+  - Light
   - 
   - 
   - 
+  - Torch
+  - HeldTorch
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Spirit
+  - Human
   - 
   - 
   - 
