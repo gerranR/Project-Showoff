@@ -14,6 +14,11 @@ public class BrazierLighting : MonoBehaviour
     [SerializeField] Sprite litSprite;
 
 
+    private void Start()
+    {
+        BrazierManager.RegisterBrazier(this);
+    }
+
     private void Update()
     {
         if (isLit || torchInRange == null) return;
