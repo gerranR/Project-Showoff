@@ -25,7 +25,7 @@ public class BrazierLighting : MonoBehaviour
             int layer = player.gameObject.layer;
 
             bool isHumanToggle = layer == LayerMask.NameToLayer("Human") && Input.GetKeyDown(KeyCode.W);
-            bool isSpiritToggle = layer == LayerMask.NameToLayer("Spirit") && Input.GetKeyDown(KeyCode.DownArrow);
+            bool isSpiritToggle = layer == LayerMask.NameToLayer("Spirit") && Input.GetButtonDown("SpiritLight");
 
             if (isHumanToggle || isSpiritToggle)
             {
