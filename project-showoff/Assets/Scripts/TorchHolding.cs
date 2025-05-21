@@ -30,10 +30,10 @@ public class TorchHolding : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A)) lastDirection = -1;
-        else if (Input.GetKeyDown(KeyCode.D)) lastDirection = 1;
+        if (Input.GetAxis("Horizontal") < 0) lastDirection = -1;
+        else if (Input.GetAxis("Horizontal") > 0) lastDirection = 1;
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetButtonDown("pickUp"))
         {
             if (heldTorch == null) TryPickupTorch();
             else ThrowTorch();

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class BrazierManager : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public class BrazierManager : MonoBehaviour
     [SerializeField] GameObject dreamSpritesObject; // 1 game object with all sprites to trigger childrened to it
     [SerializeField] GameObject nightmareSpritesObject;
 
-    static List<BrazierLighting> braziers = new();
+    static List<BrazierLighting> braziers = new List<BrazierLighting>();
     static BrazierManager instance;
     static bool levelCompleted;
 
@@ -34,7 +35,7 @@ public class BrazierManager : MonoBehaviour
                 return;
         }
 
-        if (instance != null)
+        if (instance != null && AllBraziersLighted())
         {
             levelCompleted = true;
             if (instance.endLightArea) instance.endLightArea.SetActive(true);
@@ -44,4 +45,17 @@ public class BrazierManager : MonoBehaviour
         }
     }
     public static bool IsLevelCompleted() => levelCompleted;
+
+    private static bool AllBraziersLighted()
+    {
+        foreach(BrazierLighting brazier in braziers)
+        {
+            print(brazier.IsLit());
+            if(!brazier.IsLit())
+            {
+                return false;
+            }
+        }
+        return true;
+    }
 }
