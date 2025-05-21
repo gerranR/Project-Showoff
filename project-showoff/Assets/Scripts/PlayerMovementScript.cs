@@ -72,6 +72,13 @@ public class PlayerMovementScript : MonoBehaviour
                     isGrounded = false;
                 }
             }
+            else if(collision.contactCount == 0)
+            {
+                if(isGrounded)
+                {
+                    isGrounded = false;
+                }
+            }
         }
     }
 

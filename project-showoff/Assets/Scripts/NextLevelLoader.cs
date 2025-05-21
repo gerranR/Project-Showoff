@@ -19,11 +19,11 @@ public class NextLevelLoader : MonoBehaviour
         {
             if (player == null) continue;
 
-            if (player.CompareTag("Human") && Input.GetKeyDown(KeyCode.S))
+            if (player.CompareTag("Human"))
             {
                 humanReady = true;
             }
-            else if (player.CompareTag("Spirit") && Input.GetKeyDown(KeyCode.DownArrow))
+            else if (player.CompareTag("Spirit"))
             {
                 spiritReady = true;
             }

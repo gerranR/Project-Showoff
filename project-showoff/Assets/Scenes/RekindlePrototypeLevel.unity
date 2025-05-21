@@ -4215,7 +4215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142522dee580a0742a325b1b0c476c24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSecondsOutsideLight: 2
+  maxSecondsOutsideLight: 4
   rayMask:
     serializedVersion: 2
     m_Bits: 9962496
@@ -5036,6 +5036,10 @@ PrefabInstance:
     - target: {fileID: 1043867724986933012, guid: 0339d6e9eecd7f347a7824be65d34a86, type: 3}
       propertyPath: m_Name
       value: NextLevelLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640629362469850022, guid: 0339d6e9eecd7f347a7824be65d34a86, type: 3}
+      propertyPath: nextSceneName
+      value: TestLevel2
       objectReference: {fileID: 0}
     - target: {fileID: 6905007455694040053, guid: 0339d6e9eecd7f347a7824be65d34a86, type: 3}
       propertyPath: m_LocalPosition.x
