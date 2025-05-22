@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LightDependent : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class LightDependent : MonoBehaviour
 
     private List<GameObject> lights = new List<GameObject>();
     [SerializeField] LayerMask rayMask;
+    [SerializeField] Slider slider;
+
+    private void Start()
+    {
+        slider.maxValue = maxSecondsOutsideLight;
+    }
 
     private void Update()
     {
@@ -32,6 +39,7 @@ public class LightDependent : MonoBehaviour
         if (lights.Count <= 0 || !canSeeLight)
         {
             timeOutsideLight += Time.deltaTime;
+            slider.value = maxSecondsOutsideLight - timeOutsideLight;
             if (timeOutsideLight >= maxSecondsOutsideLight)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -39,7 +47,7 @@ public class LightDependent : MonoBehaviour
         }
         else
         {
-
+            slider.value = slider.maxValue;
             timeOutsideLight = 0f;
         }
     }
