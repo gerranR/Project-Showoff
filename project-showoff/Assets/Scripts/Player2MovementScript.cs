@@ -11,6 +11,7 @@ public class Player2MovementScript : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float dashForce;
     [SerializeField] private float LinearDampeningDuringDash;
+    [SerializeField] private float dashThrashold;
 
     [SerializeField]
     private Rigidbody2D rb;
@@ -125,7 +126,7 @@ public class Player2MovementScript : MonoBehaviour
             if (isDashing)
             {
                 print(rb.linearVelocity);
-                if (rb.linearVelocity.magnitude <= .5f)
+                if (rb.linearVelocity.magnitude <= dashThrashold)
                 {
                     isDashing = false;
                     rb.linearDamping = 0f;

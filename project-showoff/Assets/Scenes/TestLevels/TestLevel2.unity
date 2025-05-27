@@ -305,11 +305,13 @@ MonoBehaviour:
   torchHoldPoint: {fileID: 1672728206}
   pickupRange: 1
   throwForce: {x: 6, y: 6}
+  throwForceMultiplyer: 10
   torchLayerMask:
     serializedVersion: 2
     m_Bits: 524288
   heldTorchLayerName: HeldTorch
   droppedTorchLayerName: Torch
+  invertThrow: 1
 --- !u!4 &32443899 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3005091497069883504, guid: e8be8f68af87cd549ad837234a4a0f5c, type: 3}

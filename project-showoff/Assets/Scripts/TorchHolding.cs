@@ -6,6 +6,7 @@ public class TorchHolding : MonoBehaviour
     [SerializeField] Transform torchHoldPoint;
     [SerializeField] float pickupRange = 1f;
     [SerializeField] Vector2 throwForce = new Vector2(5f, 2f);
+    [SerializeField] float throwForceMultiplyer = 1;
 
     [Header("Layer Settings")]
     [SerializeField] LayerMask torchLayerMask;
@@ -20,6 +21,9 @@ public class TorchHolding : MonoBehaviour
 
     private int heldTorchLayer;
     private int droppedTorchLayer;
+
+    [Tooltip("make -1 to invert")]
+    [SerializeField] private int invertThrow = 1;
 
     private void Start()
     {
@@ -91,10 +95,13 @@ public class TorchHolding : MonoBehaviour
 
         torchRb.freezeRotation = false;
 
-        Vector2 force = new Vector2(
+        //Vector2 force = new Vector2((Input.GetAxis("TorchAimHorizontal") * invertThrow) * (throwForce.x * lastDirection), (Input.GetAxis("TorchAimVertical") * invertThrow) * (throwForce.y + rb.linearVelocity.y * 0.5f));
+        Vector2 force = new Vector2(Input.GetAxis("TorchAimHorizontal"), -Input.GetAxis("TorchAimVertical")) * throwForceMultiplyer * invertThrow ;
+
+/*        Vector2 force = new Vector2(
             throwForce.x * lastDirection,
             throwForce.y + rb.linearVelocity.y * 0.5f
-        );
+        )*/;
 
         torchRb.transform.position = torchHoldPoint.position;
         torchRb.linearVelocity = force;
