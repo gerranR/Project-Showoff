@@ -13,11 +13,12 @@ public class LightDependent : MonoBehaviour
 
     private List<GameObject> lights = new List<GameObject>();
     [SerializeField] LayerMask rayMask;
+    [SerializeField] LayerMask rayMaskNoSconce;
     [SerializeField] Slider slider;
 
     private void Start()
     {
-        slider.maxValue = maxSecondsOutsideLight;
+        if (slider != null) slider.maxValue = maxSecondsOutsideLight;
     }
 
     private void Update()
@@ -25,11 +26,20 @@ public class LightDependent : MonoBehaviour
         bool canSeeLight = false;
         foreach (GameObject obj in lights)
         {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, (obj.transform.position - transform.position).normalized, Mathf.Infinity, rayMask);
-
+            RaycastHit2D hit;
+            if (obj.transform.tag != "Brazier")
+            {
+                hit = Physics2D.Raycast(transform.position, (obj.transform.position - transform.position).normalized, Mathf.Infinity, rayMaskNoSconce);
+            }
+            else
+            {
+                hit = Physics2D.Raycast(transform.position, (obj.transform.position - transform.position).normalized, Mathf.Infinity, rayMask);
+            }
+             
+            Debug.DrawRay(transform.position, (obj.transform.position - transform.position).normalized, Color.red, 5);
             if (hit.transform != null)
             {
-                if (hit.transform.gameObject.tag == "Torch" || hit.transform.gameObject.tag == "Brazier" || hit.transform.gameObject.tag == "Human")
+                if (hit.transform.gameObject == obj)
                 {
                     canSeeLight = true;
                     break;
@@ -47,7 +57,7 @@ public class LightDependent : MonoBehaviour
         }
         else
         {
-            slider.value = slider.maxValue;
+            if(slider != null) slider.value = slider.maxValue;
             timeOutsideLight = 0f;
         }
     }

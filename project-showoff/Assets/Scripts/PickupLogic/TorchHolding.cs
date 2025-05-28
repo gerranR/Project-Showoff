@@ -61,6 +61,8 @@ public class TorchHolding : MonoBehaviour
             }
         }
 
+        print("test");
+
         Collider2D torchColl = Physics2D.OverlapCircle(transform.position, pickupRange, torchLayerMask);
         if (torchColl != null)
         {
@@ -96,7 +98,7 @@ public class TorchHolding : MonoBehaviour
         torchRb.freezeRotation = false;
 
         //Vector2 force = new Vector2((Input.GetAxis("TorchAimHorizontal") * invertThrow) * (throwForce.x * lastDirection), (Input.GetAxis("TorchAimVertical") * invertThrow) * (throwForce.y + rb.linearVelocity.y * 0.5f));
-        Vector2 force = new Vector2(Input.GetAxis("TorchAimHorizontal"), -Input.GetAxis("TorchAimVertical")) * throwForceMultiplyer * invertThrow ;
+        Vector2 force = new Vector2(Input.GetAxis("TorchAimHorizontal"), Input.GetAxis("TorchAimVertical")) * throwForceMultiplyer * invertThrow ;
 
 /*        Vector2 force = new Vector2(
             throwForce.x * lastDirection,

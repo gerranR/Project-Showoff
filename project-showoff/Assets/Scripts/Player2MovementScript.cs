@@ -20,7 +20,6 @@ public class Player2MovementScript : MonoBehaviour
 
     private ContactPoint2D[] lastContectpoint = new ContactPoint2D[5] ;
 
-    [SerializeField]
     private PlayerMovementScript player1;
 
     [SerializeField]
@@ -33,89 +32,58 @@ public class Player2MovementScript : MonoBehaviour
     private List<Box> boxes = new List<Box>();
     private GameObject attachedBox;
 
-    [SerializeField] private bool Wow;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         boxes = FindObjectsByType<Box>(FindObjectsSortMode.None).ToList();
-        
+
+        player1 = FindAnyObjectByType<PlayerMovementScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!Wow)
+        if (Input.GetButtonDown("Attach"))
         {
-            if (Vector3.Distance(transform.position, player1.transform.position) <= attachDistance)
+            if (isAttached)
             {
-                if (Input.GetButtonDown("Attach"))
-                {
-                    if (isAttached)
-                    {
-                        transform.parent = null;
-                        isAttached = false;
-                    }
-                    else
-                    {
-                        print("smth arttacher");
-                        transform.parent = player1.transform;
-                        transform.position = player1.transform.position + new Vector3(1f, 1f, 0);
-                        isAttached = true;
-                    }
-                }
-            }
-
-            if (Input.GetButtonDown("Dash") && !isDashing)
-            {
-                rb.linearVelocity = rb.linearVelocity.normalized * dashForce * Time.deltaTime;
-                rb.linearDamping = LinearDampeningDuringDash;
-                isDashing = true;
-
-            }
-
-            if (isAttached && player1.hasJumped())
-            {
-                if (Input.GetButtonDown("DubbleJump") && !doubleJumped)
-                {
-                    player1.Jump();
-                    doubleJumped = true;
-                }
-            }
-
-            if (doubleJumped && !player1.hasJumped())
-            {
-                doubleJumped = false;
-            }
-        }
-        else
-        {
-            if (attachedBox != null)
-            {
-                if (Input.GetButtonDown("Attach"))
-                {
-                    attachedBox.transform.parent = null;
-                    attachedBox = null;
-                }
+                transform.parent = null;
+                isAttached = false;
             }
             else
             {
-                foreach (Box box in boxes)
+                if (Vector3.Distance(transform.position, player1.transform.position) <= attachDistance)
                 {
-                    if (Vector3.Distance(transform.position, box.transform.position) <= attachDistance)
-                    {
-                        if (Input.GetButtonDown("Attach"))
-                        {
-                            print("attack");
-                            box.transform.parent = transform;
-                            box.transform.position = transform.position + new Vector3(.25f, .25f, 0);
-                            attachedBox = box.gameObject;
-                            break;
-                        }
-                    }
+                    print("smth arttacher");
+                    transform.parent = player1.transform;
+                    transform.position = player1.transform.position + new Vector3(1f, 1f, 0);
+                    isAttached = true;
                 }
             }
         }
+
+        if (Input.GetButtonDown("Dash") && !isDashing)
+        {
+            rb.linearVelocity = rb.linearVelocity.normalized * dashForce * Time.deltaTime;
+            rb.linearDamping = LinearDampeningDuringDash;
+            isDashing = true;
+
+        }
+
+        if (isAttached && player1.hasJumped())
+        {
+            if (Input.GetButtonDown("DubbleJump") && !doubleJumped)
+            {
+                player1.Jump();
+                doubleJumped = true;
+            }
+        }
+
+        if (doubleJumped && !player1.hasJumped())
+        {
+            doubleJumped = false;
+        }
+        
     }
 
 
@@ -166,6 +134,15 @@ public class Player2MovementScript : MonoBehaviour
                 isAvectedByGravity = false;
                 rb.AddForce(rb.linearVelocity);
             }
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if(isAttached && collision.gameObject.layer == LayerMask.NameToLayer("SpiritBarrier"))
+        {
+            transform.parent = null;
+            isAttached = false;
         }
     }
 }

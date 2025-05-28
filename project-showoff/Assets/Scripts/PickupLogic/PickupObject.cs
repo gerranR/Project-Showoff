@@ -11,6 +11,9 @@ public abstract class PickupObject : MonoBehaviour
     protected Rigidbody2D rb;
     protected Collider2D col;
 
+    [SerializeField] float throwForceMultiplyer;
+    [SerializeField] private int invertThrow = 1;
+
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -50,10 +53,12 @@ public abstract class PickupObject : MonoBehaviour
 
         if (isThrowable)
         {
-            Vector2 force = new Vector2(
+            Vector2 force = new Vector2(Input.GetAxis("TorchAimHorizontal"), -Input.GetAxis("TorchAimVertical")) * throwForceMultiplyer * invertThrow;
+
+/*            Vector2 force = new Vector2(
                 throwForce.x * direction,
                 throwForce.y + holderVelocity.y * 0.5f
-            );
+            );*/
 
             rb.linearVelocity = force;
         }

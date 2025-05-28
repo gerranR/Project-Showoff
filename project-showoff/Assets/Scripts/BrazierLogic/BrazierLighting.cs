@@ -36,10 +36,10 @@ public class BrazierLighting : MonoBehaviour
 
             int layer = player.gameObject.layer;
 
-            bool isHumanToggle = layer == LayerMask.NameToLayer("Human") && Input.GetKeyDown(KeyCode.W);
+            //bool isHumanToggle = layer == LayerMask.NameToLayer("Human") && Input.GetKeyDown(KeyCode.W);
             bool isSpiritToggle = layer == LayerMask.NameToLayer("Spirit") && Input.GetButtonDown("SpiritLight");
 
-            if (isHumanToggle || isSpiritToggle)
+            if (isSpiritToggle)
             {
                 ActivateLight();
                 break;
@@ -55,7 +55,7 @@ public class BrazierLighting : MonoBehaviour
 
         if (layer == LayerMask.NameToLayer("HeldTorch"))
         {
-            ActivateLight();
+            torchInRange = other;
             return;
         }
         else if (layer == LayerMask.NameToLayer("Torch"))
@@ -85,7 +85,7 @@ public class BrazierLighting : MonoBehaviour
 
         isLit = true;
         lightArea.SetActive(true);
-
+        gameObject.layer = LayerMask.NameToLayer("LitSconce");
 
         if (spriteRenderer && litSprite)
             spriteRenderer.sprite = litSprite;

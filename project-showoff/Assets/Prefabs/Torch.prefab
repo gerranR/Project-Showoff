@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 3455180899733310614}
   - component: {fileID: 1987117863758147506}
   - component: {fileID: 666666931812197000}
+  - component: {fileID: 644802054939858120}
   m_Layer: 19
   m_Name: Torch
   m_TagString: Torch
@@ -579,3 +580,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0996315, y: 3.1420908}
   m_EdgeRadius: 0
+--- !u!114 &644802054939858120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3749061210952469315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736bb9de228e22b46828bdb350ed4162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedPickup: 0
+  isThrowable: 1
