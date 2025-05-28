@@ -8,6 +8,7 @@ public class Collectible : MonoBehaviour
     {
        if(other.gameObject.layer == LayerMask.NameToLayer("Human"))
         {
+            GameManager.instance.addCollectebles();
             Destroy(gameObject);
         }
     }
