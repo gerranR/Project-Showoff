@@ -3,23 +3,30 @@ using System.Collections.Generic;
 
 public class BrazierLighting : MonoBehaviour
 {
-    public GameObject lightArea;
-    private bool isLit = false;
+    protected bool isLit = false;
 
-    private Collider2D torchInRange = null;
-    private readonly List<Collider2D> withinRange = new();
+   protected Collider2D torchInRange = null;
+    protected readonly List<Collider2D> withinRange = new();
 
-    [SerializeField] SpriteRenderer spriteRenderer;
-    [SerializeField] Sprite unlitSprite;
-    [SerializeField] Sprite litSprite;
+    [SerializeField] protected GameObject lightArea;
+    [SerializeField] protected SpriteRenderer spriteRenderer;
+    [SerializeField] protected Sprite unlitSprite;
+    [SerializeField] protected Sprite litSprite;
 
+    public void InitializeFrom(BrazierLighting other)
+    {
+        this.lightArea = other.lightArea;
+        this.spriteRenderer = other.spriteRenderer;
+        this.unlitSprite = other.unlitSprite;
+        this.litSprite = other.litSprite;
+    }
 
-    private void Start()
+    protected virtual void Start()
     {
         BrazierManager.RegisterBrazier(this);
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (isLit || torchInRange == null) return;
 
@@ -40,7 +47,7 @@ public class BrazierLighting : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    protected virtual void OnTriggerEnter2D(Collider2D other)
     {
         if (isLit) return;
 
@@ -62,7 +69,7 @@ public class BrazierLighting : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+  protected virtual void OnTriggerExit2D(Collider2D other)
     {
         if (torchInRange == other)
         {
@@ -72,7 +79,7 @@ public class BrazierLighting : MonoBehaviour
         withinRange.Remove(other);
     }
 
-    public void ActivateLight()
+    public virtual void ActivateLight()
     {
         if (isLit) return;
 
@@ -86,7 +93,7 @@ public class BrazierLighting : MonoBehaviour
         BrazierManager.CheckBraziers();
     }
 
-    public void DeactivateLight()
+    public virtual void DeactivateLight()
     {
         if (!isLit) return;
 

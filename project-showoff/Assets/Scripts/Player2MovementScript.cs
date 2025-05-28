@@ -57,6 +57,7 @@ public class Player2MovementScript : MonoBehaviour
                     }
                     else
                     {
+                        print("smth arttacher");
                         transform.parent = player1.transform;
                         transform.position = player1.transform.position + new Vector3(1f, 1f, 0);
                         isAttached = true;
@@ -104,6 +105,7 @@ public class Player2MovementScript : MonoBehaviour
                     {
                         if (Input.GetButtonDown("Attach"))
                         {
+                            print("attack");
                             box.transform.parent = transform;
                             box.transform.position = transform.position + new Vector3(.25f, .25f, 0);
                             attachedBox = box.gameObject;

@@ -10,6 +10,7 @@ TagManager:
   - Torch
   - Brazier
   - Spirit
+  - Wax
   layers:
   - Default
   - TransparentFX
@@ -35,8 +36,8 @@ TagManager:
   - SpiritBarrier
   - Spirit
   - Human
-  - 
-  - 
+  - Wax
+  - HeldWax
   - 
   - 
   - 
