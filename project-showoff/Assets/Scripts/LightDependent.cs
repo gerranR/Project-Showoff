@@ -16,29 +16,60 @@ public class LightDependent : MonoBehaviour
     [SerializeField] LayerMask rayMaskNoSconce;
     [SerializeField] Slider slider;
 
+    private ContactFilter2D filter;
+    private Collider2D[] results = new Collider2D[10];
+
     private void Start()
     {
         if (slider != null) slider.maxValue = maxSecondsOutsideLight;
+
+        filter = new ContactFilter2D();
+        filter.SetLayerMask(LayerMask.GetMask("Light"));
+        filter.useTriggers = true;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
+        CircleCollider2D triggerZone = GetComponent<CircleCollider2D>();
+        Physics2D.SyncTransforms();
+        int count = triggerZone.Overlap(filter, results);
+
+        lights.Clear();
+
+
+        for (int i = 0; i < count; i++)
+        {
+            var light = results[i].transform.parent?.gameObject;
+            if (light != null && !lights.Contains(light))
+            {
+                lights.Add(light);
+            }
+        }
+
+        Debug.Log("Lights in zone: " + lights.Count);
+
+
         bool canSeeLight = false;
         foreach (GameObject obj in lights)
         {
             RaycastHit2D hit;
+            Vector2 direction = (obj.transform.position - transform.position).normalized;
+            float distance = Vector2.Distance(transform.position, obj.transform.position);
             if (obj.transform.tag != "Brazier")
             {
-                hit = Physics2D.Raycast(transform.position, (obj.transform.position - transform.position).normalized, Mathf.Infinity, rayMaskNoSconce);
+                Physics2D.SyncTransforms();
+                hit = Physics2D.Raycast(transform.position, direction, distance, rayMaskNoSconce);
             }
             else
             {
-                hit = Physics2D.Raycast(transform.position, (obj.transform.position - transform.position).normalized, Mathf.Infinity, rayMask);
+                hit = Physics2D.Raycast(transform.position, direction, distance, rayMask);
             }
-             
-            Debug.DrawRay(transform.position, (obj.transform.position - transform.position).normalized, Color.red, 5);
+
+
+            Debug.DrawRay(transform.position, direction * distance, Color.red, 1f);
             if (hit.transform != null)
             {
+                print(hit.collider.name);
                 if (hit.transform.gameObject == obj)
                 {
                     canSeeLight = true;
@@ -61,12 +92,24 @@ public class LightDependent : MonoBehaviour
             timeOutsideLight = 0f;
         }
     }
-
+/*
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Light"))
         {
             lights.Add(other.transform.parent.gameObject);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Light"))
+        {
+            GameObject lightObj = collision.transform.parent.gameObject;
+            if (!lights.Contains(lightObj))
+            {
+                lights.Add(lightObj);
+            }
         }
     }
 
@@ -79,5 +122,5 @@ public class LightDependent : MonoBehaviour
                 lights.Remove(other.transform.parent.gameObject);
             }
         }
-    }
+    }*/
 }

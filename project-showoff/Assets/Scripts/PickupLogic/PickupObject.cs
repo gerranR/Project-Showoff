@@ -87,8 +87,8 @@ public abstract class PickupObject : MonoBehaviour
         isPickedup = true;
 
         transform.SetParent(holdPoint);
-        transform.localPosition = Vector3.zero;
-        transform.localRotation = Quaternion.identity;
+        rb.MovePosition(Vector3.zero);
+        rb.MoveRotation(Quaternion.identity);
         gameObject.layer = LayerMask.NameToLayer(HeldLayerName);
 
         Vector3 scale = transform.localScale;
@@ -101,7 +101,7 @@ public abstract class PickupObject : MonoBehaviour
         transform.SetParent(null);
         gameObject.layer = LayerMask.NameToLayer(DroppedLayerName);
         rb.freezeRotation = false;
-        transform.position = holdPoint.position;
+        rb.MovePosition(holdPoint.position);
         isPickedup = false;
 
         if (isThrowable)
