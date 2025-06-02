@@ -63,14 +63,17 @@ public class DoPickupObject : MonoBehaviour
         if (isTouchingBrazier)
         {
             GameObject foundTorch = GameObject.FindGameObjectWithTag("Torch");
-            heldItem = foundTorch.GetComponent<PickupObject>();
-            heldItem.Pickup(holdPoint, lastDirection);
+            if (foundTorch != null && foundTorch.GetComponent<PickupObject>().CanBePickedUpBy(playerTag))
+            {
+                heldItem = foundTorch.GetComponent<PickupObject>();
+                heldItem.Pickup(holdPoint, lastDirection);
+            }
             return;
         }
 
         Collider2D coll = Physics2D.OverlapCircle(transform.position, pickupRange, layersWithPickupObjects);
+        if (coll == null || coll.GetComponent<PickupObject>() == null) return;
         var pickup = coll.GetComponent<PickupObject>();
-        if (coll == null) return;
 
         if (pickup != null && pickup.CanBePickedUpBy(playerTag))
         {

@@ -562,6 +562,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5521085593857908734, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: maxSecondsOutsideLight
+      value: 9999
+      objectReference: {fileID: 0}
     - target: {fileID: 5854467486843050425, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
       propertyPath: Wow
       value: 0
@@ -912,6 +916,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedPickup: 0
   isThrowable: 1
+  throwForceMultiplyer: 0
+  invertThrow: 1
 --- !u!1 &693195448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,7 +1405,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1520347867}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1605,9 +1611,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 755456858}
-  m_Father: {fileID: 1212855112}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1968,7 +1973,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1212855112}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
@@ -5763,6 +5768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wax
       objectReference: {fileID: 0}
+    - target: {fileID: 8101474677870501854, guid: 491ab96486a212f468275d8f9be31113, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6801,6 +6810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UnwaxedBrazier
       objectReference: {fileID: 0}
+    - target: {fileID: 2445796674155713374, guid: 8c516c711ad67094ba80183a8c3990b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6816,3 +6829,6 @@ SceneRoots:
   - {fileID: 400677486}
   - {fileID: 1207181353592832599}
   - {fileID: 7274742779112344360}
+  - {fileID: 1080320799}
+  - {fileID: 1130946145}
+  - {fileID: 1305804612}
