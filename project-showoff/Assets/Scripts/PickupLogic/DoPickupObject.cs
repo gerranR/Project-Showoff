@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DoPickupObject : MonoBehaviour
@@ -15,6 +16,8 @@ public class DoPickupObject : MonoBehaviour
     private string pickupButton;
 
     private string joystickAxis;
+
+    private bool isTouchingBrazier;
 
     void Start()
     {
@@ -57,10 +60,18 @@ public class DoPickupObject : MonoBehaviour
 
     void TryPickup()
     {
+        if (isTouchingBrazier)
+        {
+            GameObject foundTorch = GameObject.FindGameObjectWithTag("Torch");
+            heldItem = foundTorch.GetComponent<PickupObject>();
+            heldItem.Pickup(holdPoint, lastDirection);
+            return;
+        }
+
         Collider2D coll = Physics2D.OverlapCircle(transform.position, pickupRange, layersWithPickupObjects);
+        var pickup = coll.GetComponent<PickupObject>();
         if (coll == null) return;
 
-        var pickup = coll.GetComponent<PickupObject>();
         if (pickup != null && pickup.CanBePickedUpBy(playerTag))
         {
             heldItem = pickup;
@@ -79,5 +90,21 @@ public class DoPickupObject : MonoBehaviour
         if (heldItem == null) return;
         heldItem.transform.position = holdPoint.position + new Vector3(lastDirection * 0.5f, 0f, 0f);
         holdPoint.localPosition = new Vector3(Mathf.Abs(holdPoint.localPosition.x) * lastDirection, holdPoint.localPosition.y);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Brazier"))
+        {
+            isTouchingBrazier = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Brazier"))
+        {
+            isTouchingBrazier = false;
+        }
     }
 }

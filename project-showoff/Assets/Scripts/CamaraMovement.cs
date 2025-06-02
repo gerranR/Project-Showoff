@@ -8,6 +8,8 @@ public class CamaraMovement : MonoBehaviour
     [SerializeField] float minZoom;
     [SerializeField] float maxZoom;
 
+    [SerializeField] float fovMultiplier;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,16 +21,9 @@ public class CamaraMovement : MonoBehaviour
     {
         Vector3 pos;
         pos = (player1.transform.position + player2.transform.position) / 2;
-        pos.z = -Vector3.Distance(player1.transform.position, player2.transform.position);
+        pos.z = transform.position.z;
 
-        if(pos.z > -minZoom)
-        {
-            pos.z = -minZoom;
-        }
-        if(pos.z < -maxZoom)
-        {
-            pos.z = -maxZoom;
-        }
+        Camera.main.fieldOfView = Mathf.Clamp(Vector3.Distance(player1.transform.position, player2.transform.position) * fovMultiplier, minZoom, maxZoom);
 
         transform.position = pos;
     }

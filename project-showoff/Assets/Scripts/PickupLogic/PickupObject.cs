@@ -25,32 +25,28 @@ public abstract class PickupObject : MonoBehaviour
         lr = GetComponent<LineRenderer>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if (isPickedup)
+        if (isPickedup && (Input.GetAxis("TorchAimHorizontal") != 0f || Input.GetAxis("TorchAimVertical") != 0f))
         {
+            Vector2 dragEndPos = new Vector2(Input.GetAxis("TorchAimHorizontal"), -Input.GetAxis("TorchAimVertical"));
+            Vector2 _velocity = dragEndPos * throwForceMultiplyer;
 
-            if (Input.GetAxis("TorchAimHorizontal") != 0f || Input.GetAxis("TorchAimVertical") != 0f)
+            print(_velocity);
+
+            Vector2[] trajectory = plot(rb, (Vector2)transform.position, _velocity, 500);
+            lr.positionCount = trajectory.Length;
+            Vector3[] positions = new Vector3[trajectory.Length];
+            for (int i = 0; i < positions.Length; i++)
             {
-                Vector2 dragEndPos = new Vector2(Input.GetAxis("TorchAimHorizontal"), -Input.GetAxis("TorchAimVertical"));
-                Vector2 _velocity = dragEndPos * throwForceMultiplyer;
-
-                print(_velocity);
-
-                Vector2[] trajectory = plot(rb, (Vector2)transform.position, _velocity, 500);
-                lr.positionCount = trajectory.Length;
-                Vector3[] positions = new Vector3[trajectory.Length];
-                for (int i = 0; i < positions.Length; i++)
-                {
-                    positions[i] = trajectory[i];
-                }
-
-                lr.SetPositions(positions);
+                positions[i] = trajectory[i];
             }
-            else
-            {
-                lr.positionCount = 0;
-            }
+
+            lr.SetPositions(positions);
+        }
+        else
+        {
+            lr.positionCount = 0;
         }
     }
 

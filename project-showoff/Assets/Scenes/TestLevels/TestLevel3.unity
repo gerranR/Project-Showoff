@@ -3002,6 +3002,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4745274890609879207, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4745274890609879207, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521085593857908734, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: maxSecondsOutsideLight
+      value: 1e+12
+      objectReference: {fileID: 0}
     - target: {fileID: 5854467486843050425, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
       propertyPath: player1
       value: 
