@@ -16,6 +16,8 @@ public class LightDependent : MonoBehaviour
     [SerializeField] LayerMask rayMaskNoSconce;
     [SerializeField] Slider slider;
 
+    [SerializeField] bool useRaycast = true;
+
     private ContactFilter2D filter;
     private Collider2D[] results = new Collider2D[10];
 
@@ -48,34 +50,40 @@ public class LightDependent : MonoBehaviour
 
         Debug.Log("Lights in zone: " + lights.Count);
 
-
         bool canSeeLight = false;
-        foreach (GameObject obj in lights)
+        if (useRaycast)
         {
-            RaycastHit2D hit;
-            Vector2 direction = (obj.transform.position - transform.position).normalized;
-            float distance = Vector2.Distance(transform.position, obj.transform.position);
-            if (obj.transform.tag != "Brazier")
+            foreach (GameObject obj in lights)
             {
-                Physics2D.SyncTransforms();
-                hit = Physics2D.Raycast(transform.position, direction, distance, rayMaskNoSconce);
-            }
-            else
-            {
-                hit = Physics2D.Raycast(transform.position, direction, distance, rayMask);
-            }
-
-
-            Debug.DrawRay(transform.position, direction * distance, Color.red, 1f);
-            if (hit.transform != null)
-            {
-                print(hit.collider.name);
-                if (hit.transform.gameObject == obj)
+                RaycastHit2D hit;
+                Vector2 direction = (obj.transform.position - transform.position).normalized;
+                float distance = Vector2.Distance(transform.position, obj.transform.position);
+                if (obj.transform.tag != "Brazier")
                 {
-                    canSeeLight = true;
-                    break;
+                    Physics2D.SyncTransforms();
+                    hit = Physics2D.Raycast(transform.position, direction, distance, rayMaskNoSconce);
+                }
+                else
+                {
+                    hit = Physics2D.Raycast(transform.position, direction, distance, rayMask);
+                }
+
+
+                Debug.DrawRay(transform.position, direction * distance, Color.red, 1f);
+                if (hit.transform != null)
+                {
+                    print(hit.collider.name);
+                    if (hit.transform.gameObject == obj)
+                    {
+                        canSeeLight = true;
+                        break;
+                    }
                 }
             }
+        }
+        else if(lights.Count > 0)
+        {
+            canSeeLight = true;
         }
         if (lights.Count <= 0 || !canSeeLight)
         {

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GirlChibiTest_0: 3941747174890565063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
