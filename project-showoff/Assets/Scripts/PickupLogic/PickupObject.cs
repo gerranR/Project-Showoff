@@ -1,3 +1,4 @@
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public abstract class PickupObject : MonoBehaviour
@@ -8,8 +9,11 @@ public abstract class PickupObject : MonoBehaviour
     public abstract string HeldLayerName { get; }
     public abstract string DroppedLayerName { get; }
 
+    bool isPickedup = false;
+
     protected Rigidbody2D rb;
     protected Collider2D col;
+    private LineRenderer lr;
 
     [SerializeField] float throwForceMultiplyer;
     [SerializeField] private int invertThrow = 1;
@@ -18,6 +22,53 @@ public abstract class PickupObject : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
+        lr = GetComponent<LineRenderer>();
+    }
+
+    private void FixedUpdate()
+    {
+        if (isPickedup && (Input.GetAxis("TorchAimHorizontal") != 0f || Input.GetAxis("TorchAimVertical") != 0f))
+        {
+            Vector2 dragEndPos = new Vector2(Input.GetAxis("TorchAimHorizontal"), -Input.GetAxis("TorchAimVertical"));
+            Vector2 _velocity = dragEndPos * throwForceMultiplyer;
+
+            print(_velocity);
+
+            Vector2[] trajectory = plot(rb, (Vector2)transform.position, _velocity, 500);
+            lr.positionCount = trajectory.Length;
+            Vector3[] positions = new Vector3[trajectory.Length];
+            for (int i = 0; i < positions.Length; i++)
+            {
+                positions[i] = trajectory[i];
+            }
+
+            lr.SetPositions(positions);
+        }
+        else
+        {
+            lr.positionCount = 0;
+        }
+    }
+
+    public Vector2[] plot(Rigidbody2D rigidbody, Vector2 pos, Vector2 velocity, int steps)
+    {
+        Vector2[] results = new Vector2[steps];
+
+        float timeStep = Time.fixedDeltaTime / Physics2D.velocityIterations;
+        Vector2 gravityAccel = Physics2D.gravity * rigidbody.gravityScale * timeStep * timeStep;
+        float drag = 1f - timeStep * rigidbody.linearDamping;
+        Vector2 moveStep = velocity * timeStep;
+
+        print(timeStep + " " + gravityAccel +" "+ drag);
+
+        for (int i = 0; i < steps; i++)
+        {
+            moveStep += gravityAccel;
+            moveStep *= drag;
+            pos += moveStep;
+            results[i] = pos;
+        }
+        return results;
     }
 
     public bool CanBePickedUpBy(string tag)
@@ -33,10 +84,11 @@ public abstract class PickupObject : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.angularVelocity = 0f;
         rb.freezeRotation = true;
+        isPickedup = true;
 
         transform.SetParent(holdPoint);
-        transform.localPosition = Vector3.zero;
-        transform.localRotation = Quaternion.identity;
+        rb.MovePosition(Vector3.zero);
+        rb.MoveRotation(Quaternion.identity);
         gameObject.layer = LayerMask.NameToLayer(HeldLayerName);
 
         Vector3 scale = transform.localScale;
@@ -49,7 +101,8 @@ public abstract class PickupObject : MonoBehaviour
         transform.SetParent(null);
         gameObject.layer = LayerMask.NameToLayer(DroppedLayerName);
         rb.freezeRotation = false;
-        transform.position = holdPoint.position;
+        rb.MovePosition(holdPoint.position);
+        isPickedup = false;
 
         if (isThrowable)
         {
