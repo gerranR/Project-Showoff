@@ -4340,6 +4340,18 @@ PrefabInstance:
       propertyPath: layersWithPickupObjects.m_Bits
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8610895580483940336, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610895580483940336, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610895580483940336, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
