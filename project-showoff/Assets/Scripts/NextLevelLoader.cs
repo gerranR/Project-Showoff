@@ -11,6 +11,8 @@ public class NextLevelLoader : MonoBehaviour
     private void Update()
     {
         if (!BrazierManager.IsLevelCompleted()) return;
+
+        print("waiting");
         
         bool humanReady = false;
         bool spiritReady = false;
