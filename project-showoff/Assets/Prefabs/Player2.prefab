@@ -107,7 +107,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.49, y: -2.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6141480415248546345}
@@ -158,7 +158,7 @@ SpriteRenderer:
   m_SortingLayerID: -641376631
   m_SortingLayer: 6
   m_SortingOrder: 82
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  m_Sprite: {fileID: -4463601529666964615, guid: 8d7e53f2e0d47ff4e9f6cab6261c3393, type: 3}
   m_Color: {r: 0.6933962, g: 0.863567, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -213,9 +213,7 @@ MonoBehaviour:
   LinearDampeningDuringDash: 10
   dashThrashold: 0
   rb: {fileID: 3438014443890501869}
-  player1: {fileID: 552886982109180144, guid: 1c23bd180af678f4193f405f27dd6895, type: 3}
   attachDistance: 2
-  Wow: 0
 --- !u!58 &3120442065027045890
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -251,7 +249,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 2
 --- !u!114 &5521085593857908734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,7 +265,10 @@ MonoBehaviour:
   maxSecondsOutsideLight: 4
   rayMask:
     serializedVersion: 2
-    m_Bits: 9962497
+    m_Bits: 1573889
+  rayMaskNoSconce:
+    serializedVersion: 2
+    m_Bits: 1572865
   slider: {fileID: 5414038784905687181}
 --- !u!114 &7670426645852403189
 MonoBehaviour:

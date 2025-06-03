@@ -35,8 +35,11 @@ public class BrazierManager : MonoBehaviour
                 return;
         }
 
+        //this runs
+
         if (instance != null && AllBraziersLighted())
         {
+            //this doesnt run
             levelCompleted = true;
             if (instance.endLightArea) instance.endLightArea.SetActive(true);
             if (instance.dreamSpritesObject) instance.dreamSpritesObject.SetActive(true);

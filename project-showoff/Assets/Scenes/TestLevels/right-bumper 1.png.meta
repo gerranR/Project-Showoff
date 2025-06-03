@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2f094a62ed4e6df43bb0f4c33c2443f0
+guid: 03d9bc9b101492a41a60bdc6bb55c584
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4882478083915368737
-    second: SpiritIdleAnimation_0
+      213: -1255533443804632830
+    second: right-bumper 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpiritIdleAnimation_0
+      name: right-bumper 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 500
+        width: 250
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 129c767e2fb02c340800000000000000
-      internalID: 4882478083915368737
+      spriteID: 209e6662cf2739ee0800000000000000
+      internalID: -1255533443804632830
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SpiritIdleAnimation_0: 4882478083915368737
+      right-bumper 1_0: -1255533443804632830
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
