@@ -80,7 +80,7 @@ public class LightDependent : MonoBehaviour
         if (lights.Count <= 0 || !canSeeLight)
         {
             timeOutsideLight += Time.deltaTime;
-            slider.value = maxSecondsOutsideLight - timeOutsideLight;
+           if(slider!=null) slider.value = maxSecondsOutsideLight - timeOutsideLight;
             if (timeOutsideLight >= maxSecondsOutsideLight)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
