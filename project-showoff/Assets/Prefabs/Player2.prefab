@@ -270,6 +270,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1572865
   slider: {fileID: 5414038784905687181}
+  useRaycast: 1
 --- !u!114 &7670426645852403189
 MonoBehaviour:
   m_ObjectHideFlags: 0
