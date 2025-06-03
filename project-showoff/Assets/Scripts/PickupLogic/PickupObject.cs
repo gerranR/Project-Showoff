@@ -88,7 +88,7 @@ public abstract class PickupObject : MonoBehaviour
 
         transform.SetParent(holdPoint);
         rb.MovePosition(Vector3.zero);
-        rb.MoveRotation(Quaternion.identity);
+        transform.rotation = Quaternion.identity;
         gameObject.layer = LayerMask.NameToLayer(HeldLayerName);
 
         Vector3 scale = transform.localScale;
