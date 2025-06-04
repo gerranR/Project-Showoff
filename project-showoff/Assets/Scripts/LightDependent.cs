@@ -61,12 +61,10 @@ public class LightDependent : MonoBehaviour
                 Physics2D.SyncTransforms();
                 if (obj.transform.tag != "Brazier")
                 {
-                    print("test1");
                     hit = Physics2D.Raycast(transform.position, direction, distance, rayMaskNoSconce);
                 }
                 else
                 {
-                    print("test2");
                     hit = Physics2D.Raycast(transform.position, direction, distance, rayMask);
                 }
 
