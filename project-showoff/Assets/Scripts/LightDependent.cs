@@ -58,13 +58,15 @@ public class LightDependent : MonoBehaviour
                 RaycastHit2D hit;
                 Vector2 direction = (obj.transform.position - transform.position).normalized;
                 float distance = Vector2.Distance(transform.position, obj.transform.position);
+                Physics2D.SyncTransforms();
                 if (obj.transform.tag != "Brazier")
                 {
-                    Physics2D.SyncTransforms();
+                    print("test1");
                     hit = Physics2D.Raycast(transform.position, direction, distance, rayMaskNoSconce);
                 }
                 else
                 {
+                    print("test2");
                     hit = Physics2D.Raycast(transform.position, direction, distance, rayMask);
                 }
 

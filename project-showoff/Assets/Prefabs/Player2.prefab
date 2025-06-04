@@ -214,6 +214,7 @@ MonoBehaviour:
   dashThrashold: 0
   rb: {fileID: 3438014443890501869}
   attachDistance: 2
+  lerpSpeed: 10
 --- !u!58 &3120442065027045890
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -265,7 +266,7 @@ MonoBehaviour:
   maxSecondsOutsideLight: 4
   rayMask:
     serializedVersion: 2
-    m_Bits: 1573889
+    m_Bits: 1575937
   rayMaskNoSconce:
     serializedVersion: 2
     m_Bits: 1572865

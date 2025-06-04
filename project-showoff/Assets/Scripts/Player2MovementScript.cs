@@ -32,6 +32,8 @@ public class Player2MovementScript : MonoBehaviour
     private List<Box> boxes = new List<Box>();
     private GameObject attachedBox;
 
+    [SerializeField] float lerpSpeed;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -56,7 +58,7 @@ public class Player2MovementScript : MonoBehaviour
                 {
                     print("smth arttacher");
                     transform.parent = player1.transform;
-                    transform.position = player1.transform.position + new Vector3(1f, 1f, 0);
+                    transform.position = Vector3.Lerp(transform.position, player1.transform.position + new Vector3(1f, 1f, 0), lerpSpeed * Time.deltaTime);
                     isAttached = true;
                 }
             }
@@ -110,7 +112,8 @@ public class Player2MovementScript : MonoBehaviour
         else if (isAttached)
         {
             rb.linearVelocity = Vector2.zero;
-            transform.position = player1.transform.position + new Vector3(1f, 1f, 0);
+            
+            transform.position = Vector3.Lerp(transform.position, player1.transform.position + new Vector3(1f, 1f, 0), lerpSpeed * Time.deltaTime);
         }
     }
 
