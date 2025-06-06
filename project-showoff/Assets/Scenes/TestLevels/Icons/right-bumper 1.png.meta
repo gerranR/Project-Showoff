@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ffa77179d98c1e948a38eb4ba5e92f43
+guid: 03d9bc9b101492a41a60bdc6bb55c584
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3682379487676149348
-    second: outline-blue-cross 2_0
+      213: -1255533443804632830
+    second: right-bumper 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: outline-blue-cross 2_0
+      name: right-bumper 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 250
-        height: 250
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c91d0e4bd5f85ecc0800000000000000
-      internalID: -3682379487676149348
+      spriteID: 209e6662cf2739ee0800000000000000
+      internalID: -1255533443804632830
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      right-bumper 1_0: -1255533443804632830
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

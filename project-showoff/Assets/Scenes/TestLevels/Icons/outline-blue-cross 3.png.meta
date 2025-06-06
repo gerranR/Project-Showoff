@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      outline-blue-cross 3_0: 4002497892933364388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
