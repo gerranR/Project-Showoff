@@ -48,7 +48,7 @@ public class LightDependent : MonoBehaviour
             }
         }
 
-        Debug.Log("Lights in zone: " + lights.Count);
+        //Debug.Log("Lights in zone: " + lights.Count);
 
         bool canSeeLight = false;
         if (useRaycast)
@@ -72,7 +72,7 @@ public class LightDependent : MonoBehaviour
                 Debug.DrawRay(transform.position, direction * distance, Color.red, 1f);
                 if (hit.transform != null)
                 {
-                    print(hit.collider.name);
+                    //print(hit.collider.name);
                     if (hit.transform.gameObject == obj)
                     {
                         canSeeLight = true;

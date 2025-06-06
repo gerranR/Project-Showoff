@@ -70,8 +70,10 @@ public class PlayerMovementScript : MonoBehaviour
     {
         if (collision.transform.tag == "Ground")
         {
+            print("1");
             if (collision.GetContact(0).normal == Vector2.up && !isGrounded)
             {
+                print("2");
                 isGrounded = true;
 
                 float landingY = transform.position.y;
@@ -86,20 +88,23 @@ public class PlayerMovementScript : MonoBehaviour
     {
         if (collision.transform.tag == "Ground")
         {
+            print("3");
             if (collision.contactCount > 0)
             {
                 if (isGrounded && collision.GetContact(0).collider == null)
                 {
+                    print("4");
                     isGrounded = false;
                 }
             }
-            else if(collision.contactCount == 0)
+/*            else if(collision.contactCount == 0)
             {
                 if(isGrounded)
                 {
+                    print("5");
                     isGrounded = false;
                 }
-            }
+            }*/
         }
     }
 
