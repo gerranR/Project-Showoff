@@ -5040,7 +5040,7 @@ PrefabInstance:
       objectReference: {fileID: 44265645}
     - target: {fileID: 8871586374940423755, guid: 6ac56aac493898d49b0d8fe8f6741ec4, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8871586374940423755, guid: 6ac56aac493898d49b0d8fe8f6741ec4, type: 3}
       propertyPath: fovMultiplier
