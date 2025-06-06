@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0828adb3a464e45a4bb0d79c5ac52b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
+  speed: 300
   dashForce: 7500
   LinearDampeningDuringDash: 10
   dashThrashold: 0
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142522dee580a0742a325b1b0c476c24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSecondsOutsideLight: 4
+  maxSecondsOutsideLight: 3
   rayMask:
     serializedVersion: 2
     m_Bits: 1575937
@@ -491,7 +491,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 769856829
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &6235647644960720632
@@ -671,7 +671,7 @@ RectTransform:
   m_GameObject: {fileID: 8087314236587173066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.24142002, y: 0.24142002, z: 0.24142002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5827249840958257045}
@@ -681,7 +681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.81, y: -22.42}
+  m_AnchoredPosition: {x: 32.5, y: 2.3}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5414038784905687181

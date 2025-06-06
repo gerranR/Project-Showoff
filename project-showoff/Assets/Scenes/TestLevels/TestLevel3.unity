@@ -3322,14 +3322,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5521085593857908734, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
-      propertyPath: maxSecondsOutsideLight
-      value: 99999
+    - target: {fileID: 8610895580483940336, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5854467486843050425, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
-      propertyPath: player1
-      value: 
-      objectReference: {fileID: 552886982109180144, guid: 1c23bd180af678f4193f405f27dd6895, type: 3}
+    - target: {fileID: 8610895580483940336, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610895580483940336, guid: 26700ae2e74bac54889789a2ddb06ae3, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
