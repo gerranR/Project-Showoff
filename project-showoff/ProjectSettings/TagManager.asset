@@ -43,7 +43,7 @@ TagManager:
   - 
   - 
   - BackgroundArt
-  - 
+  - Lighting
   m_SortingLayers:
   - name: Default
     uniqueID: 0
