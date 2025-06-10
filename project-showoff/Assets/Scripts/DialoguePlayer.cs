@@ -1,14 +1,15 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialoguePlayer : MonoBehaviour
 {
     [SerializeField] private DialogueScriptableObject dialogueData;
     [SerializeField] private GameObject dialogueObject;
     [SerializeField] private Sprite humanSprite, spritSprite;
-    private TextMeshPro textMesh;
-    private SpriteRenderer portraitSprite;
+    private TextMeshProUGUI textMesh;
+    private Image portraitSprite;
     private Coroutine currentRoutine;
     private int index;
     private bool isTyping;
@@ -34,8 +35,8 @@ public class DialoguePlayer : MonoBehaviour
     private void StartDialogue()
     {
         dialogueObject.SetActive(true);
-        textMesh = dialogueObject.GetComponentInChildren<TextMeshPro>();
-        portraitSprite = dialogueObject.GetComponentsInChildren<SpriteRenderer>()[1];
+        textMesh = dialogueObject.GetComponentInChildren<TextMeshProUGUI>();
+        portraitSprite = dialogueObject.GetComponentsInChildren<Image>()[1];
         AdvanceDialogue();
     }
 
