@@ -34,13 +34,14 @@ public abstract class PickupObject : MonoBehaviour
 
             print(_velocity);
 
-            Vector2[] trajectory = plot(rb, (Vector2)transform.localPosition, _velocity, 500);
-            print((Vector2)transform.localPosition);
+            Vector2[] trajectory = plot(rb, (Vector2)transform.position, _velocity, 500);
+            print((Vector2)transform.position);
             lr.positionCount = trajectory.Length;
             Vector3[] positions = new Vector3[trajectory.Length];
             for (int i = 0; i < positions.Length; i++)
             {
                 positions[i] = trajectory[i];
+                positions[i].z = 15f;
             }
 
             lr.SetPositions(positions);

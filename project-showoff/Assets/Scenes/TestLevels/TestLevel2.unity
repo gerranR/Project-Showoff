@@ -313,6 +313,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 49386846833617051, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      propertyPath: m_Parameters.alignment
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 161007968708975151, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
       propertyPath: 'platforms.Array.data[1]'
       value: 
@@ -773,7 +777,9 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 804114296848253256, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+    - {fileID: 4968092075536849321, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
     m_RemovedGameObjects:
     - {fileID: 7097514562711408043, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
     - {fileID: 6492558226566984918, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
