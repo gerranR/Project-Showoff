@@ -35,11 +35,13 @@ public abstract class PickupObject : MonoBehaviour
             print(_velocity);
 
             Vector2[] trajectory = plot(rb, (Vector2)transform.position, _velocity, 500);
+            print((Vector2)transform.position);
             lr.positionCount = trajectory.Length;
             Vector3[] positions = new Vector3[trajectory.Length];
             for (int i = 0; i < positions.Length; i++)
             {
                 positions[i] = trajectory[i];
+                positions[i].z = 15f;
             }
 
             lr.SetPositions(positions);
@@ -58,8 +60,6 @@ public abstract class PickupObject : MonoBehaviour
         Vector2 gravityAccel = Physics2D.gravity * rigidbody.gravityScale * timeStep * timeStep;
         float drag = 1f - timeStep * rigidbody.linearDamping;
         Vector2 moveStep = velocity * timeStep;
-
-        print(timeStep + " " + gravityAccel +" "+ drag);
 
         for (int i = 0; i < steps; i++)
         {
