@@ -41,7 +41,7 @@ public abstract class PickupObject : MonoBehaviour
             for (int i = 0; i < positions.Length; i++)
             {
                 positions[i] = trajectory[i];
-                positions[i].z = 15f;
+                positions[i].z = GetParentsZ(gameObject);
             }
 
             lr.SetPositions(positions);
@@ -119,5 +119,15 @@ public abstract class PickupObject : MonoBehaviour
         {
             rb.linearVelocity = Vector2.zero;
         }
+    }
+
+    private float GetParentsZ(GameObject child)
+    {
+        if (child.transform.parent != null)
+        {
+            GameObject parent = child.transform.parent.gameObject;
+            return parent.transform.localPosition.z + GetParentsZ(parent);
+        }
+        return 0;
     }
 }
