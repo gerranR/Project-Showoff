@@ -71,8 +71,6 @@ public class LightDependent : MonoBehaviour
                     hit = Physics2D.Raycast(transform.position, direction, distance, rayMask);
                 }
 
-
-                Debug.DrawRay(transform.position, direction * distance, Color.red, 1f);
                 if (hit.transform != null)
                 {
                     //print(hit.collider.name);
