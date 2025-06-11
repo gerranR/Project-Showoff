@@ -66,10 +66,9 @@ public class Player2MovementScript : MonoBehaviour
 
         if (Input.GetButtonDown("Dash") && !isDashing)
         {
-            rb.linearVelocity = rb.linearVelocity.normalized * dashForce * Time.deltaTime;
+            rb.linearVelocity = rb.linearVelocity.normalized * dashForce;
             rb.linearDamping = LinearDampeningDuringDash;
             isDashing = true;
-
         }
 
         if (isAttached && player1.hasJumped())
@@ -97,7 +96,6 @@ public class Player2MovementScript : MonoBehaviour
 
             if (isDashing)
             {
-                print(rb.linearVelocity);
                 if (rb.linearVelocity.magnitude <= dashThrashold)
                 {
                     isDashing = false;
