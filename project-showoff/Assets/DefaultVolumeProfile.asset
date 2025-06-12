@@ -24,10 +24,10 @@ MonoBehaviour:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0.16726406
-          value: 0.17312789
-          inSlope: 1
-          outSlope: 1
+          time: 0.05698006
+          value: 0.07878786
+          inSlope: 0.468
+          outSlope: 0.468
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -371,10 +371,10 @@ MonoBehaviour:
     m_Value: 0.9
   intensity:
     m_OverrideState: 1
-    m_Value: 7.49
+    m_Value: 0
   scatter:
     m_OverrideState: 1
-    m_Value: 0.831
+    m_Value: 0.7
   clamp:
     m_OverrideState: 1
     m_Value: 65472
@@ -594,7 +594,7 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.12
+    m_Value: 0
   xMultiplier:
     m_OverrideState: 1
     m_Value: 1
@@ -724,10 +724,10 @@ MonoBehaviour:
   active: 1
   normalBias:
     m_OverrideState: 1
-    m_Value: 0.05
+    m_Value: 0
   viewBias:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0
   scaleBiasWithMinProbeDistance:
     m_OverrideState: 1
     m_Value: 0
@@ -770,19 +770,19 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: -0.05
+    m_Value: 1.4
   contrast:
     m_OverrideState: 1
-    m_Value: -14
+    m_Value: 1
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
     m_OverrideState: 1
-    m_Value: -30
+    m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: 18
+    m_Value: 0
 --- !u!114 &9099548931283147545
 MonoBehaviour:
   m_ObjectHideFlags: 3

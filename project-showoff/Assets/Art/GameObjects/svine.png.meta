@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: a4147c9e024dd1d42b826587d2ffd0f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -645749219455980481
+    second: svine_0
+  - first:
+      213: -7645485380062879267
+    second: svine_1
+  - first:
+      213: 5712391099513166667
+    second: svine_2
+  - first:
+      213: 2409195790662576822
+    second: svine_3
+  - first:
+      213: 9219573921961648382
+    second: svine_4
+  - first:
+      213: 3103815478350862321
+    second: svine_5
+  - first:
+      213: -3920722770542678473
+    second: svine_6
+  - first:
+      213: -2325186633743943544
+    second: svine_7
+  - first:
+      213: 5776084208958529472
+    second: svine_8
+  - first:
+      213: -4575783705657020772
+    second: svine_9
+  - first:
+      213: 7572926125615284561
+    second: svine_10
+  - first:
+      213: -5165437378313473843
+    second: svine_11
+  - first:
+      213: -2908985824514354034
+    second: svine_12
+  - first:
+      213: -2571534566496647178
+    second: svine_13
+  - first:
+      213: -2809185317727851401
+    second: svine_14
+  - first:
+      213: -7751337120643254915
+    second: svine_15
+  - first:
+      213: -183371252250194130
+    second: svine_16
+  - first:
+      213: -974837576588875781
+    second: svine_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: svine_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1393
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c27589186d907f0800000000000000
+      internalID: -645749219455980481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1392
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1e8e9ed87c5e590800000000000000
+      internalID: -7645485380062879267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1389
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4bd590807d764f40800000000000000
+      internalID: 5712391099513166667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1394
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba2fc0aece2f6120800000000000000
+      internalID: 2409195790662576822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1213
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0aaf672a182ff70800000000000000
+      internalID: 9219573921961648382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 14
+        width: 235
+        height: 1358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7567b9bb7f21b20800000000000000
+      internalID: 3103815478350862321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1134
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea40fb96bc699c0800000000000000
+      internalID: -3920722770542678473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1103
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888b43373174bbfd0800000000000000
+      internalID: -2325186633743943544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1046
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf57bb2cf5c82050800000000000000
+      internalID: 5776084208958529472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 953
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9eea4796fc8f70c0800000000000000
+      internalID: -4575783705657020772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 881
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151039b2030781960800000000000000
+      internalID: 7572926125615284561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 873
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0b914721ea058b0800000000000000
+      internalID: -5165437378313473843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 795
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84dc291ec431a7d0800000000000000
+      internalID: -2908985824514354034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 737
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f74454bfe2105cd0800000000000000
+      internalID: -2571534566496647178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ca69456d4c309d0800000000000000
+      internalID: -2809185317727851401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 595
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7572c505f7bd6490800000000000000
+      internalID: -7751337120643254915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 504
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fcb9f41d8847df0800000000000000
+      internalID: -183371252250194130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: svine_17
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 187
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7a7b5936ea872f0800000000000000
+      internalID: -974837576588875781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      svine_0: -645749219455980481
+      svine_1: -7645485380062879267
+      svine_10: 7572926125615284561
+      svine_11: -5165437378313473843
+      svine_12: -2908985824514354034
+      svine_13: -2571534566496647178
+      svine_14: -2809185317727851401
+      svine_15: -7751337120643254915
+      svine_16: -183371252250194130
+      svine_17: -974837576588875781
+      svine_2: 5712391099513166667
+      svine_3: 2409195790662576822
+      svine_4: 9219573921961648382
+      svine_5: 3103815478350862321
+      svine_6: -3920722770542678473
+      svine_7: -2325186633743943544
+      svine_8: 5776084208958529472
+      svine_9: -4575783705657020772
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

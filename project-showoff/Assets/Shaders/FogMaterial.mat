@@ -41,10 +41,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _fogSize: 2
+    - _fogSize: 1
     m_Colors:
-    - _fogColor: {r: 1, g: 1, b: 1, a: 0.1176471}
-    - _fogSpeed: {r: 0.5, g: 0, b: 0, a: 0}
+    - _fogColor: {r: 0.8490566, g: 0, b: 0.7401759, a: 0.1176471}
+    - _fogSpeed: {r: 5, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2211838621438933096

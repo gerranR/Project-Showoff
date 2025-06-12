@@ -523,7 +523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4862414418230517095}
   - component: {fileID: 641576099004433665}
-  m_Layer: 10
+  m_Layer: 15
   m_Name: LightSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
