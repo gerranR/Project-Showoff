@@ -1217,6 +1217,36 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2091062088}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1077784980003537115, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 243953618}
+    - targetCorrespondingSourceObject: {fileID: 112362302252655856, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 243953617}
+    - targetCorrespondingSourceObject: {fileID: 1657679795818365894, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 243953616}
+    - targetCorrespondingSourceObject: {fileID: 3583284882482130466, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2004638612}
+    - targetCorrespondingSourceObject: {fileID: 2216212166955979648, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 672509411}
+    - targetCorrespondingSourceObject: {fileID: 4353216038976582313, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 405175468}
+    - targetCorrespondingSourceObject: {fileID: 3080490270123927546, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1209852227}
+    - targetCorrespondingSourceObject: {fileID: 5946748237219499462, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 85673392}
+    - targetCorrespondingSourceObject: {fileID: 1549859350621376092, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1208943002}
+    - targetCorrespondingSourceObject: {fileID: 8981610273267535858, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 52063762}
     - targetCorrespondingSourceObject: {fileID: 5442959503358614996, guid: 7983ae1f7950918439c90f35aebb7b95, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
