@@ -208,10 +208,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0828adb3a464e45a4bb0d79c5ac52b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 300
-  dashForce: 7500
+  speed: 200
+  dashForce: 75
   LinearDampeningDuringDash: 10
-  dashThrashold: 0
+  dashThrashold: 1
   rb: {fileID: 3438014443890501869}
   attachDistance: 2
   lerpSpeed: 10
