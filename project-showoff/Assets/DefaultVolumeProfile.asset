@@ -24,19 +24,19 @@ MonoBehaviour:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0.05698006
-          value: 0.07878786
-          inSlope: 0.468
-          outSlope: 0.468
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.41636586
-          value: 0.39322948
-          inSlope: 0.9942928
-          outSlope: 0.9942928
+          time: 0.5356125
+          value: 0.5272727
+          inSlope: -0.45882353
+          outSlope: -0.45882353
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -44,8 +44,8 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 1
           value: 1
-          inSlope: 1
-          outSlope: 1
+          inSlope: 0.9942928
+          outSlope: 0.9942928
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -188,13 +188,31 @@ MonoBehaviour:
   lumVsSat:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 0
+      <length>k__BackingField: 2
       m_Loop: 0
       m_ZeroValue: 0.5
       m_Range: 1
       m_Curve:
         serializedVersion: 2
-        m_Curve: []
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.15384616
+          value: 0.26060605
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.71794873
+          value: 0.4787879
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -213,13 +231,13 @@ MonoBehaviour:
   active: 1
   type:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 3
   intensity:
     m_OverrideState: 1
     m_Value: 0
   response:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 0
   texture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -244,10 +262,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.391
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.028
   rounded:
     m_OverrideState: 1
     m_Value: 0
@@ -325,7 +343,7 @@ MonoBehaviour:
   active: 1
   redOutRedIn:
     m_OverrideState: 1
-    m_Value: 50
+    m_Value: 176
   redOutGreenIn:
     m_OverrideState: 1
     m_Value: 0
@@ -415,7 +433,7 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   highlights:
     m_OverrideState: 1
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_Value: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
   balance:
     m_OverrideState: 1
     m_Value: 0
@@ -512,13 +530,13 @@ MonoBehaviour:
   active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 0.6813122, y: 1, z: 0.42912477, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 0.5700815, y: 1, z: 0.8059378, w: 0}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 0.49419695, y: 1, z: 0.5080204, w: 0}
 --- !u!114 &1247868777620691934
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -534,7 +552,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
   neutralHDRRangeReductionMode:
     m_OverrideState: 1
     m_Value: 2
@@ -622,10 +640,10 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: 77
+    m_Value: 0
   tint:
     m_OverrideState: 1
-    m_Value: 29
+    m_Value: 0
 --- !u!114 &3460444317416099510
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -733,7 +751,7 @@ MonoBehaviour:
     m_Value: 0
   samplingNoise:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0
   animateSamplingNoise:
     m_OverrideState: 1
     m_Value: 1
@@ -770,7 +788,7 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 1.4
+    m_Value: 1
   contrast:
     m_OverrideState: 1
     m_Value: 1

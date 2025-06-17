@@ -66,6 +66,9 @@ TagManager:
   - name: Midground 2
     uniqueID: 3653590665
     locked: 0
+  - name: Players
+    uniqueID: 760367797
+    locked: 0
   - name: Midground 3
     uniqueID: 769856829
     locked: 0

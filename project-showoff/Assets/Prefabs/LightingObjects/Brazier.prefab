@@ -77,7 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 769856829
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 115
   m_Sprite: {fileID: 21300000, guid: 0c2dd722d67d3c140b137802b3b63564, type: 3}
   m_Color: {r: 0.5330188, g: 0.6910214, b: 1, a: 1}
@@ -561,11 +561,11 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.3
-  m_Color: {r: 0.6538902, g: 0.7312957, b: 0.76729554, a: 1}
-  m_Intensity: 0.7
-  m_LightVolumeIntensity: 0.75
-  m_LightVolumeEnabled: 1
-  m_ApplyToSortingLayers: c5dbf86a7b9b49f9e95467ba7bc4209900000000b1e3e27c895ec5d9
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 0.1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: c5dbf86a7b9b49f9e95467ba7bc4209900000000b1e3e27c895ec5d93d15e32d2d969cb103bcdff6b54a522d
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_ShadowsEnabled: 1
   m_ShadowIntensity: 0.75
   m_ShadowSoftness: 1
-  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowSoftnessFalloffIntensity: 0.828
   m_ShadowVolumeIntensityEnabled: 1
   m_ShadowVolumeIntensity: 1
   m_LocalBounds:
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 1
-  m_PointLightOuterRadius: 3.1
+  m_PointLightOuterRadius: 3.83
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
