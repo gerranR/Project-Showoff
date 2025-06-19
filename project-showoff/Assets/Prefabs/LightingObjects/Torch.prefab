@@ -79,7 +79,7 @@ SpriteShapeRenderer:
   m_SortingLayerID: -1167633175
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.050980393}
   m_MaskInteraction: 0
   m_ShapeTexture: {fileID: 2800000, guid: b281b91a70a624a0da1c43adc1c30c7b, type: 3}
   m_Sprites:
@@ -442,7 +442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedPickup: 0
   isThrowable: 1
-  throwForceMultiplyer: 10
+  throwForceMultiplyer: 12
   invertThrow: 1
 --- !u!120 &6698317500667409013
 LineRenderer:
@@ -619,12 +619,12 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 0
+  m_ShadowsEnabled: 1
   m_ShadowIntensity: 0.75
   m_ShadowSoftness: 0.407
   m_ShadowSoftnessFalloffIntensity: 0.459
   m_ShadowVolumeIntensityEnabled: 1
-  m_ShadowVolumeIntensity: 0
+  m_ShadowVolumeIntensity: 1
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
