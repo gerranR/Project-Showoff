@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 3120442065027045890}
   - component: {fileID: 5521085593857908734}
   - component: {fileID: 7670426645852403189}
+  - component: {fileID: 2228936160340764773}
   m_Layer: 22
   m_Name: Player2
   m_TagString: Spirit
@@ -216,6 +217,7 @@ MonoBehaviour:
   rb: {fileID: 3438014443890501869}
   attachDistance: 2
   lerpSpeed: 10
+  animator: {fileID: 2228936160340764773}
 --- !u!58 &3120442065027045890
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -291,6 +293,28 @@ MonoBehaviour:
   layersWithPickupObjects:
     serializedVersion: 2
     m_Bits: 0
+--- !u!95 &2228936160340764773
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064233735296471657}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d3d66d0ecfa04a41af5d8587ec925e4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2238602291709916344
 GameObject:
   m_ObjectHideFlags: 0

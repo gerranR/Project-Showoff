@@ -4936,6 +4936,7 @@ GameObject:
   - component: {fileID: 2712979913687842749}
   - component: {fileID: 552886982109180144}
   - component: {fileID: 6934177704529270053}
+  - component: {fileID: 627605890590066141}
   m_Layer: 23
   m_Name: Player
   m_TagString: Human
@@ -5096,6 +5097,7 @@ MonoBehaviour:
   jumpForce: 7.5
   rb: {fileID: 2712979913687842749}
   groundDust: {fileID: 5770638072975777408}
+  animator: {fileID: 627605890590066141}
 --- !u!114 &6934177704529270053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5114,6 +5116,28 @@ MonoBehaviour:
   layersWithPickupObjects:
     serializedVersion: 2
     m_Bits: 524288
+--- !u!95 &627605890590066141
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7397878269678969455}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9dbac007780bf1428334097201dfde3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8166447970130366636
 GameObject:
   m_ObjectHideFlags: 0
