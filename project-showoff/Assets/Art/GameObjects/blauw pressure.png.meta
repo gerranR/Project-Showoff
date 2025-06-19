@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: fed1ad275c410034fbdbc8d231b75da7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5926885581973695859
+    second: blauw pressure_0
+  - first:
+      213: -1969592947400029259
+    second: blauw pressure_1
+  - first:
+      213: -5004536200927638323
+    second: blauw pressure_2
+  - first:
+      213: 4471581985599332435
+    second: blauw pressure_3
+  - first:
+      213: 8776367533258525889
+    second: blauw pressure_4
+  - first:
+      213: -5654646049212822137
+    second: blauw pressure_5
+  - first:
+      213: -5672776044855580316
+    second: blauw pressure_6
+  - first:
+      213: 8249305386619671478
+    second: blauw pressure_7
+  - first:
+      213: 8733372618263722037
+    second: blauw pressure_8
+  - first:
+      213: -6509969189649110635
+    second: blauw pressure_9
+  - first:
+      213: 486451112802788241
+    second: blauw pressure_10
+  - first:
+      213: 6490960310119029434
+    second: blauw pressure_11
+  - first:
+      213: -6652651609876575969
+    second: blauw pressure_12
+  - first:
+      213: 6664233795732428946
+    second: blauw pressure_13
+  - first:
+      213: 4475590935486284064
+    second: blauw pressure_14
+  - first:
+      213: -7380517633050799542
+    second: blauw pressure_15
+  - first:
+      213: 6935410847815787213
+    second: blauw pressure_16
+  - first:
+      213: 2566884688442033226
+    second: blauw pressure_17
+  - first:
+      213: 5805025476120526567
+    second: blauw pressure_18
+  - first:
+      213: 8687538125841484867
+    second: blauw pressure_19
+  - first:
+      213: 21713316563240107
+    second: blauw pressure_20
+  - first:
+      213: -4675195739396631815
+    second: blauw pressure_21
+  - first:
+      213: -4654145962506475549
+    second: blauw pressure_22
+  - first:
+      213: 3306320183284417914
+    second: blauw pressure_23
+  - first:
+      213: -4722723570306210750
+    second: blauw pressure_24
+  - first:
+      213: -1703376853892001985
+    second: blauw pressure_25
+  - first:
+      213: -8877493642871139977
+    second: blauw pressure_26
+  - first:
+      213: -7986360113523851366
+    second: blauw pressure_27
+  - first:
+      213: 3501729708534693339
+    second: blauw pressure_28
+  - first:
+      213: -2320078653516234709
+    second: blauw pressure_29
+  - first:
+      213: -1065731012875481283
+    second: blauw pressure_30
+  - first:
+      213: -4171676233842238353
+    second: blauw pressure_31
+  - first:
+      213: 6145936020909000518
+    second: blauw pressure_32
+  - first:
+      213: 253383470982813868
+    second: blauw pressure_33
+  - first:
+      213: -7445908118980535159
+    second: blauw pressure_34
+  - first:
+      213: 8229882316456927786
+    second: blauw pressure_35
+  - first:
+      213: 506958525665848208
+    second: blauw pressure_36
+  - first:
+      213: -449248640973000724
+    second: blauw pressure_37
+  - first:
+      213: 1165553820500429817
+    second: blauw pressure_38
+  - first:
+      213: 9124807265328716251
+    second: blauw pressure_39
+  - first:
+      213: 5942610229926255754
+    second: blauw pressure_40
+  - first:
+      213: 6754592663649045685
+    second: blauw pressure_41
+  - first:
+      213: -4998934577032217311
+    second: blauw pressure_42
+  - first:
+      213: 1896366742099250971
+    second: blauw pressure_43
+  - first:
+      213: -3038350888534741121
+    second: blauw pressure_44
+  - first:
+      213: 4995972567609161252
+    second: blauw pressure_45
+  - first:
+      213: 1812163419678320602
+    second: blauw pressure_46
+  - first:
+      213: 1280175822570675398
+    second: blauw pressure_47
+  - first:
+      213: 1746929066403183535
+    second: blauw pressure_48
+  - first:
+      213: 880284170642980769
+    second: blauw pressure_49
+  - first:
+      213: 4458928023244525502
+    second: blauw pressure_50
+  - first:
+      213: -3853477408921707893
+    second: blauw pressure_51
+  - first:
+      213: 3414027703616176308
+    second: blauw pressure_52
+  - first:
+      213: -2939147012966945529
+    second: blauw pressure_53
+  - first:
+      213: 4093496211315652839
+    second: blauw pressure_54
+  - first:
+      213: 5354669607700586476
+    second: blauw pressure_55
+  - first:
+      213: 998215237878734584
+    second: blauw pressure_56
+  - first:
+      213: -5517144612359856190
+    second: blauw pressure_57
+  - first:
+      213: -1389240236612937332
+    second: blauw pressure_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blauw pressure_0
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 222
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d2de9e807804250800000000000000
+      internalID: 5926885581973695859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_1
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 220
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb4b1256a99aa4e0800000000000000
+      internalID: -1969592947400029259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 196
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc002627d05c8ab0800000000000000
+      internalID: -5004536200927638323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 200
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3502fabdf104e0e30800000000000000
+      internalID: 4471581985599332435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 189
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc4526b5cbebc970800000000000000
+      internalID: 8776367533258525889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 202
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d8a1ab069a681b0800000000000000
+      internalID: -5654646049212822137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_6
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 190
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469a90c2e304641b0800000000000000
+      internalID: -5672776044855580316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_7
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 204
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b39e2dda8b6b7270800000000000000
+      internalID: 8249305386619671478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_8
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 197
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5387bbaff1c233970800000000000000
+      internalID: 8733372618263722037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 188
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5992a386381f7a5a0800000000000000
+      internalID: -6509969189649110635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 178
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1932433b5b830c600800000000000000
+      internalID: 486451112802788241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_11
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 172
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaddcfe206841a50800000000000000
+      internalID: 6490960310119029434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 175
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1940eaab980da3a0800000000000000
+      internalID: -6652651609876575969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 171
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298d8ce145d1c7c50800000000000000
+      internalID: 6664233795732428946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_14
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 183
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0214e9d3e3e7c1e30800000000000000
+      internalID: 4475590935486284064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 157
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42108ff052239990800000000000000
+      internalID: -7380517633050799542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 784
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc26373bb678f3060800000000000000
+      internalID: 6935410847815787213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 135
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a440af136086f9320800000000000000
+      internalID: 2566884688442033226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eeb1480ae79f8050800000000000000
+      internalID: 5805025476120526567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_19
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 101
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cc17b95e5509870800000000000000
+      internalID: 8687538125841484867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 74
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4c5a875242d4000800000000000000
+      internalID: 21713316563240107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_21
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f218d9ce3e5e1fb0800000000000000
+      internalID: -4675195739396631815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_22
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 58
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7abf3e7e6296fb0800000000000000
+      internalID: -4654145962506475549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 55
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a754f5660b862ed20800000000000000
+      internalID: 3306320183284417914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_24
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 62
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244a8835fe3857eb0800000000000000
+      internalID: -4722723570306210750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_25
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 52
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f0529b6c36c58e0800000000000000
+      internalID: -1703376853892001985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_26
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77190e8119eccc480800000000000000
+      internalID: -8877493642871139977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_27
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 50
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fff015acfba2190800000000000000
+      internalID: -7986360113523851366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_28
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 47
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd74a0fd94a89030800000000000000
+      internalID: 3501729708534693339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_29
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 57
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20c236c1cc6dcfd0800000000000000
+      internalID: -2320078653516234709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 55
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f807f4a43c531f0800000000000000
+      internalID: -1065731012875481283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_31
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cd4eb519a3b16c0800000000000000
+      internalID: -4171676233842238353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 42
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6470f8a9f30ca4550800000000000000
+      internalID: 6145936020909000518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 43
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8d2e3ace2348300800000000000000
+      internalID: 253383470982813868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_34
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 47
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cd7f11402daa890800000000000000
+      internalID: -7445908118980535159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a222fafec5a663270800000000000000
+      internalID: 8229882316456927786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 44
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b2b26d714190700800000000000000
+      internalID: 506958525665848208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_37
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 37
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef2af2cdb2f3c9f0800000000000000
+      internalID: -449248640973000724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 31
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb078d3601ec2010800000000000000
+      internalID: 1165553820500429817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_39
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 38
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd952ddccd3d1ae70800000000000000
+      internalID: 9124807265328716251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_40
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 34
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c5b51d484687250800000000000000
+      internalID: 5942610229926255754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_41
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcc24f7d322dbd50800000000000000
+      internalID: 6754592663649045685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_42
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 40
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12db398dc7730aab0800000000000000
+      internalID: -4998934577032217311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_43
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 39
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fc0ba218f315a10800000000000000
+      internalID: 1896366742099250971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_44
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 46
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fe4e9f6fb95d5d0800000000000000
+      internalID: -3038350888534741121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_45
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 20
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426b0f79492455540800000000000000
+      internalID: 4995972567609161252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 26
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad722e86709162910800000000000000
+      internalID: 1812163419678320602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_47
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 20
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc5e52c02914c110800000000000000
+      internalID: 1280175822570675398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_48
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab34c2fab65e3810800000000000000
+      internalID: 1746929066403183535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_49
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aff29c0ac5673c00800000000000000
+      internalID: 880284170642980769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_50
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 25
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf4688a96b41ed30800000000000000
+      internalID: 4458928023244525502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_51
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 13
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a9a3396b2b58ac0800000000000000
+      internalID: -3853477408921707893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_52
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 7
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0826fab10116f20800000000000000
+      internalID: 3414027703616176308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_53
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d647d2d5d0637d0800000000000000
+      internalID: -2939147012966945529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_54
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 5
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e870ecad150fc830800000000000000
+      internalID: 4093496211315652839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_55
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 12
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefd29053ab9f4a40800000000000000
+      internalID: 5354669607700586476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_56
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fed427587f5add00800000000000000
+      internalID: 998215237878734584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_57
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf94d5c43a2f63b0800000000000000
+      internalID: -5517144612359856190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blauw pressure_58
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8991058d5d68bce0800000000000000
+      internalID: -1389240236612937332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blauw pressure_0: 5926885581973695859
+      blauw pressure_1: -1969592947400029259
+      blauw pressure_10: 486451112802788241
+      blauw pressure_11: 6490960310119029434
+      blauw pressure_12: -6652651609876575969
+      blauw pressure_13: 6664233795732428946
+      blauw pressure_14: 4475590935486284064
+      blauw pressure_15: -7380517633050799542
+      blauw pressure_16: 6935410847815787213
+      blauw pressure_17: 2566884688442033226
+      blauw pressure_18: 5805025476120526567
+      blauw pressure_19: 8687538125841484867
+      blauw pressure_2: -5004536200927638323
+      blauw pressure_20: 21713316563240107
+      blauw pressure_21: -4675195739396631815
+      blauw pressure_22: -4654145962506475549
+      blauw pressure_23: 3306320183284417914
+      blauw pressure_24: -4722723570306210750
+      blauw pressure_25: -1703376853892001985
+      blauw pressure_26: -8877493642871139977
+      blauw pressure_27: -7986360113523851366
+      blauw pressure_28: 3501729708534693339
+      blauw pressure_29: -2320078653516234709
+      blauw pressure_3: 4471581985599332435
+      blauw pressure_30: -1065731012875481283
+      blauw pressure_31: -4171676233842238353
+      blauw pressure_32: 6145936020909000518
+      blauw pressure_33: 253383470982813868
+      blauw pressure_34: -7445908118980535159
+      blauw pressure_35: 8229882316456927786
+      blauw pressure_36: 506958525665848208
+      blauw pressure_37: -449248640973000724
+      blauw pressure_38: 1165553820500429817
+      blauw pressure_39: 9124807265328716251
+      blauw pressure_4: 8776367533258525889
+      blauw pressure_40: 5942610229926255754
+      blauw pressure_41: 6754592663649045685
+      blauw pressure_42: -4998934577032217311
+      blauw pressure_43: 1896366742099250971
+      blauw pressure_44: -3038350888534741121
+      blauw pressure_45: 4995972567609161252
+      blauw pressure_46: 1812163419678320602
+      blauw pressure_47: 1280175822570675398
+      blauw pressure_48: 1746929066403183535
+      blauw pressure_49: 880284170642980769
+      blauw pressure_5: -5654646049212822137
+      blauw pressure_50: 4458928023244525502
+      blauw pressure_51: -3853477408921707893
+      blauw pressure_52: 3414027703616176308
+      blauw pressure_53: -2939147012966945529
+      blauw pressure_54: 4093496211315652839
+      blauw pressure_55: 5354669607700586476
+      blauw pressure_56: 998215237878734584
+      blauw pressure_57: -5517144612359856190
+      blauw pressure_58: -1389240236612937332
+      blauw pressure_6: -5672776044855580316
+      blauw pressure_7: 8249305386619671478
+      blauw pressure_8: 8733372618263722037
+      blauw pressure_9: -6509969189649110635
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

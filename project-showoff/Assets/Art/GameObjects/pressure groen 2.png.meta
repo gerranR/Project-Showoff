@@ -1,0 +1,2249 @@
+fileFormatVersion: 2
+guid: 0e107f2b2547c544e90d37697e5f69fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4318001947783399192
+    second: pressure groen 2_0
+  - first:
+      213: -6447838283495769736
+    second: pressure groen 2_1
+  - first:
+      213: -3448559148644833025
+    second: pressure groen 2_2
+  - first:
+      213: -896281610057899289
+    second: pressure groen 2_3
+  - first:
+      213: 7947613981526239979
+    second: pressure groen 2_4
+  - first:
+      213: 4115046319095365061
+    second: pressure groen 2_5
+  - first:
+      213: 2587671391613747993
+    second: pressure groen 2_6
+  - first:
+      213: 5899691484345431368
+    second: pressure groen 2_7
+  - first:
+      213: -2801071992182518700
+    second: pressure groen 2_8
+  - first:
+      213: -2054913817809463484
+    second: pressure groen 2_9
+  - first:
+      213: -7470408070080684133
+    second: pressure groen 2_10
+  - first:
+      213: 732764707885725507
+    second: pressure groen 2_11
+  - first:
+      213: 7310263861785903496
+    second: pressure groen 2_12
+  - first:
+      213: 6529997347213069018
+    second: pressure groen 2_13
+  - first:
+      213: 8401872210866516387
+    second: pressure groen 2_14
+  - first:
+      213: 1425077170569560809
+    second: pressure groen 2_15
+  - first:
+      213: 2311870220710212433
+    second: pressure groen 2_16
+  - first:
+      213: 8340891781227907431
+    second: pressure groen 2_17
+  - first:
+      213: 396327847050058697
+    second: pressure groen 2_18
+  - first:
+      213: 182274905262336161
+    second: pressure groen 2_19
+  - first:
+      213: 5534216810405911352
+    second: pressure groen 2_20
+  - first:
+      213: -5719549021430658104
+    second: pressure groen 2_21
+  - first:
+      213: 5331686578105388915
+    second: pressure groen 2_22
+  - first:
+      213: 1819250740993308166
+    second: pressure groen 2_23
+  - first:
+      213: 3120114888654642167
+    second: pressure groen 2_24
+  - first:
+      213: 3509252866069044916
+    second: pressure groen 2_25
+  - first:
+      213: 3701237604767937483
+    second: pressure groen 2_26
+  - first:
+      213: -3597826657001248461
+    second: pressure groen 2_27
+  - first:
+      213: 8173507726198484286
+    second: pressure groen 2_28
+  - first:
+      213: -8880861174925889512
+    second: pressure groen 2_29
+  - first:
+      213: 4393556452792279504
+    second: pressure groen 2_30
+  - first:
+      213: 6932790077046092439
+    second: pressure groen 2_31
+  - first:
+      213: -4708964149307243150
+    second: pressure groen 2_32
+  - first:
+      213: -2284049191928022158
+    second: pressure groen 2_33
+  - first:
+      213: -7904662445456507383
+    second: pressure groen 2_34
+  - first:
+      213: 247752193155810470
+    second: pressure groen 2_35
+  - first:
+      213: 7518865521728951041
+    second: pressure groen 2_36
+  - first:
+      213: 7383051544100298763
+    second: pressure groen 2_37
+  - first:
+      213: -2468674942099131516
+    second: pressure groen 2_38
+  - first:
+      213: 4160774403592897687
+    second: pressure groen 2_39
+  - first:
+      213: -6342279818518667593
+    second: pressure groen 2_40
+  - first:
+      213: 2837442293129832321
+    second: pressure groen 2_41
+  - first:
+      213: 3136250455858800268
+    second: pressure groen 2_42
+  - first:
+      213: 8529328179644147112
+    second: pressure groen 2_43
+  - first:
+      213: -5533857124356260177
+    second: pressure groen 2_44
+  - first:
+      213: -7784376435416840000
+    second: pressure groen 2_45
+  - first:
+      213: -926926627295921572
+    second: pressure groen 2_46
+  - first:
+      213: 7750745430841235891
+    second: pressure groen 2_47
+  - first:
+      213: 5839694902915920103
+    second: pressure groen 2_48
+  - first:
+      213: -8795015994554750628
+    second: pressure groen 2_49
+  - first:
+      213: 5403786797229688898
+    second: pressure groen 2_50
+  - first:
+      213: 4524308090927159159
+    second: pressure groen 2_51
+  - first:
+      213: -7429739472170761332
+    second: pressure groen 2_52
+  - first:
+      213: 218326936356260810
+    second: pressure groen 2_53
+  - first:
+      213: -6651779375172257618
+    second: pressure groen 2_54
+  - first:
+      213: -2638540364045221166
+    second: pressure groen 2_55
+  - first:
+      213: -294817232891271672
+    second: pressure groen 2_56
+  - first:
+      213: 270733572924591626
+    second: pressure groen 2_57
+  - first:
+      213: 7840672778265814813
+    second: pressure groen 2_58
+  - first:
+      213: 8893957937206971839
+    second: pressure groen 2_59
+  - first:
+      213: -6422084426868595146
+    second: pressure groen 2_60
+  - first:
+      213: -7900434879290714155
+    second: pressure groen 2_61
+  - first:
+      213: 1985901370749311013
+    second: pressure groen 2_62
+  - first:
+      213: 8638890597660005648
+    second: pressure groen 2_63
+  - first:
+      213: 8704996771400673288
+    second: pressure groen 2_64
+  - first:
+      213: 1088156039884836465
+    second: pressure groen 2_65
+  - first:
+      213: 7510939319297495381
+    second: pressure groen 2_66
+  - first:
+      213: 1918773787611273981
+    second: pressure groen 2_67
+  - first:
+      213: 1929647224968626066
+    second: pressure groen 2_68
+  - first:
+      213: -6094045014196559469
+    second: pressure groen 2_69
+  - first:
+      213: -4260698601100151637
+    second: pressure groen 2_70
+  - first:
+      213: 1038548155626470632
+    second: pressure groen 2_71
+  - first:
+      213: 5071783930454593893
+    second: pressure groen 2_72
+  - first:
+      213: -8741595199999346679
+    second: pressure groen 2_73
+  - first:
+      213: 2312411987801353004
+    second: pressure groen 2_74
+  - first:
+      213: 6604610621359515142
+    second: pressure groen 2_75
+  - first:
+      213: 7536710092324069257
+    second: pressure groen 2_76
+  - first:
+      213: -3530896997524317796
+    second: pressure groen 2_77
+  - first:
+      213: -978530539834301683
+    second: pressure groen 2_78
+  - first:
+      213: -4912967200575208243
+    second: pressure groen 2_79
+  - first:
+      213: -4171589904546148784
+    second: pressure groen 2_80
+  - first:
+      213: 5591668714956826806
+    second: pressure groen 2_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pressure groen 2_0
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 283
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817031dc4ef9ceb30800000000000000
+      internalID: 4318001947783399192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 251
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879f1174e3da486a0800000000000000
+      internalID: -6447838283495769736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 247
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8e91eb9b14420d0800000000000000
+      internalID: -3448559148644833025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 262
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2a8c5df94cf83f0800000000000000
+      internalID: -896281610057899289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 264
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beaacc4dec89b4e60800000000000000
+      internalID: 7947613981526239979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_5
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 245
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd35f323d49b1930800000000000000
+      internalID: 4115046319095365061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 258
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913049cab6149e320800000000000000
+      internalID: 2587671391613747993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 230
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8457ec8a52aefd150800000000000000
+      internalID: 5899691484345431368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 234
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c4aa32dd79029d0800000000000000
+      internalID: -2801071992182518700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 247
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447dc6525ca7b73e0800000000000000
+      internalID: -2054913817809463484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_10
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 236
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f11afa077c35890800000000000000
+      internalID: -7470408070080684133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 219
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347b8759e9d4b2a00800000000000000
+      internalID: 732764707885725507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 236
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881cf183046437560800000000000000
+      internalID: 7310263861785903496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_13
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 224
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adac0e86df53f9a50800000000000000
+      internalID: 6529997347213069018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_14
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 234
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1bce0c242799470800000000000000
+      internalID: 8401872210866516387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 218
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e24151e224e6c310800000000000000
+      internalID: 1425077170569560809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 212
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1537c3887b9651020800000000000000
+      internalID: 2311870220710212433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 215
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769801212ecc0c370800000000000000
+      internalID: 8340891781227907431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_18
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 212
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb930ab31a008500800000000000000
+      internalID: 396327847050058697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_19
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 223
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a821a38f02978200800000000000000
+      internalID: 182274905262336161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_20
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b5d361edc7dcc40800000000000000
+      internalID: 5534216810405911352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_21
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 209
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb413ee77410a0b0800000000000000
+      internalID: -5719549021430658104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 209
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f80bdb1b4fdf940800000000000000
+      internalID: 5331686578105388915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 206
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606b54ef8e64f3910800000000000000
+      internalID: 1819250740993308166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_24
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 202
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbdaacc5ffdc4b20800000000000000
+      internalID: 3120114888654642167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_25
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 203
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be111d83ee53b030800000000000000
+      internalID: 3509252866069044916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 207
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3b285ddff6d5330800000000000000
+      internalID: 3701237604767937483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_27
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 193
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3396202b7b3f11ec0800000000000000
+      internalID: -3597826657001248461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_28
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 207
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3da8fcc8f12e6170800000000000000
+      internalID: 8173507726198484286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_29
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 201
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810fbf070d7d0c480800000000000000
+      internalID: -8880861174925889512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 209
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d12f45d05c09fc30800000000000000
+      internalID: 4393556452792279504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_31
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 204
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7927fa4f7d7363060800000000000000
+      internalID: 6932790077046092439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_32
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 188
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2750e7c2e0666aeb0800000000000000
+      internalID: -4708964149307243150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_33
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 196
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bbc918c5d6d40e0800000000000000
+      internalID: -2284049191928022158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 197
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eb135f26ffc4290800000000000000
+      internalID: -7904662445456507383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a440699e41307300800000000000000
+      internalID: 247752193155810470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_36
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1031698fa50685860800000000000000
+      internalID: 7518865521728951041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_37
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 185
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b006f74234ed57660800000000000000
+      internalID: 7383051544100298763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_38
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 186
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483f54248318dbdd0800000000000000
+      internalID: -2468674942099131516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_39
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 185
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79441bc764a0eb930800000000000000
+      internalID: 4160774403592897687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_40
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 193
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bed01f9b12bbf7a0800000000000000
+      internalID: -6342279818518667593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_41
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 171
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1876ca07bbe906720800000000000000
+      internalID: 2837442293129832321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 181
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86ee1c4c23368b20800000000000000
+      internalID: 3136250455858800268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 175
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a52b600ac24e5670800000000000000
+      internalID: 8529328179644147112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_44
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faefaf8d34ac333b0800000000000000
+      internalID: -5533857124356260177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_45
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 186
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8ce0910e658f390800000000000000
+      internalID: -7784376435416840000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_46
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 184
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5afc2fb425e223f0800000000000000
+      internalID: -926926627295921572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_47
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 184
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b916c577ed209b60800000000000000
+      internalID: 7750745430841235891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_48
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e076fcf293ca0150800000000000000
+      internalID: 5839694902915920103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_49
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 173
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c596faa0d83d1f580800000000000000
+      internalID: -8795015994554750628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_50
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24842da267b1efa40800000000000000
+      internalID: 5403786797229688898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_51
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 169
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7779326ec3299ce30800000000000000
+      internalID: 4524308090927159159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 163
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c834093805344e890800000000000000
+      internalID: -7429739472170761332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_53
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 164
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb0a6e1137a70300800000000000000
+      internalID: 218326936356260810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_54
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 153
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea87692a6e120b3a0800000000000000
+      internalID: -6651779375172257618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_55
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 166
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d20e8bb485026bd0800000000000000
+      internalID: -2638540364045221166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_56
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 166
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8062ad7e94998ebf0800000000000000
+      internalID: -294817232891271672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_57
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 160
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e41fa00c6d1c300800000000000000
+      internalID: 270733572924591626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_58
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 157
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17eb94a95aafcc60800000000000000
+      internalID: 7840672778265814813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_59
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 161
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdcc762f9fad6b70800000000000000
+      internalID: 8893957937206971839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_60
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 159
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636edea4d3c20e6a0800000000000000
+      internalID: -6422084426868595146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_61
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 170
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d755c8e5540c5290800000000000000
+      internalID: -7900434879290714155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_62
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 149
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528597266c65f8b10800000000000000
+      internalID: 1985901370749311013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 160
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0159cfe4a3183e770800000000000000
+      internalID: 8638890597660005648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_64
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 161
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808624a417c5ec870800000000000000
+      internalID: 8704996771400673288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_65
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 139
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e08892728e91f00800000000000000
+      internalID: 1088156039884836465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_66
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551dd3824873c3860800000000000000
+      internalID: 7510939319297495381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_67
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa96eef79ad0aa10800000000000000
+      internalID: 1918773787611273981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_68
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fb21a6deb77ca10800000000000000
+      internalID: 1929647224968626066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_69
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 155
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391e293e85a9d6ba0800000000000000
+      internalID: -6094045014196559469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_70
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 135
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4fb6a4235fed4c0800000000000000
+      internalID: -4260698601100151637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_71
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 138
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecb04a8b0aa96e00800000000000000
+      internalID: 1038548155626470632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_72
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 58
+        width: 730
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561d7400d98926640800000000000000
+      internalID: 5071783930454593893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_73
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 140
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90877c50b7d9fa680800000000000000
+      internalID: -8741595199999346679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_74
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 147
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b21438376571020800000000000000
+      internalID: 2312411987801353004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_75
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 121
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606e7ed0e5a48ab50800000000000000
+      internalID: 6604610621359515142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_76
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 133
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fd314d5e5c79860800000000000000
+      internalID: 7536710092324069257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_77
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 99
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99d11463ebbffec0800000000000000
+      internalID: -3530896997524317796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_78
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 71
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d032e4398af8b62f0800000000000000
+      internalID: -978530539834301683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4c1907c52a1dbb0800000000000000
+      internalID: -4912967200575208243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_80
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 55
+        width: 46
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ecbe675198b16c0800000000000000
+      internalID: -4171589904546148784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure groen 2_81
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 6
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8aaa00219999d40800000000000000
+      internalID: 5591668714956826806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pressure groen 2_0: 4318001947783399192
+      pressure groen 2_1: -6447838283495769736
+      pressure groen 2_10: -7470408070080684133
+      pressure groen 2_11: 732764707885725507
+      pressure groen 2_12: 7310263861785903496
+      pressure groen 2_13: 6529997347213069018
+      pressure groen 2_14: 8401872210866516387
+      pressure groen 2_15: 1425077170569560809
+      pressure groen 2_16: 2311870220710212433
+      pressure groen 2_17: 8340891781227907431
+      pressure groen 2_18: 396327847050058697
+      pressure groen 2_19: 182274905262336161
+      pressure groen 2_2: -3448559148644833025
+      pressure groen 2_20: 5534216810405911352
+      pressure groen 2_21: -5719549021430658104
+      pressure groen 2_22: 5331686578105388915
+      pressure groen 2_23: 1819250740993308166
+      pressure groen 2_24: 3120114888654642167
+      pressure groen 2_25: 3509252866069044916
+      pressure groen 2_26: 3701237604767937483
+      pressure groen 2_27: -3597826657001248461
+      pressure groen 2_28: 8173507726198484286
+      pressure groen 2_29: -8880861174925889512
+      pressure groen 2_3: -896281610057899289
+      pressure groen 2_30: 4393556452792279504
+      pressure groen 2_31: 6932790077046092439
+      pressure groen 2_32: -4708964149307243150
+      pressure groen 2_33: -2284049191928022158
+      pressure groen 2_34: -7904662445456507383
+      pressure groen 2_35: 247752193155810470
+      pressure groen 2_36: 7518865521728951041
+      pressure groen 2_37: 7383051544100298763
+      pressure groen 2_38: -2468674942099131516
+      pressure groen 2_39: 4160774403592897687
+      pressure groen 2_4: 7947613981526239979
+      pressure groen 2_40: -6342279818518667593
+      pressure groen 2_41: 2837442293129832321
+      pressure groen 2_42: 3136250455858800268
+      pressure groen 2_43: 8529328179644147112
+      pressure groen 2_44: -5533857124356260177
+      pressure groen 2_45: -7784376435416840000
+      pressure groen 2_46: -926926627295921572
+      pressure groen 2_47: 7750745430841235891
+      pressure groen 2_48: 5839694902915920103
+      pressure groen 2_49: -8795015994554750628
+      pressure groen 2_5: 4115046319095365061
+      pressure groen 2_50: 5403786797229688898
+      pressure groen 2_51: 4524308090927159159
+      pressure groen 2_52: -7429739472170761332
+      pressure groen 2_53: 218326936356260810
+      pressure groen 2_54: -6651779375172257618
+      pressure groen 2_55: -2638540364045221166
+      pressure groen 2_56: -294817232891271672
+      pressure groen 2_57: 270733572924591626
+      pressure groen 2_58: 7840672778265814813
+      pressure groen 2_59: 8893957937206971839
+      pressure groen 2_6: 2587671391613747993
+      pressure groen 2_60: -6422084426868595146
+      pressure groen 2_61: -7900434879290714155
+      pressure groen 2_62: 1985901370749311013
+      pressure groen 2_63: 8638890597660005648
+      pressure groen 2_64: 8704996771400673288
+      pressure groen 2_65: 1088156039884836465
+      pressure groen 2_66: 7510939319297495381
+      pressure groen 2_67: 1918773787611273981
+      pressure groen 2_68: 1929647224968626066
+      pressure groen 2_69: -6094045014196559469
+      pressure groen 2_7: 5899691484345431368
+      pressure groen 2_70: -4260698601100151637
+      pressure groen 2_71: 1038548155626470632
+      pressure groen 2_72: 5071783930454593893
+      pressure groen 2_73: -8741595199999346679
+      pressure groen 2_74: 2312411987801353004
+      pressure groen 2_75: 6604610621359515142
+      pressure groen 2_76: 7536710092324069257
+      pressure groen 2_77: -3530896997524317796
+      pressure groen 2_78: -978530539834301683
+      pressure groen 2_79: -4912967200575208243
+      pressure groen 2_8: -2801071992182518700
+      pressure groen 2_80: -4171589904546148784
+      pressure groen 2_81: 5591668714956826806
+      pressure groen 2_9: -2054913817809463484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2249 @@
+fileFormatVersion: 2
+guid: 421e06b683220ac4ab3b5b2a9398055f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1549733131265812753
+    second: pressure_0
+  - first:
+      213: 5255079851547017665
+    second: pressure_1
+  - first:
+      213: -3287899487113773948
+    second: pressure_2
+  - first:
+      213: 5085900624214402249
+    second: pressure_3
+  - first:
+      213: -2381940291994539533
+    second: pressure_4
+  - first:
+      213: 8024858422495624985
+    second: pressure_5
+  - first:
+      213: -2785758738840825306
+    second: pressure_6
+  - first:
+      213: 7722290379610564714
+    second: pressure_7
+  - first:
+      213: -7097185001290262970
+    second: pressure_8
+  - first:
+      213: -9142670459430314051
+    second: pressure_9
+  - first:
+      213: -1594841953039711509
+    second: pressure_10
+  - first:
+      213: -2256753302220271988
+    second: pressure_11
+  - first:
+      213: -5167507935694649773
+    second: pressure_12
+  - first:
+      213: -2483528717024018500
+    second: pressure_13
+  - first:
+      213: -1790245062935270972
+    second: pressure_14
+  - first:
+      213: -4048693811008830613
+    second: pressure_15
+  - first:
+      213: -8788195053685434553
+    second: pressure_16
+  - first:
+      213: 3848330969327610430
+    second: pressure_17
+  - first:
+      213: -9188612760887364417
+    second: pressure_18
+  - first:
+      213: -8050905193227755546
+    second: pressure_19
+  - first:
+      213: -3100687031523327226
+    second: pressure_20
+  - first:
+      213: 4795096664746764194
+    second: pressure_21
+  - first:
+      213: -909855232311193247
+    second: pressure_22
+  - first:
+      213: -2900710859663816677
+    second: pressure_23
+  - first:
+      213: -845523149436540652
+    second: pressure_24
+  - first:
+      213: -1790145854908186223
+    second: pressure_25
+  - first:
+      213: -5065123533366733581
+    second: pressure_26
+  - first:
+      213: -443439145466115656
+    second: pressure_27
+  - first:
+      213: -7079950628981401275
+    second: pressure_28
+  - first:
+      213: -4971049441649189812
+    second: pressure_29
+  - first:
+      213: 4151928120519345979
+    second: pressure_30
+  - first:
+      213: -2436560830129604366
+    second: pressure_31
+  - first:
+      213: 3660813168583823424
+    second: pressure_32
+  - first:
+      213: -7369196456790410162
+    second: pressure_33
+  - first:
+      213: -4739753905061238272
+    second: pressure_34
+  - first:
+      213: -1059435814840269006
+    second: pressure_35
+  - first:
+      213: -2403973241672766727
+    second: pressure_36
+  - first:
+      213: 2006280753201191398
+    second: pressure_37
+  - first:
+      213: 2730821903765999743
+    second: pressure_38
+  - first:
+      213: 8282917945270306736
+    second: pressure_39
+  - first:
+      213: 9110170801803166495
+    second: pressure_40
+  - first:
+      213: 5684314602718439436
+    second: pressure_41
+  - first:
+      213: -4217789242934415813
+    second: pressure_42
+  - first:
+      213: 3575847889838691253
+    second: pressure_43
+  - first:
+      213: 8217110385685206505
+    second: pressure_44
+  - first:
+      213: -4491548013629639683
+    second: pressure_45
+  - first:
+      213: 2483140641195434260
+    second: pressure_46
+  - first:
+      213: -1198645677032288656
+    second: pressure_47
+  - first:
+      213: 6494312362202338690
+    second: pressure_48
+  - first:
+      213: -5174167152581345553
+    second: pressure_49
+  - first:
+      213: -2565621112722224694
+    second: pressure_50
+  - first:
+      213: -1377706390714043290
+    second: pressure_51
+  - first:
+      213: 3422480132387452924
+    second: pressure_52
+  - first:
+      213: -44744637065342409
+    second: pressure_53
+  - first:
+      213: 5021092114920377400
+    second: pressure_54
+  - first:
+      213: 7612124215487442166
+    second: pressure_55
+  - first:
+      213: 5397429902809711588
+    second: pressure_56
+  - first:
+      213: 8987791025634297435
+    second: pressure_57
+  - first:
+      213: -6970340411629160741
+    second: pressure_58
+  - first:
+      213: -6709779675281536012
+    second: pressure_59
+  - first:
+      213: 5821886330957131037
+    second: pressure_60
+  - first:
+      213: 4480484064677409301
+    second: pressure_61
+  - first:
+      213: 1031078752491925002
+    second: pressure_62
+  - first:
+      213: 2119807356912852966
+    second: pressure_63
+  - first:
+      213: 6559759488429616108
+    second: pressure_64
+  - first:
+      213: -7143823209979889955
+    second: pressure_65
+  - first:
+      213: -2413853929494067966
+    second: pressure_66
+  - first:
+      213: 1137136848341574288
+    second: pressure_67
+  - first:
+      213: 2645257820904963834
+    second: pressure_68
+  - first:
+      213: -2637933605420227271
+    second: pressure_69
+  - first:
+      213: 3333497600767800446
+    second: pressure_70
+  - first:
+      213: -5281928085895646390
+    second: pressure_71
+  - first:
+      213: -8836428702938719698
+    second: pressure_72
+  - first:
+      213: 5923515570305325629
+    second: pressure_73
+  - first:
+      213: 6925775641389289851
+    second: pressure_74
+  - first:
+      213: -2107499500759173161
+    second: pressure_75
+  - first:
+      213: 2920161386704031652
+    second: pressure_76
+  - first:
+      213: 8617819300297656535
+    second: pressure_77
+  - first:
+      213: 2162333668095438754
+    second: pressure_78
+  - first:
+      213: -2411113497856445230
+    second: pressure_79
+  - first:
+      213: 6012699614836332871
+    second: pressure_80
+  - first:
+      213: -3366872928924832133
+    second: pressure_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pressure_0
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 283
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe65f3e8ded3e7ae0800000000000000
+      internalID: -1549733131265812753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 251
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1c5c9484bcde840800000000000000
+      internalID: 5255079851547017665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 247
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cf46526d80f52d0800000000000000
+      internalID: -3287899487113773948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 262
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4ac35ebafb49640800000000000000
+      internalID: 5085900624214402249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 264
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9a97bace5a1fed0800000000000000
+      internalID: -2381940291994539533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_5
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 245
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f37adb7360e5f60800000000000000
+      internalID: 8024858422495624985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 258
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622d375cf2ff659d0800000000000000
+      internalID: -2785758738840825306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 230
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68aa119f261b2b60800000000000000
+      internalID: 7722290379610564714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 234
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6461dd408dbb18d90800000000000000
+      internalID: -7097185001290262970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 247
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfd23738a5be1180800000000000000
+      internalID: -9142670459430314051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_10
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 236
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be28d2c81bbfdd9e0800000000000000
+      internalID: -1594841953039711509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 219
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e887314d66ea0e0800000000000000
+      internalID: -2256753302220271988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 236
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35688ee39e25948b0800000000000000
+      internalID: -5167507935694649773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_13
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 224
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf3d484acbb88dd0800000000000000
+      internalID: -2483528717024018500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_14
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 234
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9a8d2b995c727e0800000000000000
+      internalID: -1790245062935270972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 218
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b630f760e6620d7c0800000000000000
+      internalID: -4048693811008830613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 212
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7471c38192f0a0680800000000000000
+      internalID: -8788195053685434553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 215
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a28e490a4086530800000000000000
+      internalID: 3848330969327610430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_18
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 212
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4ffa8906d7b7080800000000000000
+      internalID: -9188612760887364417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_19
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 223
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efdf4dd160754090800000000000000
+      internalID: -8050905193227755546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_20
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603446ea29528f4d0800000000000000
+      internalID: -3100687031523327226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_21
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 209
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a724e5d20b9b8240800000000000000
+      internalID: 4795096664746764194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 209
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1619f01ac7b8f53f0800000000000000
+      internalID: -909855232311193247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 206
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18ce9d77da9eb7d0800000000000000
+      internalID: -2900710859663816677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_24
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 202
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4192774ec291444f0800000000000000
+      internalID: -845523149436540652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_25
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 203
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1914f0e54df1827e0800000000000000
+      internalID: -1790145854908186223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 207
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4543a8bf015b9b0800000000000000
+      internalID: -5065123533366733581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_27
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 193
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b94df6527698d9f0800000000000000
+      internalID: -443439145466115656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_28
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 207
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54992440a66febd90800000000000000
+      internalID: -7079950628981401275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_29
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 201
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c989dded8430bb0800000000000000
+      internalID: -4971049441649189812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 209
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37c284b0ac9e9930800000000000000
+      internalID: 4151928120519345979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_31
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 204
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f87e7e95d89f2ed0800000000000000
+      internalID: -2436560830129604366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_32
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 188
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040d2865e22ddc230800000000000000
+      internalID: 3660813168583823424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_33
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 196
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cb0f0cdda5bb990800000000000000
+      internalID: -7369196456790410162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 197
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00aed068fe2093eb0800000000000000
+      internalID: -4739753905061238272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 186
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2378e125db02c41f0800000000000000
+      internalID: -1059435814840269006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_36
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 189
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9faec80d21f53aed0800000000000000
+      internalID: -2403973241672766727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_37
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 185
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9924e17bdb7db10800000000000000
+      internalID: 2006280753201191398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_38
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 186
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7014de8d04d5e520800000000000000
+      internalID: 2730821903765999743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_39
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 185
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b78b878cf5d2f270800000000000000
+      internalID: 8282917945270306736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_40
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 193
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f130d949314dd6e70800000000000000
+      internalID: 9110170801803166495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_41
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 171
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08299ea30eb2ee40800000000000000
+      internalID: 5684314602718439436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 181
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e2e65c7076775c0800000000000000
+      internalID: -4217789242934415813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 175
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b35aacc5b6ff9130800000000000000
+      internalID: 3575847889838691253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_44
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 175
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e590f21c5a090270800000000000000
+      internalID: 8217110385685206505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_45
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 186
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df37efbf0e0daa1c0800000000000000
+      internalID: -4491548013629639683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_46
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 184
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4112ac5c143e57220800000000000000
+      internalID: 2483140641195434260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_47
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 184
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ecee08b1e8d5fe0800000000000000
+      internalID: -1198645677032288656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_48
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2859f716fae602a50800000000000000
+      internalID: 6494312362202338690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_49
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 173
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feef4ed736aa138b0800000000000000
+      internalID: -5174167152581345553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_50
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac903f3f035156cd0800000000000000
+      internalID: -2565621112722224694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_51
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 169
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66434b8465761ece0800000000000000
+      internalID: -1377706390714043290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 163
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf739cd1c871f7f20800000000000000
+      internalID: 3422480132387452924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_53
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 164
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732dd1a5df8016ff0800000000000000
+      internalID: -44744637065342409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_54
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 153
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c0856fca08ea540800000000000000
+      internalID: 5021092114920377400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_55
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 166
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc274aa4a2b3a960800000000000000
+      internalID: 7612124215487442166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_56
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 166
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e34b0956e587ea40800000000000000
+      internalID: 5397429902809711588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_57
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 160
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b564066815c0bbc70800000000000000
+      internalID: 8987791025634297435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_58
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 157
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd63b497350644f90800000000000000
+      internalID: -6970340411629160741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_59
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 161
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb45bd6fe212e2a0800000000000000
+      internalID: -6709779675281536012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_60
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 159
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1de667b5ce7bc050800000000000000
+      internalID: 5821886330957131037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_61
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 170
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51235e8a480ed2e30800000000000000
+      internalID: 4480484064677409301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_62
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 149
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eebb999a02f4e00800000000000000
+      internalID: 1031078752491925002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 160
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efdc055f811b6d10800000000000000
+      internalID: 2119807356912852966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_64
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 161
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb68d7ef72f80b50800000000000000
+      internalID: 6559759488429616108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_65
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 139
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd635fed3aa0cdc90800000000000000
+      internalID: -7143823209979889955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_66
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20543d8e3a4408ed0800000000000000
+      internalID: -2413853929494067966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_67
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092286250fbe7cf00800000000000000
+      internalID: 1137136848341574288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_68
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe3d5219f7d5b420800000000000000
+      internalID: 2645257820904963834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_69
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 155
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935acdbbc5d246bd0800000000000000
+      internalID: -2637933605420227271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_70
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 135
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74b1610866f24e20800000000000000
+      internalID: 3333497600767800446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_71
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 138
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43f7070462d2b6b0800000000000000
+      internalID: -5281928085895646390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_72
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 58
+        width: 730
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a954e79e2be5580800000000000000
+      internalID: -8836428702938719698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_73
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 140
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a5b8de60e843250800000000000000
+      internalID: 5923515570305325629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_74
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 147
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71df03604c4d1060800000000000000
+      internalID: 6925775641389289851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_75
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 121
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7bfecbe58a0c2e0800000000000000
+      internalID: -2107499500759173161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_76
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 133
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af4e4d3f4f768820800000000000000
+      internalID: 2920161386704031652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_77
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 99
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d84fb49ef4a89770800000000000000
+      internalID: 8617819300297656535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_78
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 71
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af22bcb307220e10800000000000000
+      internalID: 2162333668095438754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4fd1f5c010a8ed0800000000000000
+      internalID: -2411113497856445230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_80
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 55
+        width: 46
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749927b6176617350800000000000000
+      internalID: 6012699614836332871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pressure_81
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 6
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e6e8bd8e67641d0800000000000000
+      internalID: -3366872928924832133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pressure_0: -1549733131265812753
+      pressure_1: 5255079851547017665
+      pressure_10: -1594841953039711509
+      pressure_11: -2256753302220271988
+      pressure_12: -5167507935694649773
+      pressure_13: -2483528717024018500
+      pressure_14: -1790245062935270972
+      pressure_15: -4048693811008830613
+      pressure_16: -8788195053685434553
+      pressure_17: 3848330969327610430
+      pressure_18: -9188612760887364417
+      pressure_19: -8050905193227755546
+      pressure_2: -3287899487113773948
+      pressure_20: -3100687031523327226
+      pressure_21: 4795096664746764194
+      pressure_22: -909855232311193247
+      pressure_23: -2900710859663816677
+      pressure_24: -845523149436540652
+      pressure_25: -1790145854908186223
+      pressure_26: -5065123533366733581
+      pressure_27: -443439145466115656
+      pressure_28: -7079950628981401275
+      pressure_29: -4971049441649189812
+      pressure_3: 5085900624214402249
+      pressure_30: 4151928120519345979
+      pressure_31: -2436560830129604366
+      pressure_32: 3660813168583823424
+      pressure_33: -7369196456790410162
+      pressure_34: -4739753905061238272
+      pressure_35: -1059435814840269006
+      pressure_36: -2403973241672766727
+      pressure_37: 2006280753201191398
+      pressure_38: 2730821903765999743
+      pressure_39: 8282917945270306736
+      pressure_4: -2381940291994539533
+      pressure_40: 9110170801803166495
+      pressure_41: 5684314602718439436
+      pressure_42: -4217789242934415813
+      pressure_43: 3575847889838691253
+      pressure_44: 8217110385685206505
+      pressure_45: -4491548013629639683
+      pressure_46: 2483140641195434260
+      pressure_47: -1198645677032288656
+      pressure_48: 6494312362202338690
+      pressure_49: -5174167152581345553
+      pressure_5: 8024858422495624985
+      pressure_50: -2565621112722224694
+      pressure_51: -1377706390714043290
+      pressure_52: 3422480132387452924
+      pressure_53: -44744637065342409
+      pressure_54: 5021092114920377400
+      pressure_55: 7612124215487442166
+      pressure_56: 5397429902809711588
+      pressure_57: 8987791025634297435
+      pressure_58: -6970340411629160741
+      pressure_59: -6709779675281536012
+      pressure_6: -2785758738840825306
+      pressure_60: 5821886330957131037
+      pressure_61: 4480484064677409301
+      pressure_62: 1031078752491925002
+      pressure_63: 2119807356912852966
+      pressure_64: 6559759488429616108
+      pressure_65: -7143823209979889955
+      pressure_66: -2413853929494067966
+      pressure_67: 1137136848341574288
+      pressure_68: 2645257820904963834
+      pressure_69: -2637933605420227271
+      pressure_7: 7722290379610564714
+      pressure_70: 3333497600767800446
+      pressure_71: -5281928085895646390
+      pressure_72: -8836428702938719698
+      pressure_73: 5923515570305325629
+      pressure_74: 6925775641389289851
+      pressure_75: -2107499500759173161
+      pressure_76: 2920161386704031652
+      pressure_77: 8617819300297656535
+      pressure_78: 2162333668095438754
+      pressure_79: -2411113497856445230
+      pressure_8: -7097185001290262970
+      pressure_80: 6012699614836332871
+      pressure_81: -3366872928924832133
+      pressure_9: -9142670459430314051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
