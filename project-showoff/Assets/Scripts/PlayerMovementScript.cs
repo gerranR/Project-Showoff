@@ -14,13 +14,15 @@ public class PlayerMovementScript : MonoBehaviour
     private bool jumped;
 
     [SerializeField] ParticleSystem groundDust;
+    [SerializeField] Animator animator;
     private float jumpStartY;
     private float maxJumpY;
+    private SpriteRenderer spriteRenderer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void FixedUpdate()
@@ -28,6 +30,22 @@ public class PlayerMovementScript : MonoBehaviour
         Vector2 force = new Vector2(Input.GetAxis("Horizontal") * speed * Time.deltaTime, 0);
 
         rb.linearVelocityX = force.x;
+        if (rb.linearVelocityX > .25 || rb.linearVelocityX < -.25)
+        {
+            animator.SetBool("Walking", true);
+            if(rb.linearVelocityX > .25)
+            {
+                spriteRenderer.flipX = false;
+            }
+            else
+            {
+                spriteRenderer.flipX = true;
+            }
+        }
+        else
+        {
+            animator.SetBool("Walking", false);
+        }
     }
 
     private void Update()
@@ -58,6 +76,8 @@ public class PlayerMovementScript : MonoBehaviour
     public void Jump()
     {
         DoDustParticles(6f);
+        animator.SetTrigger("Jump");
+        animator.SetBool("HitGround", false);
         rb.linearVelocityY = jumpForce;
         jumped = true;
         isGrounded = false;
@@ -77,6 +97,8 @@ public class PlayerMovementScript : MonoBehaviour
                 float landingY = transform.position.y;
                 int jumpHeight = (int)(maxJumpY - jumpStartY);
 
+                animator.SetBool("HitGround", true);
+
                 DoDustParticles(jumpHeight);
             }
         }
@@ -91,6 +113,7 @@ public class PlayerMovementScript : MonoBehaviour
                 if (isGrounded && collision.GetContact(0).collider == null)
                 {
                     isGrounded = false;
+                    animator.SetBool("HitGround", false);
                 }
             }
         }

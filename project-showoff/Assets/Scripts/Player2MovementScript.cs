@@ -33,6 +33,7 @@ public class Player2MovementScript : MonoBehaviour
     private GameObject attachedBox;
 
     [SerializeField] float lerpSpeed;
+    [SerializeField] Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -105,6 +106,14 @@ public class Player2MovementScript : MonoBehaviour
             else
             {
                 rb.linearVelocity = force;
+                if (rb.linearVelocity.magnitude > 0)
+                {
+                    animator.SetBool("Moving", true);
+                }
+                else
+                {
+                    animator.SetBool("Moving", false);
+                }
             }
         }
         else if (isAttached)

@@ -13,12 +13,15 @@ public class BrazierLighting : MonoBehaviour
     [SerializeField] protected Sprite unlitSprite;
     [SerializeField] protected Sprite litSprite;
 
+    [SerializeField]private Animator animator;
+
     public void InitializeFrom(BrazierLighting other)
     {
         this.lightArea = other.lightArea;
         this.spriteRenderer = other.spriteRenderer;
         this.unlitSprite = other.unlitSprite;
         this.litSprite = other.litSprite;
+
     }
 
     protected virtual void Start()
@@ -87,9 +90,14 @@ public class BrazierLighting : MonoBehaviour
         lightArea.SetActive(true);
         gameObject.layer = LayerMask.NameToLayer("LitSconce");
 
-        if (spriteRenderer && litSprite)
-            spriteRenderer.sprite = litSprite;
+        /*        if (spriteRenderer && litSprite)
+                    spriteRenderer.sprite = litSprite;*/
 
+        if (animator != null)
+        {
+            print("test");
+            animator.SetTrigger("OpenBrazier");
+        }
         BrazierManager.CheckBraziers();
     }
 

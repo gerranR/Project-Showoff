@@ -16,7 +16,7 @@ public abstract class PickupObject : MonoBehaviour
     private LineRenderer lr;
 
     [SerializeField] float throwForceMultiplyer;
-    [SerializeField] private int invertThrow = 1;
+    public int invertThrow = 1;
 
     protected virtual void Awake()
     {
