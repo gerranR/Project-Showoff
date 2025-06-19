@@ -266,10 +266,10 @@ MonoBehaviour:
   maxSecondsOutsideLight: 4
   rayMask:
     serializedVersion: 2
-    m_Bits: 1575937
+    m_Bits: 3673089
   rayMaskNoSconce:
     serializedVersion: 2
-    m_Bits: 1572865
+    m_Bits: 3670017
   slider: {fileID: 5414038784905687181}
   useRaycast: 1
 --- !u!114 &7670426645852403189
