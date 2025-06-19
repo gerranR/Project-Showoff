@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Options : MonoBehaviour
 {
@@ -41,5 +42,10 @@ public class Options : MonoBehaviour
     {
         float volume = Mathf.Log10(Mathf.Max(volumeLvl, 0.0001f)) * 20;
         masterMixer.SetFloat("Volume", volume);
+    }
+
+    public void MainMenu(string mainMenuSceneName)
+    {
+        SceneManager.LoadScene(mainMenuSceneName);
     }
 }
