@@ -1,37 +1,25 @@
 fileFormatVersion: 2
-guid: d6dafd5c3a612a94d84a79920181ce1d
+guid: 779dcf38d2390624fae786eebb37ebec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8020535096838326329
-    second: SpritesheetGirlJumpSide_0
+      213: 8578739222822386000
+    second: qqqq_0
   - first:
-      213: 2577361295158055943
-    second: SpritesheetGirlJumpSide_1
+      213: -6037948910909989439
+    second: qqqq_1
   - first:
-      213: 1117638745949094475
-    second: SpritesheetGirlJumpSide_2
+      213: 496467317827198638
+    second: qqqq_2
   - first:
-      213: -4895724342124765254
-    second: SpritesheetGirlJumpSide_3
+      213: -2596508511134638473
+    second: qqqq_3
   - first:
-      213: 105195952863578966
-    second: SpritesheetGirlJumpSide_4
+      213: -8478734179735732323
+    second: qqqq_4
   - first:
-      213: 4607768919153586256
-    second: SpritesheetGirlJumpSide_5
-  - first:
-      213: 401367971958531551
-    second: SpritesheetGirlJumpSide_6
-  - first:
-      213: 8606333987895943602
-    second: SpritesheetGirlJumpSide_7
-  - first:
-      213: -3486519340677268231
-    second: SpritesheetGirlJumpSide_8
-  - first:
-      213: -5582850558289247281
-    second: SpritesheetGirlJumpSide_9
+      213: -6495270678769784788
+    second: qqqq_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_0
+      name: qqqq_0
       rect:
         serializedVersion: 2
-        x: 157
-        y: 1269
-        width: 222
-        height: 461
+        x: 751
+        y: 615
+        width: 357
+        height: 465
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9380a9b0d2aae4f60800000000000000
-      internalID: 8020535096838326329
+      spriteID: 059f90dfeddcd0770800000000000000
+      internalID: 8578739222822386000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_1
+      name: qqqq_1
       rect:
         serializedVersion: 2
-        x: 645
-        y: 1264
-        width: 240
-        height: 434
+        x: 1006
+        y: 881
+        width: 132
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7049cb74170a4c320800000000000000
-      internalID: 2577361295158055943
+      spriteID: 1cdd049b475e43ca0800000000000000
+      internalID: -6037948910909989439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_2
+      name: qqqq_2
       rect:
         serializedVersion: 2
-        x: 1139
-        y: 1264
-        width: 259
-        height: 406
+        x: 0
+        y: 0
+        width: 544
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4242879486a28f00800000000000000
-      internalID: 1117638745949094475
+      spriteID: eae5ea9256ec3e600800000000000000
+      internalID: 496467317827198638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_3
+      name: qqqq_3
       rect:
         serializedVersion: 2
-        x: 1654
-        y: 1270
-        width: 212
-        height: 470
+        x: 794
+        y: 187
+        width: 302
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abf9b6546a4ee0cb0800000000000000
-      internalID: -4895724342124765254
+      spriteID: 77e9a89144957fbd0800000000000000
+      internalID: -2596508511134638473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_4
+      name: qqqq_4
       rect:
         serializedVersion: 2
-        x: 163
-        y: 702
-        width: 188
-        height: 471
+        x: 1383
+        y: 275
+        width: 537
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65b0e3a692bb57100800000000000000
-      internalID: 105195952863578966
+      spriteID: d9f73ef8f2c755a80800000000000000
+      internalID: -8478734179735732323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_5
+      name: qqqq_5
       rect:
         serializedVersion: 2
-        x: 656
-        y: 711
-        width: 211
-        height: 442
+        x: 1255
+        y: 95
+        width: 234
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,96 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0503c314b6512ff30800000000000000
-      internalID: 4607768919153586256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_6
-      rect:
-        serializedVersion: 2
-        x: 1154
-        y: 665
-        width: 223
-        height: 470
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd5aec04b02f19500800000000000000
-      internalID: 401367971958531551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_7
-      rect:
-        serializedVersion: 2
-        x: 1652
-        y: 663
-        width: 273
-        height: 403
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b1a8e6e927df6770800000000000000
-      internalID: 8606333987895943602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_8
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 64
-        width: 242
-        height: 434
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fcf66cc1256d9fc0800000000000000
-      internalID: -3486519340677268231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpritesheetGirlJumpSide_9
-      rect:
-        serializedVersion: 2
-        x: 657
-        y: 69
-        width: 222
-        height: 461
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc304171ffab582b0800000000000000
-      internalID: -5582850558289247281
+      spriteID: c28aae72bb92cd5a0800000000000000
+      internalID: -6495270678769784788
       vertices: []
       indices: 
       edges: []
@@ -350,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -360,16 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SpritesheetGirlJumpSide_0: 8020535096838326329
-      SpritesheetGirlJumpSide_1: 2577361295158055943
-      SpritesheetGirlJumpSide_2: 1117638745949094475
-      SpritesheetGirlJumpSide_3: -4895724342124765254
-      SpritesheetGirlJumpSide_4: 105195952863578966
-      SpritesheetGirlJumpSide_5: 4607768919153586256
-      SpritesheetGirlJumpSide_6: 401367971958531551
-      SpritesheetGirlJumpSide_7: 8606333987895943602
-      SpritesheetGirlJumpSide_8: -3486519340677268231
-      SpritesheetGirlJumpSide_9: -5582850558289247281
+      qqqq_0: 8578739222822386000
+      qqqq_1: -6037948910909989439
+      qqqq_2: 496467317827198638
+      qqqq_3: -2596508511134638473
+      qqqq_4: -8478734179735732323
+      qqqq_5: -6495270678769784788
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
