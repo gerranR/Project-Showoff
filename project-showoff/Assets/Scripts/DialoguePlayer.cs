@@ -12,7 +12,7 @@ public class DialoguePlayer : MonoBehaviour
     private Image portraitSprite;
     private Coroutine currentRoutine;
     private int index;
-    private bool isTyping;
+    private bool isTyping, isDone;
 
     private void Start()
     {
@@ -34,10 +34,12 @@ public class DialoguePlayer : MonoBehaviour
 
     private void StartDialogue()
     {
-        dialogueObject.SetActive(true);
+        if (dialogueObject)
+            dialogueObject.SetActive(true);
         textMesh = dialogueObject.GetComponentInChildren<TextMeshProUGUI>();
         portraitSprite = dialogueObject.GetComponentsInChildren<Image>()[1];
-        AdvanceDialogue();
+        if (portraitSprite)
+            AdvanceDialogue();
     }
 
     private void AdvanceDialogue()
@@ -46,8 +48,9 @@ public class DialoguePlayer : MonoBehaviour
         {
             StopDialogue();
             return;
-        }            
-        SetSprite();
+        }
+        if (portraitSprite)
+            SetSprite();
         textMesh.text = dialogueData.dialogueEntries[index].dialogueLine;
         textMesh.maxVisibleCharacters = 0;
         currentRoutine = StartCoroutine(TypeRoutine());
@@ -83,15 +86,22 @@ public class DialoguePlayer : MonoBehaviour
         if (dialogueData.dialogueEntries[index].lineSpeaker == DialogueEntry.Speaker.Human)
         {
             portraitSprite.sprite = humanSprite;
+            if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
+                dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Human";
         }
         else
         {
             portraitSprite.sprite = spritSprite;
+            if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
+                dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Spirit";
         }
     }
 
     private void StopDialogue()
     {
         dialogueObject.SetActive(false);
+        isDone = true;
     }
+
+    public bool IsDone() { return isDone; }
 }
