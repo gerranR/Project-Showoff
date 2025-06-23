@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c17c4aa6f108aa4d809d605573a292a, type: 3}
+  m_Name: Level1Object
+  m_EditorClassIdentifier: 
+  dialogueEntries:
+  - lineSpeaker: 0
+    dialogueLine: "[Spirit], this is\u2026 my journal?"
+    linePortrait: 0
+  - lineSpeaker: 1
+    dialogueLine: Do you write in your journal often?
+    linePortrait: 0
+  - lineSpeaker: 0
+    dialogueLine: "Well\u2026 I used to. I don\u2019t think there\u2019s much to
+      write in it anymore."
+    linePortrait: 0
+  - lineSpeaker: 1
+    dialogueLine: "I suppose I haven\u2019t seen you doing it lately."
+    linePortrait: 0
+  - lineSpeaker: 0
+    dialogueLine: "I actually think the last thing I wrote was about you. Sometimes
+      it feels like you\u2019re the only one that actually listens to me."
+    linePortrait: 0
+  - lineSpeaker: 1
+    dialogueLine: '[Girl], I think you should come back to it. Write in your journal
+      again. Putting your thoughts on paper can help you understand them better.'
+    linePortrait: 0
+  - lineSpeaker: 0
+    dialogueLine: "I don\u2019t know if I want to read back my thoughts\u2026 I\u2019m
+      afraid of what they might look like."
+    linePortrait: 0
+  - lineSpeaker: 1
+    dialogueLine: Sometimes, you have to take a leap of faith that can leave you
+      in the dark, but as long as you have your thoughts, the light will make its
+      way back to you.
+    linePortrait: 0
+  - lineSpeaker: 0
+    dialogueLine: Thank you, [Spirit]. At least right now, I feel better here with
+      you.
+    linePortrait: 0

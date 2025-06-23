@@ -14,6 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueEntries:
   - lineSpeaker: 0
-    dialogueLine: Hello, I am the human!
+    dialogueLine: ...
   - lineSpeaker: 1
-    dialogueLine: And this is the Spirit!
+    dialogueLine: '[Girl]... [Girl], can you hear me?'
+  - lineSpeaker: 0
+    dialogueLine: ...[Spirit]?
+  - lineSpeaker: 1
+    dialogueLine: "Yes, [Girl]. I\u2019m visiting your dream."
+  - lineSpeaker: 0
+    dialogueLine: "We\u2019re in my dream?"
+  - lineSpeaker: 1
+    dialogueLine: "Actually, it\u2019s darker here than I imagined. Are you feeling
+      well?"
+  - lineSpeaker: 0
+    dialogueLine: "I am\u2026 not sure\u2026"
+  - lineSpeaker: 1
+    dialogueLine: "It would do well to let more light into your dream then. I\u2019ll
+      help you. See these braziers? Bring your light to them, and I will be able
+      to spread it."
+  - lineSpeaker: 1
+    dialogueLine: "But\u2026 let\u2019s be careful\u2026 I\u2019m not too fond of
+      the dark myself."
+  - lineSpeaker: 1
+    dialogueLine: "But\u2026 let\u2019s be careful\u2026 I\u2019m not too fond of
+      the dark myself."
