@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c17c4aa6f108aa4d809d605573a292a, type: 3}
+  m_Name: Level3Dialogue
+  m_EditorClassIdentifier: 
+  dialogueEntries:
+  - lineSpeaker: 1
+    dialogueLine: This is our most difficult challenge.
+    linePortrait: 0
+  - lineSpeaker: 0
+    dialogueLine: "[Spirit]... I know we can do it\u2026 together."
+    linePortrait: 0
+  - lineSpeaker: 1
+    dialogueLine: "Let\u2019s make your dreams bright again, [Girl]."
+    linePortrait: 0
