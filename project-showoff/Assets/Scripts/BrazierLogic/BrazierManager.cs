@@ -19,6 +19,7 @@ public class BrazierManager : MonoBehaviour
         if (endLightArea) endLightArea.SetActive(false);
         if (dreamSpritesObject) dreamSpritesObject.SetActive(false);
         if (nightmareSpritesObject) nightmareSpritesObject.SetActive(true);
+
     }
 
     public static void RegisterBrazier(BrazierLighting brazier)

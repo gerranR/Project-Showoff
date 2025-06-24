@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -5,6 +6,9 @@ using UnityEngine.UI;
 
 public class DialoguePlayer : MonoBehaviour
 {
+    public static event Action OnDialogueStarted;
+    public static event Action OnDialogueEnded;
+
     [SerializeField] private DialogueScriptableObject dialogueData;
     [SerializeField] private GameObject dialogueObject;
     [SerializeField] private Sprite humanSprite, spritSprite;
@@ -34,6 +38,8 @@ public class DialoguePlayer : MonoBehaviour
 
     private void StartDialogue()
     {
+        OnDialogueStarted?.Invoke();
+
         if (dialogueObject)
             dialogueObject.SetActive(true);
         textMesh = dialogueObject.GetComponentInChildren<TextMeshProUGUI>();
@@ -101,6 +107,7 @@ public class DialoguePlayer : MonoBehaviour
     {
         dialogueObject.SetActive(false);
         isDone = true;
+        OnDialogueEnded?.Invoke();
     }
 
     public bool IsDone() { return isDone; }
