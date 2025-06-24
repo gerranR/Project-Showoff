@@ -43,6 +43,7 @@ public abstract class PickupObject : MonoBehaviour
                 positions[i] = trajectory[i];
                 positions[i].z = GetParentsZ(gameObject);
             }
+            positions[0] = transform.position;
 
             lr.SetPositions(positions);
         }

@@ -30,7 +30,7 @@ public class PlatformButton : MonoBehaviour
     {
         foreach (GameObject platform in platforms)
         {
-          if(platform!=null)  platform.SetActive(!platform.activeSelf);
+          if(platform!=null)  platform.GetComponent<VineAnim>().Toggle();
         }
     }
 }
