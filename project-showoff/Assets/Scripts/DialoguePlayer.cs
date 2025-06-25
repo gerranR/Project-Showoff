@@ -8,6 +8,7 @@ public class DialoguePlayer : MonoBehaviour
     [SerializeField] private DialogueScriptableObject dialogueData;
     [SerializeField] private GameObject dialogueObject;
     [SerializeField] private Sprite humanSprite, spritSprite;
+
     private TextMeshProUGUI textMesh;
     private Image portraitSprite;
     private Coroutine currentRoutine;
