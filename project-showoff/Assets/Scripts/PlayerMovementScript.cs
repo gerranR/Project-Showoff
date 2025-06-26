@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovementScript : MonoBehaviour
@@ -12,6 +13,7 @@ public class PlayerMovementScript : MonoBehaviour
 
     private bool isGrounded;
     private bool jumped;
+    private bool canMove;
 
     [SerializeField] ParticleSystem groundDust;
     [SerializeField] Animator animator;
@@ -50,9 +52,13 @@ public class PlayerMovementScript : MonoBehaviour
 
     private void Update()
     {
-        if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && isGrounded)
+        if (canMove)
         {
-            Jump();
+
+            if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && isGrounded)
+            {
+                Jump();
+            }
         }
 
         if(jumped)
@@ -139,5 +145,20 @@ public class PlayerMovementScript : MonoBehaviour
         }
 
         groundDust.Play();
+    }
+
+    private void DisableMovement() => canMove = false;
+    private void EnableMovement() => canMove = true;
+
+    private void OnEnable()
+    {
+        DialoguePlayer.OnDialogueStarted += DisableMovement;
+        DialoguePlayer.OnDialogueEnded += EnableMovement;
+    }
+
+    private void OnDisable()
+    {
+        DialoguePlayer.OnDialogueStarted -= DisableMovement;
+        DialoguePlayer.OnDialogueEnded -= EnableMovement;
     }
 }

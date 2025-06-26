@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1Img: {fileID: 1354179040}
   player2Img: {fileID: 1347138171}
-  sceneName: Level1
+  sceneName: IntroCutscene
 --- !u!1 &1470389612
 GameObject:
   m_ObjectHideFlags: 0
