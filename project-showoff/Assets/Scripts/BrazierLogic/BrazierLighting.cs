@@ -14,6 +14,9 @@ public class BrazierLighting : MonoBehaviour
     [SerializeField] protected Sprite litSprite;
 
     [SerializeField]private Animator animator;
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip lightSound;
+
 
     public void InitializeFrom(BrazierLighting other)
     {
@@ -87,6 +90,8 @@ public class BrazierLighting : MonoBehaviour
         lightArea.SetActive(true);
         gameObject.layer = LayerMask.NameToLayer("LitSconce");
 
+        audioSource.PlayOneShot(lightSound);
+
         /*        if (spriteRenderer && litSprite)
                     spriteRenderer.sprite = litSprite;*/
 
@@ -95,7 +100,7 @@ public class BrazierLighting : MonoBehaviour
             print("test");
             animator.SetTrigger("OpenBrazier");
         }
-        BrazierManager.CheckBraziers();
+        BrazierManager.instance.CheckBraziers();
     }
 
     public virtual void DeactivateLight()
@@ -108,7 +113,7 @@ public class BrazierLighting : MonoBehaviour
         if (spriteRenderer && unlitSprite)
             spriteRenderer.sprite = unlitSprite;
 
-        BrazierManager.CheckBraziers(); 
+        BrazierManager.instance.CheckBraziers(); 
     }
     public bool IsLit() => isLit;
 }

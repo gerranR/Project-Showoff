@@ -7,14 +7,33 @@ public class BrazierManager : MonoBehaviour
     [SerializeField] GameObject endLightArea;
     [SerializeField] GameObject dreamSpritesObject; // 1 game object with all sprites to trigger childrened to it
     [SerializeField] GameObject nightmareSpritesObject;
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip winSound;
 
     static List<BrazierLighting> braziers = new List<BrazierLighting>();
-    static BrazierManager instance;
     static bool levelCompleted;
+
+    private static BrazierManager _instance;
+    public static BrazierManager instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                Debug.LogError("Gamemanager is null");
+            }
+            return _instance;
+
+        }
+    }
 
     private void Awake()
     {
-        instance = this;
+        if (_instance)
+            Destroy(gameObject);
+        else
+            _instance = this;
+
         levelCompleted = false;
         if (endLightArea) endLightArea.SetActive(false);
         if (dreamSpritesObject) dreamSpritesObject.SetActive(false);
@@ -27,7 +46,7 @@ public class BrazierManager : MonoBehaviour
             braziers.Add(brazier);
     }
 
-    public static void CheckBraziers()
+    public void CheckBraziers()
     {
         foreach (var brazier in braziers)
         {
@@ -41,6 +60,7 @@ public class BrazierManager : MonoBehaviour
         {
             //this doesnt run
             levelCompleted = true;
+            audioSource.PlayOneShot(winSound);
             if (instance.endLightArea) instance.endLightArea.SetActive(true);
             if (instance.dreamSpritesObject) instance.dreamSpritesObject.SetActive(true);
             if (instance.nightmareSpritesObject) instance.nightmareSpritesObject.SetActive(true);

@@ -34,6 +34,8 @@ public class Player2MovementScript : MonoBehaviour
 
     [SerializeField] float lerpSpeed;
     [SerializeField] Animator animator;
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip attachSound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -61,6 +63,7 @@ public class Player2MovementScript : MonoBehaviour
                     transform.parent = player1.transform;
                     transform.position = Vector3.Lerp(transform.position, player1.transform.position + new Vector3(1f, 1f, 0), lerpSpeed * Time.deltaTime);
                     isAttached = true;
+                    audioSource.PlayOneShot(attachSound);
                 }
             }
         }

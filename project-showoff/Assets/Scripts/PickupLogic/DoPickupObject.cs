@@ -19,6 +19,9 @@ public class DoPickupObject : MonoBehaviour
 
     private bool isTouchingBrazier;
 
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip SummonSound;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -67,6 +70,7 @@ public class DoPickupObject : MonoBehaviour
             {
                 heldItem = foundTorch.GetComponent<PickupObject>();
                 heldItem.Pickup(holdPoint, lastDirection);
+                audioSource.PlayOneShot(SummonSound);
             }
             return;
         }
