@@ -43,7 +43,7 @@ Material:
     m_Floats:
     - _fogSize: 2
     m_Colors:
-    - _fogColor: {r: 0, g: 0.21357122, b: 0.8050314, a: 0.1176471}
+    - _fogColor: {r: 0.1682983, g: 0.2568846, b: 0.5849056, a: 0.1176471}
     - _fogSpeed: {r: 2, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
