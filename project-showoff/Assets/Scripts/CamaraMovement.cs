@@ -44,4 +44,17 @@ public class CamaraMovement : MonoBehaviour
         cam.fieldOfView = normalFOV;
         transform.position = normalPos;
     }
+
+    private void OnEnable()
+    {
+        DialoguePlayer.OnDialogueStarted += ZoomIn;
+        DialoguePlayer.OnDialogueEnded += ZoomOut;
+    }
+
+    private void OnDisable()
+    {
+        DialoguePlayer.OnDialogueStarted -= ZoomIn;
+        DialoguePlayer.OnDialogueEnded -= ZoomOut;
+    }
+
 }
