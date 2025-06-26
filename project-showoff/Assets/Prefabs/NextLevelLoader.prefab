@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6905007455694040053}
   - component: {fileID: 3640629362469850022}
   - component: {fileID: 8111224842460283377}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NextLevelLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}

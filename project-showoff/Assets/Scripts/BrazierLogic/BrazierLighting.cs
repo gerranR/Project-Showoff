@@ -37,12 +37,7 @@ public class BrazierLighting : MonoBehaviour
         {
             if (player == null) continue;
 
-            int layer = player.gameObject.layer;
-
-            //bool isHumanToggle = layer == LayerMask.NameToLayer("Human") && Input.GetKeyDown(KeyCode.W);
-            bool isSpiritToggle = layer == LayerMask.NameToLayer("Spirit") && Input.GetButtonDown("SpiritLight");
-
-            if (isSpiritToggle)
+            if (player.gameObject.layer == LayerMask.NameToLayer("Spirit") && Input.GetButtonDown("SpiritLight"))
             {
                 ActivateLight();
                 break;
@@ -65,21 +60,23 @@ public class BrazierLighting : MonoBehaviour
         {
             torchInRange = other;
         }
-        else if (layer == LayerMask.NameToLayer("Human") || layer == LayerMask.NameToLayer("Spirit"))
+        else if (layer == LayerMask.NameToLayer("Spirit"))
         {
             if (!withinRange.Contains(other))
                 withinRange.Add(other);
         }
     }
 
-  protected virtual void OnTriggerExit2D(Collider2D other)
+    protected virtual void OnTriggerExit2D(Collider2D other)
     {
         if (torchInRange == other)
         {
             torchInRange = null;
         }
-
-        withinRange.Remove(other);
+        else
+        {
+            withinRange.Remove(other);
+        }
     }
 
     public virtual void ActivateLight()
