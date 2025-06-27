@@ -135,7 +135,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< Updated upstream:project-showoff/Assets/Art/Environment/Platforms/lvl3.png.meta
       IntroCutSceneFrame1_0: 6179161433260122856
+=======
+      TorchFinal_0: 4379538085213346490
+>>>>>>> Stashed changes:project-showoff/Assets/Art/GameObjects/TorchFinal.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

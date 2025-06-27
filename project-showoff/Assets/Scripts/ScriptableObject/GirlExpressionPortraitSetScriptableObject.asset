@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bb240e2b25a9d48912f020f76334f5, type: 3}
+  m_Name: GirlExpressionPortraitSetScriptableObject
+  m_EditorClassIdentifier: 
+  expressionPortraitSets:
+  - expression: 0
+    sprite: {fileID: -729614550, guid: 6d3038601bbc4164da6aec948b6728c6, type: 3}
+  - expression: 1
+    sprite: {fileID: -384835086, guid: 6d3038601bbc4164da6aec948b6728c6, type: 3}
+  - expression: 2
+    sprite: {fileID: 1399761804, guid: 6d3038601bbc4164da6aec948b6728c6, type: 3}
+  - expression: 3
+    sprite: {fileID: -22293396, guid: 6d3038601bbc4164da6aec948b6728c6, type: 3}
+  - expression: 4
+    sprite: {fileID: 1112629329, guid: 6d3038601bbc4164da6aec948b6728c6, type: 3}
+  - expression: 5
+    sprite: {fileID: 1620162868, guid: 6d3038601bbc4164da6aec948b6728c6, type: 3}
+  - expression: 6
+    sprite: {fileID: 1503141, guid: 6d3038601bbc4164da6aec948b6728c6, type: 3}
+  - expression: 7
+    sprite: {fileID: 672606564, guid: 6d3038601bbc4164da6aec948b6728c6, type: 3}

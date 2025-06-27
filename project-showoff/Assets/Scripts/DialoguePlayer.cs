@@ -1,5 +1,6 @@
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -85,16 +86,17 @@ public class DialoguePlayer : MonoBehaviour
     {
         if (dialogueData.dialogueEntries[index].lineSpeaker == DialogueEntry.Speaker.Human)
         {
-            portraitSprite.sprite = humanSprite;
+            portraitSprite.sprite = dialogueData.GirlExpressionPortraitSet.expressionPortraitSets[(int)dialogueData.dialogueEntries[index].linePortrait].sprite;
             if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
                 dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Human";
         }
         else
         {
-            portraitSprite.sprite = spritSprite;
+            portraitSprite.sprite = dialogueData.SpiritExpressionPortraitSet.expressionPortraitSets[(int)dialogueData.dialogueEntries[index].linePortrait].sprite;
             if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
                 dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Spirit";
         }
+        print("expression " + dialogueData.dialogueEntries[index].linePortrait);
     }
 
     private void StopDialogue()
