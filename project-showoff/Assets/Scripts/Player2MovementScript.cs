@@ -2,7 +2,6 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -29,7 +28,6 @@ public class Player2MovementScript : MonoBehaviour
     private bool isAttached;
     private bool isDashing;
     private bool doubleJumped;
-    private bool canMove;
 
     private List<Box> boxes = new List<Box>();
     private GameObject attachedBox;
@@ -50,7 +48,6 @@ public class Player2MovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!canMove) return;
         if (Input.GetButtonDown("Attach"))
         {
             if (isAttached)
@@ -160,20 +157,5 @@ public class Player2MovementScript : MonoBehaviour
             transform.parent = null;
             isAttached = false;
         }
-    }
-
-    private void DisableMovement() => canMove = false;
-    private void EnableMovement() => canMove = true;
-
-    private void OnEnable()
-    {
-        DialoguePlayer.OnDialogueStarted += DisableMovement;
-        DialoguePlayer.OnDialogueEnded += EnableMovement;
-    }
-
-    private void OnDisable()
-    {
-        DialoguePlayer.OnDialogueStarted -= DisableMovement;
-        DialoguePlayer.OnDialogueEnded -= EnableMovement;
     }
 }
