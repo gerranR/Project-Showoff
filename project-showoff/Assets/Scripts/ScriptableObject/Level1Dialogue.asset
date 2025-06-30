@@ -12,29 +12,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c17c4aa6f108aa4d809d605573a292a, type: 3}
   m_Name: Level1Dialogue
   m_EditorClassIdentifier: 
+  GirlExpressionPortraitSet: {fileID: 11400000, guid: 1d5596f48fa013c4e9b01588b7e3deb1, type: 2}
+  SpiritExpressionPortraitSet: {fileID: 11400000, guid: fd3bf07207efb9543a596435151da652, type: 2}
   dialogueEntries:
   - lineSpeaker: 0
     dialogueLine: ...
+    linePortrait: 7
   - lineSpeaker: 1
     dialogueLine: '[Girl]... [Girl], can you hear me?'
+    linePortrait: 0
   - lineSpeaker: 0
     dialogueLine: ...[Spirit]?
+    linePortrait: 3
   - lineSpeaker: 1
     dialogueLine: "Yes, [Girl]. I\u2019m visiting your dream."
+    linePortrait: 4
   - lineSpeaker: 0
     dialogueLine: "We\u2019re in my dream?"
+    linePortrait: 0
   - lineSpeaker: 1
     dialogueLine: "Actually, it\u2019s darker here than I imagined. Are you feeling
       well?"
+    linePortrait: 1
   - lineSpeaker: 0
     dialogueLine: "I am\u2026 not sure\u2026"
+    linePortrait: 6
   - lineSpeaker: 1
     dialogueLine: "It would do well to let more light into your dream then. I\u2019ll
       help you. See these braziers? Bring your light to them, and I will be able
       to spread it."
+    linePortrait: 6
   - lineSpeaker: 1
     dialogueLine: "But\u2026 let\u2019s be careful\u2026 I\u2019m not too fond of
       the dark myself."
-  - lineSpeaker: 1
-    dialogueLine: "But\u2026 let\u2019s be careful\u2026 I\u2019m not too fond of
-      the dark myself."
+    linePortrait: 5

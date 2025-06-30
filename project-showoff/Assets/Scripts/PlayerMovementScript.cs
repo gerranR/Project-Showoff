@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovementScript : MonoBehaviour
@@ -13,13 +12,16 @@ public class PlayerMovementScript : MonoBehaviour
 
     private bool isGrounded;
     private bool jumped;
-    private bool canMove;
 
     [SerializeField] ParticleSystem groundDust;
     [SerializeField] Animator animator;
     private float jumpStartY;
     private float maxJumpY;
     private SpriteRenderer spriteRenderer;
+
+    [SerializeField] private AudioSource AudioSource;
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip[] walkSound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,6 +36,10 @@ public class PlayerMovementScript : MonoBehaviour
         rb.linearVelocityX = force.x;
         if (rb.linearVelocityX > .25 || rb.linearVelocityX < -.25)
         {
+            if(!AudioSource.isPlaying)
+            {
+                AudioSource.PlayOneShot(walkSound[Random.Range(0, walkSound.Length)]);
+            }
             animator.SetBool("Walking", true);
             if(rb.linearVelocityX > .25)
             {
@@ -52,13 +58,9 @@ public class PlayerMovementScript : MonoBehaviour
 
     private void Update()
     {
-        if (canMove)
+        if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && isGrounded)
         {
-
-            if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.W)) && isGrounded)
-            {
-                Jump();
-            }
+            Jump();
         }
 
         if(jumped)
@@ -82,6 +84,7 @@ public class PlayerMovementScript : MonoBehaviour
     public void Jump()
     {
         DoDustParticles(6f);
+        AudioSource.PlayOneShot(jumpSound);
         animator.SetTrigger("Jump");
         animator.SetBool("HitGround", false);
         rb.linearVelocityY = jumpForce;
@@ -145,20 +148,5 @@ public class PlayerMovementScript : MonoBehaviour
         }
 
         groundDust.Play();
-    }
-
-    private void DisableMovement() => canMove = false;
-    private void EnableMovement() => canMove = true;
-
-    private void OnEnable()
-    {
-        DialoguePlayer.OnDialogueStarted += DisableMovement;
-        DialoguePlayer.OnDialogueEnded += EnableMovement;
-    }
-
-    private void OnDisable()
-    {
-        DialoguePlayer.OnDialogueStarted -= DisableMovement;
-        DialoguePlayer.OnDialogueEnded -= EnableMovement;
     }
 }

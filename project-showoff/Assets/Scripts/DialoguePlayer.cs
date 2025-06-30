@@ -1,14 +1,11 @@
-using System;
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DialoguePlayer : MonoBehaviour
 {
-    public static event Action OnDialogueStarted;
-    public static event Action OnDialogueEnded;
-
     [SerializeField] private DialogueScriptableObject dialogueData;
     [SerializeField] private GameObject dialogueObject;
     [SerializeField] private Sprite humanSprite, spritSprite;
@@ -38,8 +35,6 @@ public class DialoguePlayer : MonoBehaviour
 
     private void StartDialogue()
     {
-        OnDialogueStarted?.Invoke();
-
         if (dialogueObject)
             dialogueObject.SetActive(true);
         textMesh = dialogueObject.GetComponentInChildren<TextMeshProUGUI>();
@@ -91,23 +86,23 @@ public class DialoguePlayer : MonoBehaviour
     {
         if (dialogueData.dialogueEntries[index].lineSpeaker == DialogueEntry.Speaker.Human)
         {
-            portraitSprite.sprite = humanSprite;
+            portraitSprite.sprite = dialogueData.GirlExpressionPortraitSet.expressionPortraitSets[(int)dialogueData.dialogueEntries[index].linePortrait].sprite;
             if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
                 dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Human";
         }
         else
         {
-            portraitSprite.sprite = spritSprite;
+            portraitSprite.sprite = dialogueData.SpiritExpressionPortraitSet.expressionPortraitSets[(int)dialogueData.dialogueEntries[index].linePortrait].sprite;
             if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
                 dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Spirit";
         }
+        print("expression " + dialogueData.dialogueEntries[index].linePortrait);
     }
 
     private void StopDialogue()
     {
         dialogueObject.SetActive(false);
         isDone = true;
-        OnDialogueEnded?.Invoke();
     }
 
     public bool IsDone() { return isDone; }
