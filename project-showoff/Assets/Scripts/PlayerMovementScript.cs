@@ -19,6 +19,10 @@ public class PlayerMovementScript : MonoBehaviour
     private float maxJumpY;
     private SpriteRenderer spriteRenderer;
 
+    [SerializeField] private AudioSource AudioSource;
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip[] walkSound;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,6 +36,10 @@ public class PlayerMovementScript : MonoBehaviour
         rb.linearVelocityX = force.x;
         if (rb.linearVelocityX > .25 || rb.linearVelocityX < -.25)
         {
+            if(!AudioSource.isPlaying)
+            {
+                AudioSource.PlayOneShot(walkSound[Random.Range(0, walkSound.Length)]);
+            }
             animator.SetBool("Walking", true);
             if(rb.linearVelocityX > .25)
             {
@@ -76,6 +84,7 @@ public class PlayerMovementScript : MonoBehaviour
     public void Jump()
     {
         DoDustParticles(6f);
+        AudioSource.PlayOneShot(jumpSound);
         animator.SetTrigger("Jump");
         animator.SetBool("HitGround", false);
         rb.linearVelocityY = jumpForce;
