@@ -32,10 +32,7 @@ public abstract class PickupObject : MonoBehaviour
             Vector2 dragEndPos = new Vector2(Input.GetAxis("TorchAimHorizontal"), -Input.GetAxis("TorchAimVertical"));
             Vector2 _velocity = dragEndPos * throwForceMultiplyer;
 
-            print(_velocity);
-
             Vector2[] trajectory = plot(rb, (Vector2)transform.position, _velocity, 500);
-            print((Vector2)transform.position);
             lr.positionCount = trajectory.Length;
             Vector3[] positions = new Vector3[trajectory.Length];
             for (int i = 0; i < positions.Length; i++)
