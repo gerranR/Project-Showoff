@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c17c4aa6f108aa4d809d605573a292a, type: 3}
   m_Name: Level2Object
   m_EditorClassIdentifier: 
+  GirlExpressionPortraitSet: {fileID: 11400000, guid: 1d5596f48fa013c4e9b01588b7e3deb1, type: 2}
+  SpiritExpressionPortraitSet: {fileID: 11400000, guid: fd3bf07207efb9543a596435151da652, type: 2}
   dialogueEntries:
   - lineSpeaker: 0
     dialogueLine: I remember when we first got you. It took a while before you were
@@ -24,12 +26,12 @@ MonoBehaviour:
   - lineSpeaker: 0
     dialogueLine: "I was\u2026 worried for you. Worried that you might run away,
       or get lost\u2026"
-    linePortrait: 0
+    linePortrait: 5
   - lineSpeaker: 1
     dialogueLine: "[Girl], you are a kind person. You are my friend, and you took
       care of me\u2026 which is why I want to help return the light to your dreams,
       and make you feel better."
-    linePortrait: 0
+    linePortrait: 4
   - lineSpeaker: 0
     dialogueLine: "I\u2019m really glad you\u2019re here with me, [Spirit]."
     linePortrait: 0

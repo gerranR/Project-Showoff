@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c17c4aa6f108aa4d809d605573a292a, type: 3}
   m_Name: Level2Dialogue
   m_EditorClassIdentifier: 
+  GirlExpressionPortraitSet: {fileID: 11400000, guid: 1d5596f48fa013c4e9b01588b7e3deb1, type: 2}
+  SpiritExpressionPortraitSet: {fileID: 11400000, guid: fd3bf07207efb9543a596435151da652, type: 2}
   dialogueEntries:
   - lineSpeaker: 1
     dialogueLine: Seems like this area contains some special barriers.
-    linePortrait: 0
+    linePortrait: 1
   - lineSpeaker: 1
     dialogueLine: '[Girl], we might have to separate from each other at times to
       light more braziers.'
-    linePortrait: 0
+    linePortrait: 5

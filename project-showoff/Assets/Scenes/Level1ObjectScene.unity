@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29ecf8abef7f374b9d8ce6c000c0e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: 760a8b6e6e916674b98f335135707091, type: 2}
+  dialogueData: {fileID: 11400000, guid: 708a1e4024aba4643a27ed5d53cc1a67, type: 2}
   dialogueObject: {fileID: 2073373862}
   humanSprite: {fileID: 3941747174890565063, guid: 25785ffc66957734e8387972b612bc4e, type: 3}
   spritSprite: {fileID: 21300000, guid: 51d793e41f7712e44b99cb6948d723a3, type: 3}

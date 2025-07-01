@@ -12,20 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c17c4aa6f108aa4d809d605573a292a, type: 3}
   m_Name: Level1Object
   m_EditorClassIdentifier: 
+  GirlExpressionPortraitSet: {fileID: 11400000, guid: 1d5596f48fa013c4e9b01588b7e3deb1, type: 2}
+  SpiritExpressionPortraitSet: {fileID: 11400000, guid: fd3bf07207efb9543a596435151da652, type: 2}
   dialogueEntries:
   - lineSpeaker: 0
     dialogueLine: "[Spirit], this is\u2026 my journal?"
-    linePortrait: 0
+    linePortrait: 3
   - lineSpeaker: 1
     dialogueLine: Do you write in your journal often?
-    linePortrait: 0
+    linePortrait: 5
   - lineSpeaker: 0
     dialogueLine: "Well\u2026 I used to. I don\u2019t think there\u2019s much to
       write in it anymore."
-    linePortrait: 0
+    linePortrait: 5
   - lineSpeaker: 1
     dialogueLine: "I suppose I haven\u2019t seen you doing it lately."
-    linePortrait: 0
+    linePortrait: 5
   - lineSpeaker: 0
     dialogueLine: "I actually think the last thing I wrote was about you. Sometimes
       it feels like you\u2019re the only one that actually listens to me."
@@ -33,11 +35,11 @@ MonoBehaviour:
   - lineSpeaker: 1
     dialogueLine: '[Girl], I think you should come back to it. Write in your journal
       again. Putting your thoughts on paper can help you understand them better.'
-    linePortrait: 0
+    linePortrait: 4
   - lineSpeaker: 0
     dialogueLine: "I don\u2019t know if I want to read back my thoughts\u2026 I\u2019m
       afraid of what they might look like."
-    linePortrait: 0
+    linePortrait: 5
   - lineSpeaker: 1
     dialogueLine: Sometimes, you have to take a leap of faith that can leave you
       in the dark, but as long as you have your thoughts, the light will make its
