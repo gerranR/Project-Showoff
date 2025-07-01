@@ -29,7 +29,7 @@ public class BrazierLighting : MonoBehaviour
 
     protected virtual void Start()
     {
-        BrazierManager.RegisterBrazier(this);
+        BrazierManager.instance.RegisterBrazier(this);
     }
 
     protected virtual void Update()

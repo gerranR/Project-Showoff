@@ -5101,6 +5101,9 @@ MonoBehaviour:
   animator: {fileID: 627605890590066141}
   AudioSource: {fileID: 4024277516463962565}
   jumpSound: {fileID: 8300000, guid: ea694ced14bd34a44b4ee6246b11d181, type: 3}
+  walkSound:
+  - {fileID: 8300000, guid: 5a153096cd651d948909f3f462b68487, type: 3}
+  - {fileID: 8300000, guid: c69c8fa823c780246bdf27eba42601b6, type: 3}
 --- !u!114 &6934177704529270053
 MonoBehaviour:
   m_ObjectHideFlags: 0

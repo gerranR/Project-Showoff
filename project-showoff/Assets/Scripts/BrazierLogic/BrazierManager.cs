@@ -20,7 +20,7 @@ public class BrazierManager : MonoBehaviour
         {
             if (_instance == null)
             {
-                Debug.LogError("Gamemanager is null");
+                Debug.LogError("Dreamanager is null");
             }
             return _instance;
 
@@ -38,9 +38,10 @@ public class BrazierManager : MonoBehaviour
         if (endLightArea) endLightArea.SetActive(false);
         if (dreamSpritesObject) dreamSpritesObject.SetActive(false);
         if (nightmareSpritesObject) nightmareSpritesObject.SetActive(true);
+        braziers.Clear();
     }
 
-    public static void RegisterBrazier(BrazierLighting brazier)
+    public void RegisterBrazier(BrazierLighting brazier)
     {
         if (!braziers.Contains(brazier))
             braziers.Add(brazier);
@@ -51,14 +52,15 @@ public class BrazierManager : MonoBehaviour
         foreach (var brazier in braziers)
         {
             if (brazier == null || !brazier.IsLit())
+            {
+                print("false");
                 return;
+            }
         }
 
-        //this runs
 
         if (instance != null && AllBraziersLighted())
         {
-            //this doesnt run
             levelCompleted = true;
             audioSource.PlayOneShot(winSound);
             if (instance.endLightArea) instance.endLightArea.SetActive(true);
