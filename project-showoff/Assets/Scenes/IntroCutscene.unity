@@ -860,7 +860,7 @@ PrefabInstance:
       addedObject: {fileID: 1685193250}
     - targetCorrespondingSourceObject: {fileID: 5114538983667661482, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1685193249}
+      addedObject: {fileID: 1685193251}
     - targetCorrespondingSourceObject: {fileID: 5997039094429637758, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 724688011}
@@ -993,18 +993,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5728931579656797050, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}
   m_PrefabInstance: {fileID: 1348289921}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1685193249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685193246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d21a9654f1d53d74aa856224e59332a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1685193250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1019,11 +1007,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Events:
     m_Signals:
-    - {fileID: 11400000, guid: a5d3d952c8bbc67469a94aa23cacc159, type: 2}
+    - {fileID: 11400000, guid: 2aa69951633286d45a48618381f47301, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1685193249}
+        - m_Target: {fileID: 1685193251}
           m_TargetAssemblyTypeName: TimelineSceneLoader, Assembly-CSharp
           m_MethodName: LoadScene
           m_Mode: 5
@@ -1035,6 +1023,18 @@ MonoBehaviour:
             m_StringArgument: Level1
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1685193251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685193246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27327275015acf848b295dba16b53bcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2098534449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6842107821819215571, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}

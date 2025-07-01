@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpiritTrail_0: 5808800454782281870
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
