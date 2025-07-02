@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Options : MonoBehaviour
 {
-    TorchObject torch;
-    [SerializeField] AudioMixer masterMixer;
+    public TorchObject torch;
+    public AudioMixer masterMixer;
 
-    [SerializeField] Toggle toggle;
-    [SerializeField] Slider slider;
+    public Toggle toggle;
+    public Slider slider;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,7 +20,7 @@ public class Options : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void InvertThrow()
@@ -30,10 +30,12 @@ public class Options : MonoBehaviour
             if (toggle.isOn)
             {
                 torch.invertThrow = -1;
+                GameManager.instance.inverted = -1;
             }
             else
             {
                 torch.invertThrow = 1;
+                GameManager.instance.inverted = 1;
             }
         }
     }
@@ -42,6 +44,7 @@ public class Options : MonoBehaviour
     {
         float volume = Mathf.Log10(Mathf.Max(volumeLvl, 0.0001f)) * 20;
         masterMixer.SetFloat("Volume", volume);
+        GameManager.instance.volume = volume;
     }
 
     public void MainMenu(string mainMenuSceneName)
