@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,15 +9,21 @@ public class ReadyScreenScript : MonoBehaviour
     private bool player1Ready;
     private bool player2Ready;
 
-    [SerializeField] private Image player1Img;
-    [SerializeField] private Image player2Img;
+    [SerializeField] private TextMeshProUGUI player1Text;
+    [SerializeField] private TextMeshProUGUI player2Text;
+
+    [SerializeField] private string readyTextPlayer1;
+    [SerializeField] private string notReadyTextPlayer1;
+    [SerializeField] private string readyTextPlayer2;
+    [SerializeField] private string notReadyTextPlayer2;
 
     [SerializeField] private string sceneName;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        player1Text.text = notReadyTextPlayer1;
+        player2Text.text = notReadyTextPlayer2;
     }
 
     // Update is called once per frame
@@ -29,13 +36,13 @@ public class ReadyScreenScript : MonoBehaviour
                 Debug.Log("Joystick 1 input detected");
                 player1Ready = !player1Ready;
 
-                if(player1Img.color == Color.red)
+                if(player1Text.text == notReadyTextPlayer1)
                 {
-                    player1Img.color = Color.blue;
+                    player1Text.text = readyTextPlayer1;
                 }
                 else
                 {
-                    player1Img.color = Color.red;
+                    player1Text.text = notReadyTextPlayer1;
                 }
 
                 break;
@@ -48,13 +55,13 @@ public class ReadyScreenScript : MonoBehaviour
                 Debug.Log("Joystick 2 input detected");
                 player2Ready = !player2Ready;
 
-                if (player2Img.color == Color.red)
+                if (player2Text.text == notReadyTextPlayer2)
                 {
-                    player2Img.color = Color.blue;
+                    player2Text.text = readyTextPlayer2;
                 }
                 else
                 {
-                    player2Img.color = Color.red;
+                    player2Text.text = notReadyTextPlayer2;
                 }
                 break;
             }
@@ -64,26 +71,26 @@ public class ReadyScreenScript : MonoBehaviour
         {
             player1Ready = !player1Ready;
 
-            if (player1Img.color == Color.red)
+            if (player1Text.text == notReadyTextPlayer1)
             {
-                player1Img.color = Color.blue;
+                player1Text.text = readyTextPlayer1;
             }
             else
             {
-                player1Img.color = Color.red;
+                player1Text.text = notReadyTextPlayer1;
             }
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             player2Ready = !player2Ready;
 
-            if (player2Img.color == Color.red)
+            if (player2Text.text == notReadyTextPlayer2)
             {
-                player2Img.color = Color.blue;
+                player2Text.text = readyTextPlayer2;
             }
             else
             {
-                player2Img.color = Color.red;
+                player2Text.text = notReadyTextPlayer2;
             }
         }
 
