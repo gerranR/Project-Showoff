@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expressionPortraitSets:
   - expression: 0
-    sprite: {fileID: 406400907, guid: d0350113947fc9844a87ce8df13d3a93, type: 3}
+    sprite: {fileID: 1652773203488082086, guid: 956e4aa5e149c2f46939181592cb9f73, type: 3}
   - expression: 1
-    sprite: {fileID: 194432780, guid: d0350113947fc9844a87ce8df13d3a93, type: 3}
+    sprite: {fileID: -2705586060215421900, guid: 40faaa3beba3dbd45ad1a4f2a37c6088, type: 3}
   - expression: 2
     sprite: {fileID: 88083493, guid: d0350113947fc9844a87ce8df13d3a93, type: 3}
   - expression: 3
     sprite: {fileID: -842618467, guid: d0350113947fc9844a87ce8df13d3a93, type: 3}
   - expression: 4
-    sprite: {fileID: 187652038, guid: d0350113947fc9844a87ce8df13d3a93, type: 3}
+    sprite: {fileID: -8161144849850913866, guid: 16f613a53ee85da40a846991576cc006, type: 3}
   - expression: 5
-    sprite: {fileID: -400414036, guid: d0350113947fc9844a87ce8df13d3a93, type: 3}
+    sprite: {fileID: 6655826861305200952, guid: a3007bf2cecfa8544b39ba6cbcd2a687, type: 3}
   - expression: 6
-    sprite: {fileID: 1385169544, guid: d0350113947fc9844a87ce8df13d3a93, type: 3}
+    sprite: {fileID: -7707359728193271874, guid: e88098681d35b16488755f861f2cf65f, type: 3}
   - expression: 7
     sprite: {fileID: -502456374, guid: d0350113947fc9844a87ce8df13d3a93, type: 3}
