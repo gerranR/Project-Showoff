@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GirlConfused_0: -7715975514964878208
+      GirlConfused_1: -1398748509636791125
+      GirlConfused_2: 2015565451132351594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

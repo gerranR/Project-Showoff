@@ -1090,6 +1090,7 @@ GameObject:
   - component: {fileID: 2624588581587579077}
   - component: {fileID: 6234145942212510376}
   - component: {fileID: 2082078757717362712}
+  - component: {fileID: 7123763219410254785}
   m_Layer: 5
   m_Name: SettingButton
   m_TagString: Untagged
@@ -1197,19 +1198,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2842881120192933292}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1488667018026887862}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &7123763219410254785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5072892066432548896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a1e34252411148ab687e830db24c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6369666520958746262
 GameObject:
   m_ObjectHideFlags: 0

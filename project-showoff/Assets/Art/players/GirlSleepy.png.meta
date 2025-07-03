@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GirlSleepy_0: 8343130952384772627
+      GirlSleepy_1: 6966896022163495507
+      GirlSleepy_2: -733984902410443015
+      GirlSleepy_3: -5755152483335428822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
