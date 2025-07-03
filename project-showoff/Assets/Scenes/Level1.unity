@@ -18045,9 +18045,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options
       objectReference: {fileID: 0}
+    - target: {fileID: 1488667018026887862, guid: fd78e919ebfcf2e4884e88c7bfaa0135, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1945448030308250046, guid: fd78e919ebfcf2e4884e88c7bfaa0135, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6037590034104474928, guid: fd78e919ebfcf2e4884e88c7bfaa0135, type: 3}
       propertyPath: m_Pivot.x
@@ -18131,7 +18135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6123364512219592773, guid: fd78e919ebfcf2e4884e88c7bfaa0135, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
