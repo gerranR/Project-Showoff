@@ -87,14 +87,20 @@ public class DialoguePlayer : MonoBehaviour
         if (dialogueData.dialogueEntries[index].lineSpeaker == DialogueEntry.Speaker.Human)
         {
             portraitSprite.sprite = dialogueData.GirlExpressionPortraitSet.expressionPortraitSets[(int)dialogueData.dialogueEntries[index].linePortrait].sprite;
-            if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
-                dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Human";
+            if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>().Length == 2)
+            {
+                if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
+                    dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Human";
+            }
         }
         else
         {
             portraitSprite.sprite = dialogueData.SpiritExpressionPortraitSet.expressionPortraitSets[(int)dialogueData.dialogueEntries[index].linePortrait].sprite;
-            if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
-                dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Spirit";
+            if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>().Length == 2)
+            {
+                if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
+                    dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Spirit";
+            }
         }
         print("expression " + dialogueData.dialogueEntries[index].linePortrait);
     }

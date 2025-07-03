@@ -4,8 +4,7 @@ using UnityEngine.UI;
 public class FirstButton : MonoBehaviour
 {
     Button button;
-    // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
         button = GetComponent<Button>();
         button.Select();
