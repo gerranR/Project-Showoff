@@ -157,6 +157,10 @@ MonoBehaviour:
   animator: {fileID: 5321579994249848854}
   audioSource: {fileID: 7019750215768175133}
   lightSound: {fileID: 8300000, guid: 2d396d67f9e5e454ba3ec235bc2a7d4f, type: 3}
+  radius: 20
+  layer1:
+    serializedVersion: 2
+    m_Bits: 1572864
 --- !u!95 &5321579994249848854
 Animator:
   serializedVersion: 7

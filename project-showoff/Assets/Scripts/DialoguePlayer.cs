@@ -107,7 +107,6 @@ public class DialoguePlayer : MonoBehaviour
                     dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Spirit";
             }
         }
-        print("expression " + dialogueData.dialogueEntries[index].linePortrait);
     }
 
     private void StopDialogue()

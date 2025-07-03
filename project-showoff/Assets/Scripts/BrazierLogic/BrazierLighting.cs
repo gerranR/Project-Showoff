@@ -16,6 +16,8 @@ public class BrazierLighting : MonoBehaviour
     [SerializeField]private Animator animator;
     [SerializeField] AudioSource audioSource;
     [SerializeField] AudioClip lightSound;
+    [SerializeField] float radius;
+    [SerializeField] LayerMask layer1;
 
 
     public void InitializeFrom(BrazierLighting other)
@@ -34,8 +36,20 @@ public class BrazierLighting : MonoBehaviour
 
     protected virtual void Update()
     {
-        if (isLit || torchInRange == null) return;
+        Vector2 pos = new Vector2(transform.position.x, transform.position.z + 5);
+        Collider2D hitColliders = Physics2D.OverlapCircle(pos, radius, layer1);
+        if (hitColliders != null)
+        {
+            TorchObject myComponent = hitColliders.GetComponent<TorchObject>();
+            if (myComponent != null)
+            {
+                torchInRange = hitColliders;
+            }   
+        }
 
+        if (isLit || torchInRange == null)  return;
+
+        print(withinRange.Count);
         foreach (var player in withinRange)
         {
             if (player == null) continue;
@@ -78,7 +92,8 @@ public class BrazierLighting : MonoBehaviour
         }
         else
         {
-            withinRange.Remove(other);
+            if (withinRange.Contains(other))
+                withinRange.Remove(other);
         }
     }
 
@@ -97,7 +112,6 @@ public class BrazierLighting : MonoBehaviour
 
         if (animator != null)
         {
-            print("test");
             animator.SetTrigger("OpenBrazier");
         }
         BrazierManager.instance.CheckBraziers();

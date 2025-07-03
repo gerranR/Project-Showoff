@@ -53,7 +53,6 @@ public class BrazierManager : MonoBehaviour
         {
             if (brazier == null || !brazier.IsLit())
             {
-                print("false");
                 return;
             }
         }
