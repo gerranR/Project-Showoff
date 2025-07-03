@@ -52,7 +52,12 @@ public class DialoguePlayer : MonoBehaviour
         }
         if (portraitSprite)
             SetSprite();
-        textMesh.text = dialogueData.dialogueEntries[index].dialogueLine;
+        string tempLine = dialogueData.dialogueEntries[index].dialogueLine;
+        if (tempLine.Contains("[Spirit]"))
+            tempLine = tempLine.Replace("[Spirit]", "Luna");
+        if (tempLine.Contains("[Girl]"))
+            tempLine = tempLine.Replace("[Girl]", "Serena");
+        textMesh.text = tempLine;
         textMesh.maxVisibleCharacters = 0;
         currentRoutine = StartCoroutine(TypeRoutine());
     }
