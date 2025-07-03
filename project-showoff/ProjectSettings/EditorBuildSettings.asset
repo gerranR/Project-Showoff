@@ -17,6 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: dfdfd15b84edc184aa3cece49ac0323e
+  - enabled: 1
+    path: Assets/Scenes/IntroCutscene.unity
+    guid: ee9379a53ccccd84c9249b2bb014f102
+  - enabled: 1
+    path: Assets/Scenes/Level1ObjectScene.unity
+    guid: 59f3dfd25c2ff04439bf8fa43edfa7ad
+  - enabled: 1
+    path: Assets/Scenes/Level2ObjectScene.unity
+    guid: 78242f921b2ae304ba4c9d2596002976
+  - enabled: 1
+    path: Assets/Scenes/OutroCutscene.unity
+    guid: 52d13c3400ca2024db201eb0ed837428
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
