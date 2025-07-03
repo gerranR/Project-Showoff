@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpiritCheerful_0: -8161144849850913866
+      SpiritCheerful_1: 6449537303962166352
+      SpiritCheerful_2: -7935180757704703127
+      SpiritCheerful_3: -6777443802667852372
+      SpiritCheerful_4: 3301856932595145896
+      SpiritCheerful_5: 3130082902061230996
+      SpiritCheerful_6: 4769919918109003476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

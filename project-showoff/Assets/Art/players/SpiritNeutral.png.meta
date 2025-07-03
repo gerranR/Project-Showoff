@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpiritNeutral_0: 7914791807347303961
+      SpiritNeutral_1: 6198024497915964855
+      SpiritNeutral_2: -8029686373353276273
+      SpiritNeutral_3: -8450318474445512779
+      SpiritNeutral_4: 855745260297238070
+      SpiritNeutral_5: 2680774819250058309
+      SpiritNeutral_6: -2358817147901191646
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpiritSmile_0: 1652773203488082086
+      SpiritSmile_1: 3781451199681210739
+      SpiritSmile_2: 6067935284045695592
+      SpiritSmile_3: -7641478709520489164
+      SpiritSmile_4: -1953968974264515478
+      SpiritSmile_5: 640411701611178700
+      SpiritSmile_6: -8840130646468113647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
