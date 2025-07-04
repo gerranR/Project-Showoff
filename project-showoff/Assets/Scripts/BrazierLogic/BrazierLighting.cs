@@ -49,7 +49,6 @@ public class BrazierLighting : MonoBehaviour
 
         if (isLit || torchInRange == null)  return;
 
-        print(withinRange.Count);
         foreach (var player in withinRange)
         {
             if (player == null) continue;

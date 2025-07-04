@@ -295,7 +295,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a6c17e528f4fb094b99ad7748ee3dab6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -417,3 +417,7 @@ MonoBehaviour:
   dialogueObject: {fileID: 1981410506511568796}
   humanSprite: {fileID: 3941747174890565063, guid: 25785ffc66957734e8387972b612bc4e, type: 3}
   spritSprite: {fileID: -4463601529666964615, guid: 8d7e53f2e0d47ff4e9f6cab6261c3393, type: 3}
+  zoomCam: 0
+  movements: []
+  movementPlayer1: {fileID: 0}
+  movementPlayer2: {fileID: 0}

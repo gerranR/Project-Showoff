@@ -14,6 +14,11 @@ public class DialoguePlayer : MonoBehaviour
     private Coroutine currentRoutine;
     private int index;
     private bool isTyping, isDone;
+    [SerializeField] bool zoomCam;
+    [SerializeField] CamaraMovement[] movements;
+    [SerializeField] Player2MovementScript movementPlayer1;
+    [SerializeField] PlayerMovementScript movementPlayer2;
+
 
     private void Start()
     {
@@ -39,6 +44,18 @@ public class DialoguePlayer : MonoBehaviour
             dialogueObject.SetActive(true);
         textMesh = dialogueObject.GetComponentInChildren<TextMeshProUGUI>();
         portraitSprite = dialogueObject.GetComponentsInChildren<Image>()[1];
+
+        if(zoomCam)
+        {
+            foreach(CamaraMovement movement in movements)
+            {
+                movement.ZoomIn();
+            }
+
+            movementPlayer1.enabled = false;
+            movementPlayer2.enabled = false;
+        }
+
         if (portraitSprite)
             AdvanceDialogue();
     }
@@ -113,6 +130,15 @@ public class DialoguePlayer : MonoBehaviour
     {
         dialogueObject.SetActive(false);
         isDone = true;
+        if (zoomCam)
+        {
+            foreach (CamaraMovement movement in movements)
+            {
+                movement.ZoomOut();
+            }
+            movementPlayer1.enabled = true;
+            movementPlayer2.enabled = true;
+        }
     }
 
     public bool IsDone() { return isDone; }

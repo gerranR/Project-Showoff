@@ -26,17 +26,22 @@ public class CamaraMovement : MonoBehaviour
         }
 
         normalPos = transform.position;
+
+
     }
 
     public void ZoomIn()
     {
-        Vector3 pos;
-        pos = (player1.transform.position + player2.transform.position) / 2;
-        pos.z = transform.position.z;
+        if (player1 != null && player2 != null)
+        {
+            Vector3 pos;
+            pos = (player1.transform.position + player2.transform.position) / 2;
+            pos.z = transform.position.z;
 
-        cam.fieldOfView = Mathf.Clamp(Vector3.Distance(player1.transform.position, player2.transform.position) * fovMultiplier, minZoom, maxZoom);
+            cam.fieldOfView = Mathf.Clamp(Vector3.Distance(player1.transform.position, player2.transform.position) * fovMultiplier, minZoom, maxZoom);
 
-        transform.position = pos;
+            transform.position = pos;
+        }
     }
 
     public void ZoomOut()

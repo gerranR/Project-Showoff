@@ -7,6 +7,7 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private TextMeshProUGUI text;
     [SerializeField] GameObject dialogue;
 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
