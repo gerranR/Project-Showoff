@@ -59,7 +59,8 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("OpenMenu"))
         {
-            optionsObj.SetActive(true);
+            if(optionsObj != null)
+                optionsObj.SetActive(true);
         }
     }
 
