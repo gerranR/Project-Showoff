@@ -1611,9 +1611,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 699802417}
+  - {fileID: 1383295967}
   - {fileID: 2119730946}
   - {fileID: 1011320273}
-  - {fileID: 1383295967}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2043,10 +2043,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1Text: {fileID: 1859870419}
   player2Text: {fileID: 1346460820}
-  readyTextPlayer1: p1 ready
-  notReadyTextPlayer1: p1 not ready
-  readyTextPlayer2: p2 ready
-  notReadyTextPlayer2: p2 not ready
+  readyTextPlayer1: Ready
+  notReadyTextPlayer1: Press any Button
+  readyTextPlayer2: Ready
+  notReadyTextPlayer2: Press any Button
   sceneName: Level1
 --- !u!1 &1470389612
 GameObject:

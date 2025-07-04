@@ -134,7 +134,7 @@ Animator:
   m_GameObject: {fileID: 159614847}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7350b0d6eafaed9438cdcb1d338e7775, type: 2}
+  m_Controller: {fileID: 9100000, guid: 210b51f0f8b3c2f42a753c8a34f05c71, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -298,7 +298,7 @@ Animator:
   m_GameObject: {fileID: 724688007}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7350b0d6eafaed9438cdcb1d338e7775, type: 2}
+  m_Controller: {fileID: 9100000, guid: 210b51f0f8b3c2f42a753c8a34f05c71, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -427,7 +427,7 @@ PrefabInstance:
     - target: {fileID: 2062268339270220492, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 640329874378783590, guid: 3715e982270f2f246afee47140807062, type: 3}
+      objectReference: {fileID: 640329874378783590, guid: b02cb4b72e5210040bad6192ea2c7079, type: 3}
     - target: {fileID: 2062268339270220492, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -443,7 +443,7 @@ PrefabInstance:
     - target: {fileID: 2135180551188875773, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3470495749699258044, guid: 2b66fbeca30a0734c9e70e172a93751a, type: 3}
+      objectReference: {fileID: -3470495749699258044, guid: 0d690b8d0ef9d2f43a40cd5d22a914c4, type: 3}
     - target: {fileID: 2135180551188875773, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -835,7 +835,7 @@ PrefabInstance:
     - target: {fileID: 7368133738977595520, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 5615682791370582690, guid: 87f3d300cc771594fa989fdda5f83415, type: 3}
+      objectReference: {fileID: 5615682791370582690, guid: ec664444e42eae942bcb756a219cab60, type: 3}
     - target: {fileID: 7368133738977595520, guid: c244716bb3c8d2b45813b39c77a4c2a5, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1036,7 +1036,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1685193246}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d21a9654f1d53d74aa856224e59332a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 657c274daa227ff4ba4918b45163f098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1685193250
@@ -1053,7 +1053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Events:
     m_Signals:
-    - {fileID: 11400000, guid: a5d3d952c8bbc67469a94aa23cacc159, type: 2}
+    - {fileID: 11400000, guid: 831903612abbf1344ba48120317ca584, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -1084,7 +1084,7 @@ Animator:
   m_GameObject: {fileID: 2098534449}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7350b0d6eafaed9438cdcb1d338e7775, type: 2}
+  m_Controller: {fileID: 9100000, guid: 210b51f0f8b3c2f42a753c8a34f05c71, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

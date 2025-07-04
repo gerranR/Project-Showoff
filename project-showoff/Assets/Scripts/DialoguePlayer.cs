@@ -95,7 +95,7 @@ public class DialoguePlayer : MonoBehaviour
             if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>().Length == 2)
             {
                 if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
-                    dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Human";
+                    dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Serena";
             }
         }
         else
@@ -104,7 +104,7 @@ public class DialoguePlayer : MonoBehaviour
             if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>().Length == 2)
             {
                 if (dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1])
-                    dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Spirit";
+                    dialogueObject.GetComponentsInChildren<TextMeshProUGUI>()[1].text = "Luna";
             }
         }
     }
