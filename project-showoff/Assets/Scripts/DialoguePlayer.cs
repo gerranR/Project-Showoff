@@ -22,7 +22,7 @@ public class DialoguePlayer : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("joystick 1 button 1") || Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown("joystick button 1") || Input.GetKeyDown(KeyCode.Return))
         {
             if (isTyping)
             {
