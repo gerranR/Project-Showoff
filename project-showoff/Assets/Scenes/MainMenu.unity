@@ -2047,7 +2047,7 @@ MonoBehaviour:
   notReadyTextPlayer1: Press any Button
   readyTextPlayer2: Ready
   notReadyTextPlayer2: Press any Button
-  sceneName: Level1
+  sceneName: IntroCutscene
 --- !u!1 &1470389612
 GameObject:
   m_ObjectHideFlags: 0
@@ -2652,7 +2652,7 @@ PrefabInstance:
     - target: {fileID: 3773815196702698331, guid: fd78e919ebfcf2e4884e88c7bfaa0135, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1011320272}
+      objectReference: {fileID: 1383295966}
     - target: {fileID: 3773815196702698331, guid: fd78e919ebfcf2e4884e88c7bfaa0135, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
