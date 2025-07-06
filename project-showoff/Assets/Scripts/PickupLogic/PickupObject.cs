@@ -1,4 +1,3 @@
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public abstract class PickupObject : MonoBehaviour
@@ -24,8 +23,7 @@ public abstract class PickupObject : MonoBehaviour
         col = GetComponent<Collider2D>();
         lr = GetComponent<LineRenderer>();
     }
-
-    private void FixedUpdate()
+    private void Update()
     {
         if (isPickedup && (Input.GetAxis("TorchAimHorizontal") != 0f || Input.GetAxis("TorchAimVertical") != 0f))
         {
