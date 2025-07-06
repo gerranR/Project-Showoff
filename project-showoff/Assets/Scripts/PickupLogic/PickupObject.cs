@@ -31,7 +31,7 @@ public abstract class PickupObject : MonoBehaviour
             Vector2 dragEndPos = new Vector2(Input.GetAxis("TorchAimHorizontal"), -Input.GetAxis("TorchAimVertical"));
             Vector2 _velocity = dragEndPos * throwForceMultiplyer;
 
-            Vector2[] trajectory = plot(rb, (Vector2)transform.position, _velocity, 500);
+            Vector2[] trajectory = plot(rb, rb.position, _velocity, 500);
             lr.positionCount = trajectory.Length;
             Vector3[] positions = new Vector3[trajectory.Length];
             for (int i = 0; i < positions.Length; i++)
@@ -39,7 +39,6 @@ public abstract class PickupObject : MonoBehaviour
                 positions[i] = trajectory[i];
                 positions[i].z = GetParentsZ(gameObject);
             }
-            positions[0] = transform.position;
 
             lr.SetPositions(positions);
         }
@@ -83,14 +82,16 @@ public abstract class PickupObject : MonoBehaviour
         rb.freezeRotation = true;
         isPickedup = true;
 
-        transform.SetParent(holdPoint);
-        rb.MovePosition(Vector3.zero);
+        Vector3 worldHoldPos = holdPoint.position;
+        transform.SetParent(holdPoint, true);
+        rb.MovePosition(worldHoldPos);
         transform.rotation = Quaternion.identity;
         gameObject.layer = LayerMask.NameToLayer(HeldLayerName);
 
         Vector3 scale = transform.localScale;
         scale.x = Mathf.Abs(scale.x) * direction;
         transform.localScale = scale;
+        rb.isKinematic = true;
     }
 
     public void Drop(Vector2 throwForce, int direction, Vector2 holderVelocity, Transform holdPoint)
@@ -100,6 +101,7 @@ public abstract class PickupObject : MonoBehaviour
         rb.freezeRotation = false;
         rb.MovePosition(holdPoint.position);
         isPickedup = false;
+        rb.isKinematic = false;
 
         if (isThrowable)
         {
@@ -113,7 +115,7 @@ public abstract class PickupObject : MonoBehaviour
             rb.linearVelocity = force;
         }
         else
-        {
+        {   
             rb.linearVelocity = Vector2.zero;
         }
     }
