@@ -51,4 +51,9 @@ public class Options : MonoBehaviour
     {
         SceneManager.LoadScene(mainMenuSceneName);
     }
+
+    public void RestardlVl()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

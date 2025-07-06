@@ -23,6 +23,7 @@ public abstract class PickupObject : MonoBehaviour
         col = GetComponent<Collider2D>();
         lr = GetComponent<LineRenderer>();
     }
+
     private void Update()
     {
         if (isPickedup && (Input.GetAxis("TorchAimHorizontal") != 0f || Input.GetAxis("TorchAimVertical") != 0f))

@@ -35,12 +35,16 @@ public class Player2MovementScript : MonoBehaviour
     [SerializeField] AudioSource audioSource;
     [SerializeField] AudioClip attachSound;
 
+    private SpriteRenderer spriteRenderer;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         boxes = FindObjectsByType<Box>(FindObjectsSortMode.None).ToList();
 
         player1 = FindAnyObjectByType<PlayerMovementScript>();
+
+        spriteRenderer = GetComponent<SpriteRenderer>(); 
     }
 
     // Update is called once per frame
@@ -96,6 +100,15 @@ public class Player2MovementScript : MonoBehaviour
         {
             Vector2 force = new Vector2(Input.GetAxis("HorizontalP2") * speed * Time.deltaTime, Input.GetAxis("VerticalP2") * speed * Time.deltaTime);
 
+            if(force.x > 0)
+            {
+                spriteRenderer.flipX = false;
+            }
+            else if(force.x < 0)
+            {
+                spriteRenderer.flipX = true;
+            }
+
             if (isDashing)
             {
                 if (rb.linearVelocity.magnitude <= dashThrashold)
@@ -120,7 +133,8 @@ public class Player2MovementScript : MonoBehaviour
         else if (isAttached)
         {
             rb.linearVelocity = Vector2.zero;
-            
+
+            spriteRenderer.flipX = false;
             transform.position = Vector3.Lerp(transform.position, player1.transform.position + new Vector3(1f, 1f, 0), lerpSpeed * Time.deltaTime);
         }
     }
